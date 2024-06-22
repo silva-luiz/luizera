@@ -1,0 +1,13 @@
+contentDir = 'content/en'
+languageCode = 'en-US'
+languageName = 'EN'
+weight = 1
+
+title = 'Drinks & bytes'
+copyright = 'All Rights Reserved'
+
+[author]
+    name = "Luizera"
+    description = "Estudante de análise e desenvolvimento de sistemas, programador Flutter e aspirante à barman da galera. Faço uns desenhos e uns drinks malucos"
+    email = "luiz.hgsilva@hotmail.com"
+    github = "https://github.com/silva-luiz/"

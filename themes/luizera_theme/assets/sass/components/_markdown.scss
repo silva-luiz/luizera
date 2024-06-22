@@ -1,0 +1,216 @@
+.markdown {
+    h2 {
+        margin-top: 3.5rem;
+        color: var(--primary);
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        margin-top: 1.5rem;
+        color: var(--primary);
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    h4 {
+        margin-top: 1.5rem;
+        color: var(--primary);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    h5,
+    h6 {
+        margin-top: 1.5rem;
+        color: var(--primary);
+        font-size: .875rem;
+        font-weight: 500;
+    }
+
+    p {
+        margin-top: 1rem;
+        line-height: 1.75rem;
+    }
+
+    blockquote {
+        border-left: .375rem solid var(--grey-500);
+        background-color: var(--grey-100);
+        font-size: 1.25rem;
+        font-family: $serif;
+        margin: 1rem auto 0;
+        padding: 1rem 1.5rem;
+
+        p {
+            margin: 0;
+            color: var(--stager-ft);
+        }
+    }
+
+    sub,
+    sup {
+        font-size: .625rem;
+    }
+
+    kbd {
+        background-color: var(--grey-800);
+        color: var(--grey-100);
+        font-size: .75rem;
+        padding: .25rem .375rem;
+        margin: 0 .375rem;
+        border-radius: .25rem;
+    }
+
+
+    mark {
+        background-color: var(--secondary);
+        color: var(--white);
+        padding: 0 .25rem;
+    }
+
+    code {
+        font-family: $monospace;
+        font-size: 1.125rem;
+        background-color: var(--grey-200);
+        padding: .125rem .375rem;
+    }
+
+    pre {
+        padding: .25rem;
+        margin-top: 1rem;
+
+        border: 1px solid var(--baseof-bd);
+
+        overflow-y: hidden;
+        overflow-x: auto;
+
+        code {
+            padding: 0;
+
+            span {
+                span {
+                    margin: .25rem 0;
+                }
+            }
+        }
+    }
+
+    img {
+        margin: 1rem 0 0;
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid var(--markdown-bd);
+    }
+
+    .footnotes {
+        margin-top: 3rem;
+        border-top: 1px solid var(--baseof-bd);
+
+        hr {
+            display: none;
+        }
+
+        ol {
+            font-size: .875rem;
+            padding-left: 1rem;
+
+            li {
+                padding-left: .5rem;
+
+                p {
+                    line-height: 1.5rem;
+
+                    .footnote-backref {
+                        padding: 0 .25rem;
+
+                    }
+                }
+            }
+        }
+    }
+
+    cite {
+        .footnote-ref {
+
+            font-style: normal;
+            padding: .125rem .125rem;
+
+            &::before {
+                content: "[";
+                padding-right: .125rem;
+            }
+
+            &::after {
+                content: "]";
+                padding-left: .125rem;
+            }
+        }
+    }
+
+
+    ol,
+    ul {
+
+        margin-top: 1rem;
+        padding-left: 1.25rem;
+
+        ol,
+        ul {
+            margin-top: 0;
+            padding-left: 1rem;
+        }
+
+        li {
+            margin-top: .5rem;
+        }
+    }
+
+    ul {
+        li {
+            list-style: disc;
+        }
+
+    }
+
+
+    .table-container {
+        overflow: auto;
+
+        table {
+            width: 100%;
+            margin-top: 1rem;
+            font-size: .875rem;
+            color: var(--stager-ft);
+
+            tr {}
+
+            th {
+                background-color: var(--grey-500);
+                padding: .5rem .75rem;
+                text-align: center;
+            }
+
+            td {
+                background-color: var(--grey-100);
+                padding: .25rem .5rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .markdown {
+
+        ol,
+        ul {
+            padding-left: 2.5rem;
+
+            ol,
+            ul {
+                padding-left: 2rem;
+            }
+        }
+
+    }
+}

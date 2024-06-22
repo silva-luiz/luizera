@@ -1,0 +1,34 @@
+.about {
+    color: var(--stager-ft);
+    padding: 1rem;
+    text-align: center;
+
+    .avatar {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 120px;
+            width: 120px;
+            border-radius: 60px;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .name {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-bottom: .75rem;
+        color: var(--primary);
+    }
+    .description {
+        margin-bottom: .5rem;
+    }
+    .email {
+        text-align: center;
+        font-size: .875rem;
+        span {
+            margin: 0 .125rem;
+        }
+    }
+}
