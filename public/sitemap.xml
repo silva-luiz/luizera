@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://luizera.netlify.app/categories/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://luizera.netlify.app/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://luizera.netlify.app/en/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/filmes/</loc>
+    <loc>https://luizera.netlify.app/tags/filmes/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/filmes/</loc>
+    <loc>https://luizera.netlify.app/categories/filmes/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/movies/filmes/</loc>
+    <loc>https://luizera.netlify.app/en/blog/movies/filmes/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://luizera.netlify.app/tags/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>https://luizera.netlify.app/tags/first/</loc>
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/first-post/</loc>
+    <loc>https://luizera.netlify.app/categories/first-post/</loc>
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/me/</loc>
+    <loc>https://luizera.netlify.app/tags/me/</loc>
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/hugo-theme-walden/</loc>
+    <loc>https://luizera.netlify.app/en/blog/hugo-theme-walden/</loc>
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url>
 </urlset>

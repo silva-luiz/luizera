@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drinks &amp; bytes</title>
-    <link>http://localhost:1313/</link>
+    <link>https://luizera.netlify.app/</link>
     <description>Recent content on Drinks &amp; bytes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -10,19 +10,19 @@
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
     <lastBuildDate>Thu, 20 Jun 2024 18:54:33 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://luizera.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filmes 2k24</title>
-      <link>http://localhost:1313/en/blog/movies/filmes/</link>
+      <link>https://luizera.netlify.app/en/blog/movies/filmes/</link>
       <pubDate>Thu, 20 Jun 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/movies/filmes/</guid>
+      <guid>https://luizera.netlify.app/en/blog/movies/filmes/</guid>
       <description>&lt;p&gt;Salve turma, neste post aqui, resolvi colocar os filmes que assisti até agora nesse ano. A maioria deles são de terror, já que é o gênero que mais gosto, e já aproveitei pra deixar minha humilde nota pra cada um deles. Mais pra frente quero fazer uns posts específicos de cada filme contando o que eu achei.&lt;/p&gt;</description>
     </item>
     <item>
       <title>print(&#39;hello world&#39;);</title>
-      <link>http://localhost:1313/en/blog/hugo-theme-walden/</link>
+      <link>https://luizera.netlify.app/en/blog/hugo-theme-walden/</link>
       <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/hugo-theme-walden/</guid>
+      <guid>https://luizera.netlify.app/en/blog/hugo-theme-walden/</guid>
       <description></description>
     </item>
   </channel>
