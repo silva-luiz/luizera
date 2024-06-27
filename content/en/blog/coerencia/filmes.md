@@ -1,11 +1,11 @@
 ---
 title: "Filme da semana"
-date: 2024-06-20T18:54:33+08:00
+date: 2024-06-26T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
 categories: "Filmes"
 tags: ["Filmes"]
-thumbnail: "https://th.bing.com/th/id/OIP.Kypikh3XdrZDDWOE2iWEMAAAAA?rs=1&pid=ImgDetMain"
+thumbnail: "https://64.media.tumblr.com/552d899e9bb25e8b3d3a87f82bb5f48e/tumblr_o809e0GGrs1tszwcio1_640.jpg"
 headline: true
 ---
 Domingo passado assisti um filme interessante e trouxe aqui minhas sinceras avaliações. Coisa de maluco!
