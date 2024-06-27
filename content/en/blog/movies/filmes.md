@@ -22,7 +22,7 @@ Então, essa é a minha lista de filmes assistidos esse ano até o momento:
 - Beau tem medo - 7/10
 - O mundo depois de nós - 6/10
 - VHS - 6.5/10
-- Ursinho Pooh, Snague e Mel - 2/10
+- Ursinho Pooh, Sangue e Mel - 2/10
 - Talk to me - 7/10
 - Hell House LLC - 5/10
 - Late Night with the Devil - 8/10

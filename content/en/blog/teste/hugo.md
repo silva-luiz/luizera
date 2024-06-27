@@ -15,6 +15,10 @@ Durante meu tempo de estágio na **StarOne**, aprendi muito sobre várias tecnol
 
 {{< figure src="https://www.jprl.net/assets/images/2019/04-hugo-framework-logo.png" title="chama o HUGO" >}}
 
+E foi com essa tecnologia que resolvi criar este blog, principalmente pela praticidade de fazer os posts. A facilidade de poder criar um novo post utilizando apenas Markdown e não necessitando de um banco de dados para armazená-lo faz com que o Framework seja muito prático e rápido. Dito isso, basta escrever o post em Markdown, que um HTML já é gerado automaticamente com toda a formatação e estilização definida anteriormente pelas folhas de estilo. Em seguida basta fazer o push para o repositório e em poucos instantes o deploy é feito automaticamente pelo **[Netlify](https://www.netlify.com/)** (assunto que pretendo falar em outro post).
+
+As regras para se escrever em Markdown são relativamente fáceis e podem ser conferidas na documentação oficial **[aqui](https://www.markdownguide.org/)**.
+
 ## Mas por quê usar HUGO?
 
 Abaixo coloquei alguns bons motivos para utilizar o Framework:
