@@ -3,10 +3,12 @@
     padding: 1rem;
     border-top: 1px solid var(--baseof-bd);
     text-align: center;
+
     .menu-item {
         margin: .5rem 0;
         padding: .25rem 0;
     }
+
     .active {
         color: var(--secondary);
     }
@@ -16,9 +18,15 @@
     .menu {
         border-top: none;
         padding: 0 1rem;
+
         .menu-item {
+            color: var(--primary);
             margin-left: 1rem;
             display: inline;
+        }
+
+        .menu-item:hover {
+            color: var(--secondary);
         }
     }
 }

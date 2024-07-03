@@ -1,9 +1,13 @@
 .copyright {
+    color: var(--primary);
     padding: .75rem 1rem;
     text-align: center;
     font-size: .875rem;
     line-height: 1.5rem;
     span {
         margin-right: .5rem;
+    }
+    .bi-c-circle{
+        color: var(--secondary);
     }
 }

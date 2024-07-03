@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-06-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2024-06-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/ferias/ferias/</loc>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flutter/</loc>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/me/</loc>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/coerencia/filmes/</loc>
     <lastmod>2024-06-26T18:54:33+08:00</lastmod>
@@ -20,9 +35,6 @@
     <loc>http://localhost:1313/categories/filmes/</loc>
     <lastmod>2024-06-26T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-26T18:54:33+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/blog/movies/filmes/</loc>
     <lastmod>2024-06-20T18:54:33+08:00</lastmod>
   </url><url>
@@ -30,9 +42,6 @@
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/first-post/</loc>
-    <lastmod>2024-06-20T00:03:08+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/me/</loc>
     <lastmod>2024-06-20T00:03:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/hugo-theme-walden/</loc>
@@ -46,14 +55,5 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/teste/hugo/</loc>
     <lastmod>2024-06-19T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/ferias/ferias/</loc>
-    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/flutter/</loc>
-    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/me/</loc>
-    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
   </url>
 </urlset>

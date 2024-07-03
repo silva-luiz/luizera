@@ -384,6 +384,7 @@ body {
 
 .list-container {
   background-color: var(--white);
+  border-radius: 20px;
   margin-bottom: 2rem;
   padding: 1rem; }
 
@@ -491,12 +492,15 @@ a {
     width: 340px; } }
 
 .copyright {
+  color: var(--primary);
   padding: .75rem 1rem;
   text-align: center;
   font-size: .875rem;
   line-height: 1.5rem; }
   .copyright span {
     margin-right: .5rem; }
+  .copyright .bi-c-circle {
+    color: var(--secondary); }
 
 .menu {
   list-style: none;
@@ -514,8 +518,11 @@ a {
     border-top: none;
     padding: 0 1rem; }
     .menu .menu-item {
+      color: var(--primary);
       margin-left: 1rem;
-      display: inline; } }
+      display: inline; }
+    .menu .menu-item:hover {
+      color: var(--secondary); } }
 
 .headline {
   height: 350px;
@@ -525,7 +532,7 @@ a {
   justify-content: center;
   margin-bottom: 2rem; }
   .headline .headline-text {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 0 1rem;
     padding: 1rem 2rem;
     text-align: center;
@@ -538,12 +545,20 @@ a {
       transition: all .75s; }
       .headline .headline-text a:hover {
         color: var(--white); }
+    .headline .headline-text a:hover {
+      color: var(--secondary); }
     .headline .headline-text p {
       margin-top: 1rem;
       color: var(--grey-300);
       font-size: 1rem;
       line-height: 1.5rem;
-      text-align: left; }
+      text-align: center; }
+
+.new-post {
+  text-align: left;
+  color: var(--secondary);
+  font-size: 18px;
+  padding-bottom: 10px; }
 
 @media (min-width: 640px) {
   .headline .headline-text {
@@ -585,10 +600,11 @@ a {
   .about .description {
     margin-bottom: .5rem; }
   .about .email {
+    padding-top: 15px;
     text-align: center;
     font-size: .875rem; }
     .about .email span {
-      margin: 0 .125rem; }
+      margin: 1rem; }
 
 .item {
   margin-bottom: 1rem;

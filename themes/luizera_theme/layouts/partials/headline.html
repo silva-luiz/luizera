@@ -4,6 +4,7 @@
     {{ else }}
     <div class="headline" style="background: url({{ "./image/default/headline.jpg" | relURL}}) center center no-repeat;">
     {{ end }}
+    <p class="new-post">New post!!</p>
         <div class="headline-text">
             <a href="{{ .Permalink }}">{{ .Params.title }}</a>
             <p>{{ .Summary }}</p>

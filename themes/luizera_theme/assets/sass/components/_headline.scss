@@ -6,8 +6,9 @@
     justify-content: center;
     margin-bottom: 2rem;
     
+    
     .headline-text {
-        background-color: rgba(0,0,0,.50);
+        background-color: rgba(0,0,0,0.6);
         margin: 0 1rem;
         padding: 1rem 2rem;
         text-align: center;
@@ -22,17 +23,25 @@
                 color: var(--white);
             }
         }
+        a:hover{
+            color: var(--secondary);
+        }
         p {
             margin-top: 1rem;
             color: var(--grey-300);
             font-size: 1rem;
             line-height: 1.5rem;
-            text-align: left;
+            text-align: center;
         }
     }
 }
 
-
+.new-post{
+    text-align: left;
+    color: var(--secondary);
+    font-size: 18px;
+    padding-bottom: 10px;
+}
 
 @media (min-width: $sm) {
     .headline {
