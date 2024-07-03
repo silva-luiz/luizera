@@ -46,5 +46,14 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/teste/hugo/</loc>
     <lastmod>2024-06-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/ferias/ferias/</loc>
+    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flutter/</loc>
+    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2024-06-03T18:54:33+08:00</lastmod>
   </url>
 </urlset>

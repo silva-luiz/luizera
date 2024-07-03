@@ -39,5 +39,12 @@
       <guid>http://localhost:1313/tags/site/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

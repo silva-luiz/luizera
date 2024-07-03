@@ -2,22 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me on Drinks &amp; bytes</title>
-    <link>http://localhost:1313/tags/me/</link>
+    <link>http://localhost:1313/categories/me/</link>
     <description>Recent content in Me on Drinks &amp; bytes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 20 Jun 2024 00:03:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>print(&#39;hello world&#39;);</title>
-      <link>http://localhost:1313/en/blog/hugo-theme-walden/</link>
-      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/hugo-theme-walden/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Mon, 03 Jun 2024 18:54:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Férias!!</title>
       <link>http://localhost:1313/en/blog/ferias/ferias/</link>
