@@ -46,5 +46,12 @@
       <guid>http://localhost:1313/en/blog/teste/hugo/</guid>
       <description>&lt;p&gt;Depois de muito tempo falando que ia criar um blog pra postar bobeira, depois de trocar o layout um milhão de vezes, finalmente essa budega está no ar!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>The best website ever</title>
+      <link>http://localhost:1313/en/blog/uselessweb/uselessweb/</link>
+      <pubDate>Wed, 19 Jun 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/uselessweb/uselessweb/</guid>
+      <description>&lt;p&gt;Tá de bobeira na internet procurando algum site tosco pra passar o tempo? Então se liga nesse site aqui!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
