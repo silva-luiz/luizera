@@ -9,8 +9,22 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 03 Jul 2024 18:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dicas</title>
+      <link>http://localhost:1313/tags/dicas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/dicas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Site</title>
+      <link>http://localhost:1313/tags/site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/site/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Flutter</title>
       <link>http://localhost:1313/tags/flutter/</link>
@@ -37,20 +51,6 @@
       <link>http://localhost:1313/tags/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/tags/first/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dicas</title>
-      <link>http://localhost:1313/tags/dicas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/tags/dicas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Site</title>
-      <link>http://localhost:1313/tags/site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/tags/site/</guid>
       <description></description>
     </item>
   </channel>

@@ -35,7 +35,7 @@ Sem querer dar muitos spoilers sobre essa ferramenta incrível, coloquei abaixo 
 - [Hacker Typer](https://hackertyper.com/): Pra vc pagar de hacker de filme com seu laptop em alguma praça de alimentação;
 - [Pointer pointer](https://pointerpointer.com/): Talvez um dos mais legais da lista. Coloque seu mouse em algum lugar da tela e aguarde;
 - [Always judge a book by its cover](https://alwaysjudgeabookbyitscover.com/): Lista de bons livros pra comprar;
--[Weird or confusing](https://weirdorconfusing.com/): Itens interessantes pra comprar.
+- [Weird or confusing](https://weirdorconfusing.com/): Itens interessantes pra comprar.
 
 ## Bônus
 - [Rotating sandwiches](https://rotatingsandwiches.com/): O nome já fala por si só.
