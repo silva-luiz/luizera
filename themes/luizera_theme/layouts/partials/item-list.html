@@ -22,7 +22,7 @@
                 <p>
                     <span>{{.Date.Format "Jan 2, 2006"}}</span>
                     <span>
-                    By Luizera do Taticão{{ if ne .Params.author "" }}
+                    By {{ if ne .Params.author "" }}
                     {{ .Params.author }}
                     {{ else }}
                     {{ .Site.Author.name }}
