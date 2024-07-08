@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: "Site"
 tags: ["Site", "Dicas"]
-thumbnail: "https://uploads.metropoles.com/wp-content/uploads/2020/11/26123358/Conheca-o-vovo-por-tras-de-um-dos-memes-mais-famosos-da-web-600x400.jpg"
+thumbnail: "https://preview.redd.it/hlhm992orc961.jpg?auto=webp&s=af467cdc66f7e7d0b4594ba815f41a9cb1e19408"
 headline: true
 ---
 Tá de bobeira na internet procurando algum site tosco pra passar o tempo? Então se liga nesse site aqui!
