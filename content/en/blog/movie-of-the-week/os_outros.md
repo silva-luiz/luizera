@@ -19,7 +19,7 @@ Há um tempo atrás, comecei a assistir um filme que vi várias indicações no 
 
 Falando um pouco sobre o filme... é um terror psicológico (mas não dá medo, nem nada) lançado em 2001, se passa na década de 40, e conta a história de Grace, interpretada por Nicole Kidman, uma mulher extremamente religiosa que mora sozinha com seus filhos, Anne e Nicholas. Os filhos de Grace sofrem de uma doença rara que os torna sensíveis à luz do dia, fazendo então com que a casa precise estar sempre escura, para que as crianças transitem pela casa. Por ter uma casa extremamente grande (uma mansão mesmo), ela contrata três funcionários que chegam na casa logo no início do filme.
 
-Grace então, fala pra eles as regras da casa, e diz que elas devem ser seguidas à risca. Porém alguns acontecimentos que ocorrem na casa, faz com que Grace pense que as regras estão sendo descumpridas pelos funcionários, como por exemplo, deixar portas abertas.
+Grace então, fala pra eles as regras da casa, e diz que elas devem ser seguidas à risca. Porém alguns acontecimentos que ocorrem na casa, fazem com que Grace pense que as regras estão sendo descumpridas pelos funcionários, como por exemplo, deixar portas abertas.
 
 Ao longo do filme, Anne diz ver outras pessoas dentro da casa, mas no início, Grace não acredita, e chega até a colocar Anne de castigo. Porém, com o passar do filme, Grace vê alguns comportamentos estranhos na casa, e percebe que Anne estava certa.
 
