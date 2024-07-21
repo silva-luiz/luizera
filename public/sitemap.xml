@@ -3,13 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-07-15T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-15T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2024-07-15T18:54:33+08:00</lastmod>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ferias/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/me/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/trip/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/ferias/viagem_monte_verde/</loc>
+    <lastmod>2024-07-19T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/os_outros/</loc>
     <lastmod>2024-07-15T18:54:33+08:00</lastmod>
@@ -18,9 +36,6 @@
     <lastmod>2024-07-15T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/filmes/</loc>
-    <lastmod>2024-07-15T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-07-15T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/portrait-of-god/</loc>
@@ -42,12 +57,6 @@
     <lastmod>2024-07-03T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/flutter/</loc>
-    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/me/</loc>
-    <lastmod>2024-07-03T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/me/</loc>
     <lastmod>2024-07-03T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/coerencia/</loc>
