@@ -19,7 +19,7 @@ Chegamos lá na sexta-feira de madrugada, e passamos o sábado todo e o domingo 
 
 {{< figure src="/image/default/mv_00.jpg" title="cafézinho com laranja fio" >}}
 
-vou escrever o texto aqui blablabla.....
+No sábado de manhã fomos tomar um cafezinho superfaturado, e o escolhido da vez foi o Jaguatirica Coffee, um café bem legal  perto do chalézinho que estávamos hospedados. Era um lugar bem bonito, com uma decoração bem simpática, e o cardápio tinha opções bem diferentes. Meu pedido foi um café espresso com mel de laranjeira e umas coisas malucas lá, e um pão com manteiga e requeijão (o pãozinho estava bem BADARAS), mas o o café estava sensacional, e dona Karlika escolheu um café que vinha com umas **ROSAS COMESTÍVEIS**, bem curioso e com um cheiro bem forte, mas ainda assim, uma delícia.
 
 ## Cervejaria Fritz
 
