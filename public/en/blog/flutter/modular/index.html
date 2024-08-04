@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us" data-theme="light">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>Drinks &amp; bytes</title>
+
+
+<link href="/favicon.jpeg" rel="icon">
+<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
+
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header id="header"><header class="container base-header">
+
+    <div id="title">
+        <a href="/">Drinks &amp; bytes</a>
+    </div>
+
+    <div id="menuToggle">
+        <a><i class="bi bi-list"></i></a>
+    </div>
+
+    <div id="menu">
+        <ul class="menu">
+            
+            
+            
+            
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/en">Todos os posts</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/tags">Tags</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="https://github.com/silva-luiz" target="_blank">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</header></header>
+        <div id="necker">
+<div class="container"><ol class="breadcrumb">
+    
+    
+        
+    
+        
+    
+    <li class="breadcrumb-item">Drinks &amp; bytes</li>
+
+    
+    <li class="breadcrumb-item">Ens</li>
+
+    
+    <li class="breadcrumb-item">Gerenciamento de rotas com Flutter Modular</li>
+
+</ol>
+</div>
+
+        </div>
+        <div id="stager">
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container"><div class="content">
+
+    
+    <article>
+        <div class="content-header">
+            <h1 class="title">Gerenciamento de rotas com Flutter Modular</h1>
+            <p class="meta">
+                <span>Aug 4, 2024</span>
+                <span>
+                    
+                        Luizera do taticão
+                    
+                </span>
+            </p>
+        </div>
+        <div class="markdown"><p>A ferramenta de injeção de dependências e gerenciamento de rotas.</p>
+
+<figure>
+    <img src="https://raw.githubusercontent.com/Flutterando/modular/master/flutter_modular.png" />
+    <figcaption>
+        Flutter Modular
+    </figcaption>
+</figure>
+
+<p>Salve rapeize, neste post vou falar um pouco sobre o <strong>Flutter Modular</strong>, um package estou usando no trabalho e em projetos pessoais, e que te ajuda a modularizar a aplicação, ou seja, faz com que cada módulo de sua aplicação seja considerado uma aplicação individual, permitindo o reaproveitamento de todo o módulo de forma bem simples e eficaz.</p>
+<h2 id="surgimento">Surgimento</h2>
+<p>O Flutter Modular surgiu como uma solução para estruturar e organizar aplicativos Flutter de maneira mais eficiente e modular. Ele foi desenvolvido para ajudar os desenvolvedores a gerenciar a injeção de dependências e a navegação de maneira mais clara e intuitiva. O principal objetivo do Flutter Modular é facilitar o desenvolvimento de aplicações complexas, dividindo-as em módulos menores e independentes, o que melhora a manutenibilidade e a escalabilidade do código. Nesse post vou falar brevemente sobre isso com um exemplo, mas a documentação completa também pode ser consultada aqui: <a href="https://modular.flutterando.com.br/docs/flutter_modular/start/">Modular Documentation</a></p>
+<h2 id="utilização-do-flutter-modular">Utilização do Flutter Modular</h2>
+<p>Inicialmente, após a instalação do package através do pubspec.yaml, deve-se definir o ModularApp como o <strong>Widget root da aplicação</strong> para configurar todas as questões de módulos e receber o módulo principal da aplicação, onde ficarão todos os módulos da aplicação como um todo.</p>
+<p><strong>main.dart</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> main() {
+</span></span><span style="display:flex;"><span>  runApp(
+</span></span><span style="display:flex;"><span>    ModularApp(
+</span></span><span style="display:flex;"><span>      module: AppModule(),
+</span></span><span style="display:flex;"><span>      child: <span style="color:#66d9ef">const</span> AppWidget(),
+</span></span><span style="display:flex;"><span>    ),
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>O ModularApp deve receber um <strong>module</strong> e um <strong>child</strong>, sendo:</p>
+<ul>
+<li><strong>module: AppModule()</strong>: a classe responsável por ser o módulo principal;</li>
+</ul>
+<p>**app_module.dart</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:drinks_lab/modules/auth/auth_module.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:flutter_modular/flutter_modular.dart&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppModule</span> <span style="color:#66d9ef">extends</span> Module {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  List<span style="color:#f92672">&lt;</span>Module<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">get</span> imports <span style="color:#f92672">=&gt;</span> [
+</span></span><span style="display:flex;"><span>    AuthModule(), <span style="color:#75715e">// injeções do módulo de autenticação
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    CoreModule(), <span style="color:#75715e">// injeções globais (se aplicam a todos os módulos)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  ]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> routes(r) {
+</span></span><span style="display:flex;"><span>    r.module(<span style="color:#e6db74">&#39;/&#39;</span>, module: AuthModule());
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><strong>child: AppWidget()</strong>: é onde fica a aplicação do MaterialApp ou do CupertinoApp.</li>
+</ul>
+<p><strong>app_widget.dart</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:my_app/shared/core/theme/app_theme.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:flutter/material.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:flutter_modular/flutter_modular.dart&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppWidget</span> <span style="color:#66d9ef">extends</span> StatelessWidget {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> AppWidget({<span style="color:#66d9ef">super</span>.key});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  Widget build(BuildContext context) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> MaterialApp.router(
+</span></span><span style="display:flex;"><span>      title: <span style="color:#e6db74">&#39;My App&#39;</span>,
+</span></span><span style="display:flex;"><span>      theme: AppTheme.defaultTheme,
+</span></span><span style="display:flex;"><span>      debugShowCheckedModeBanner: <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>      routerConfig: Modular.routerConfig,
+</span></span><span style="display:flex;"><span>      builder: (context, child) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> child <span style="color:#f92672">??</span> Container();
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Dessa forma, a aplicação já está pronta para receber outros módulos.</p>
+<p>Cada feature da aplicação deve ser pensada de forma isolada, como se fosse uma aplicação única. Ou seja, devemos criar pastas separadas para cada feature da aplicação, e colocando dentro delas, apenas o necessário para o funcionamento exclusivo da feature. O <strong>Modular</strong> servirá para auxiliar na modularização de cada uma dessas features.</p>
+<p>O exemplo a seguir mostra a criação de um fluxo de autenticação feito com Modular:</p>
+<h3 id="passo-1---authmodule">[Passo 1] - AuthModule()</h3>
+<p>Primeiro devemos criar uma pasta para cada módulo criado, neste exemplo, estamos criando o módulo de autenticação e dentro da pasta, criar o arquivo de módulo da feature:</p>
+<p><strong>auth_module.dart</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:my_app/modules/auth/presenter/pages/sign-in/sign_in_page.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:my_app/modules/auth/presenter/pages/sign_up/sign_up_page.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:flutter_modular/flutter_modular.dart&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthModule</span> <span style="color:#66d9ef">extends</span> Module {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Registro de camadas e injeções para outros módulos
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> exportedBinds(Injector i) {
+</span></span><span style="display:flex;"><span>    i.add<span style="color:#f92672">&lt;</span>AuthService<span style="color:#f92672">&gt;</span>(FirebaseAuthService.<span style="color:#66d9ef">new</span>);
+</span></span><span style="display:flex;"><span>    i.addSingleton(GoogleSignIn.<span style="color:#66d9ef">new</span>);
+</span></span><span style="display:flex;"><span>    i.addInstance(FirebaseAuth.instance);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Registro de camadas e injeções locais
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> binds(Injector i) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> <span style="color:#75715e">// Rotas
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> routes(r) { <span style="color:#75715e">// aqui ficam todas as rotas relacionadas ao módulo de autenticação,
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// como registro de usuário, esqueci minha senha, entre outros...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    r.child(<span style="color:#e6db74">&#39;/&#39;</span>, child: (context) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">const</span> SignInPage());
+</span></span><span style="display:flex;"><span>    r.child(<span style="color:#e6db74">&#39;/register&#39;</span>, child: (context) <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">const</span> RegisterPage());
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Neste caso, criamos duas rotas para o módulo de autenticação: <strong>/</strong> para Login e <strong>/registro</strong> para o registro de novo usuário.</p>
+<h3 id="passo-2---coremodule">[Passo 2] - CoreModule()</h3>
+<p>Uma boa prática também é criar um módulo <strong>Core</strong> que é o responsável por armazenar todas as injeções globais que serão utilizadas em todos os módulos.</p>
+<p><strong>core_module.dart</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:dio/dio.dart&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:flutter_modular/flutter_modular.dart&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CoreModule</span> <span style="color:#66d9ef">extends</span> Module {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> exportedBinds(Injector i) {
+</span></span><span style="display:flex;"><span>        i.add(Dio.<span style="color:#66d9ef">new</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>importando este módulo nos outros módulos individuais, é possível utilizar todas as injeções que foram inseridas aqui, nos outros módulos.</p>
+<p>Vale ressaltar que devemos sempre manter a organização dos arquivos e pastas, mantendo cada módulo apenas com suas responsabilidades.</p>
+<p>Se pareceu um pouco confuso, provavelmente foi pela minha falta de costume em tentar explicar conteúdos através de texto. É algo que estou tentando melhorar e me ajuda também a fixar os conteúdos que estou estudando.</p></div>
+    </article>
+
+    
+    
+    <div class="content-tag">
+        <span><i class="bi bi-bookmarks-fill"></i></span>
+        
+        <span>
+            <a class="item-link" href="/tags/flutter">flutter</a>
+        </span>
+        
+        <span>
+            <a class="item-link" href="/tags/code">code</a>
+        </span>
+        
+    </div> 
+    
+
+</div>
+
+</div>
+            <div class="nav-container"><div class="pagination">
+
+    <div class="pagination-item">
+        
+        <a class="left item-link" href="http://localhost:1313/en/blog/ferias/viagem_monte_verde/">
+            <i class="bi bi-chevron-left"></i>
+            <span>Viagem para Monte Verde-MG</span>
+        </a>
+        
+    </div>
+
+    <div class="pagination-item">
+        
+    </div>
+
+</div></div>
+        </main>
+        <div class="gutter"></div>
+        <aside>
+            <div class="cards-container">
+                <div class="card-container">
+
+<section class="card">
+    <div class="card-title">TABLE OF CONTENT</div>
+    <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#surgimento">Surgimento</a></li>
+    <li><a href="#utilização-do-flutter-modular">Utilização do Flutter Modular</a>
+      <ul>
+        <li><a href="#passo-1---authmodule">[Passo 1] - AuthModule()</a></li>
+        <li><a href="#passo-2---coremodule">[Passo 2] - CoreModule()</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+</section>
+</div>
+                <div class="card-container">
+
+
+<section class="card">
+    <div class="card-title">RELATED POSTS</div>
+    <div class="related">
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/ferias/ferias/">Férias!!</a>
+        </p>
+        
+    </div>
+</section>
+
+
+</div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+        </div>
+        <footer id="footer"><div class="container">
+    <div class="copyright">
+        <span>Taubatexas</span>
+        <span>2024</span>
+        <i class="bi bi-c-circle"></i>
+        <span>Todos os direitos reservados</span>
+    </div>
+</div>
+</footer>
+<script src="/vendor/jquery/jquery-3.7.0.js"></script>
+
+
+<script src="/js/main.js"></script></body>
+</html>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutter on Drinks &amp; bytes</title>
+    <link>http://localhost:1313/categories/flutter/</link>
+    <description>Recent content in Flutter on Drinks &amp; bytes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
+    <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
+    <copyright>All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 18:54:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gerenciamento de rotas com Modular</title>
+      <link>http://localhost:1313/en/blog/flutter/modular/</link>
+      <pubDate>Sun, 04 Aug 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/modular/</guid>
+      <description>&lt;p&gt;A ferramenta de injeção de dependências e gerenciamento de rotas&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

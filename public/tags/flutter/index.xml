@@ -18,5 +18,12 @@
       <guid>http://localhost:1313/en/blog/ferias/ferias/</guid>
       <description>&lt;p&gt;Mais um semestre encerrado na faculdade, e agora faltam só mais dois!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Gerenciamento de rotas com Modular</title>
+      <link>http://localhost:1313/en/blog/flutter/modular/</link>
+      <pubDate>Wed, 03 Jul 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/modular/</guid>
+      <description>&lt;p&gt;Mais um semestre encerrado na faculdade, e agora faltam só mais dois!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
