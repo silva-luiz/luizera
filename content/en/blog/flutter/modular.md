@@ -43,7 +43,7 @@ O ModularApp deve receber um **module** e um **child**, sendo:
 
 **app_module.dart
 ```dart
-import 'package:drinks_lab/modules/auth/auth_module.dart';
+import 'package:my_app/modules/auth/auth_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
