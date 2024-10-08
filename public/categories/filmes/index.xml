@@ -9,14 +9,21 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 23 Aug 2024 11:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/filmes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filme da semana</title>
-      <link>http://localhost:1313/en/blog/movie-of-the-week/portrait-of-god-copy/</link>
+      <link>http://localhost:1313/en/blog/movie-of-the-week/baby-driver-copy/</link>
+      <pubDate>Tue, 08 Oct 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/movie-of-the-week/baby-driver-copy/</guid>
+      <description>&lt;p&gt;Depois de um sumiço, e muito tempo sem postar baboseira, mais um FILME DA SEMANA&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Filme da semana</title>
+      <link>http://localhost:1313/en/blog/movie-of-the-week/i-lost-my-body/</link>
       <pubDate>Fri, 23 Aug 2024 11:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/movie-of-the-week/portrait-of-god-copy/</guid>
-      <description>&lt;p&gt;Dessa vez o filme da semana é uma animação, com uma ideia bem diferente, e ao mesmo tempo, muito legal&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/blog/movie-of-the-week/i-lost-my-body/</guid>
+      <description>&lt;p&gt;Dessa vez o filme da semana é uma animação, com uma ideia bem diferente, e ao mesmo tempo, muito legal!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Filme da semana</title>

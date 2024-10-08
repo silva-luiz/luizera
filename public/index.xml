@@ -9,8 +9,15 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 23 Aug 2024 11:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filme da semana</title>
+      <link>http://localhost:1313/en/blog/movie-of-the-week/imaculada/</link>
+      <pubDate>Tue, 08 Oct 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/movie-of-the-week/imaculada/</guid>
+      <description>&lt;p&gt;Depois de um sumiço, e muito tempo sem postar baboseira, mais um &lt;strong&gt;FILME DA SEMANA&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Filme da semana</title>
       <link>http://localhost:1313/en/blog/movie-of-the-week/i-lost-my-body/</link>
