@@ -8,7 +8,7 @@ tags: ["Filmes"]
 thumbnail: "https://m.media-amazon.com/images/M/MV5BZGQyNjhiZTAtNGFmNy00ZGIyLWJjZWUtZjFkNDZkNTY3MjEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
 headline: true
 ---
-O último filme do ano, não poderia ser mais maluco do que esse
+O último filme do ano não poderia ser mais maluco do que esse. Chega mais!!
 <!--more-->
 
 ## A Substância - 2024

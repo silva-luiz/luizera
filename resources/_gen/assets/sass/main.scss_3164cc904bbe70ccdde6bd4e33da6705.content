@@ -35,15 +35,25 @@ img {
   --grey-900: #212529; }
 
 :root[data-theme="light"] {
-  --primary: #030b75;
-  --primary-light: #0037ec;
-  --secondary: #e6b700;
-  --baseof-bg: var(--white);
-  --baseof-ft: var(--grey-600);
-  --baseof-bd: var(--grey-200);
-  --stager-bg: var(--grey-100);
-  --stager-ft: var(--grey-600);
-  --stager-bd: var(--grey-400); }
+  --primary-1: #030b75;
+  --primary-light-1: #0037ec;
+  --secondary-1: #e6b700;
+  --baseof-bg-1: var(--white);
+  --baseof-ft-1: var(--grey-600);
+  --baseof-bd-1: var(--grey-200);
+  --stager-bg-1: var(--grey-100);
+  --stager-ft-1: var(--grey-600);
+  --stager-bd-1: var(--grey-400);
+  /* v2 colors */
+  --primary: #ffffff;
+  --primary-light: #414141;
+  --secondary: #00BFFF;
+  --baseof-bg: #292828;
+  --baseof-ft: #929292;
+  --baseof-bd: #919294;
+  --stager-bg: #2A2B30;
+  --stager-ft: #ffffff;
+  --stager-bd: #ffffff; }
 
 /* Background */
 .bg {
@@ -383,13 +393,13 @@ body {
   margin: 0 auto; }
 
 .list-container {
-  background-color: var(--white);
+  background-color: var(--baseof-bg);
   border-radius: 20px;
   margin-bottom: 2rem;
   padding: 1rem; }
 
 .single-container {
-  background-color: var(--white);
+  background-color: var(--stager-bg);
   margin-bottom: 2rem;
   padding: 1rem; }
 
@@ -468,7 +478,6 @@ a {
     width: 1rem; }
   .stager a {
     color: var(--primary);
-    background-color: var(--stager-bg);
     transition: all .5s; }
     .stager a:hover {
       color: var(--secondary); }
@@ -596,7 +605,7 @@ a {
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: .75rem;
-    color: var(--primary); }
+    color: var(--secondary); }
   .about .description {
     margin-bottom: .5rem; }
   .about .email {
@@ -605,6 +614,8 @@ a {
     font-size: .875rem; }
     .about .email span {
       margin: 1rem; }
+  .about .bi {
+    color: var(--secondary); }
 
 .item {
   margin-bottom: 1rem;
@@ -641,8 +652,7 @@ a {
         margin-right: 1rem; }
     .item .item-text a {
       display: block;
-      color: var(--stager-ft);
-      background-color: var(--white);
+      color: var(--white);
       transition: all .5s; }
       .item .item-text a:hover {
         color: var(--secondary); }
@@ -673,7 +683,7 @@ a {
     display: block; } }
 
 .card {
-  border: 1px solid var(--stager-bd);
+  border: 1px solid var(--baseof-ft);
   padding: .75rem;
   margin-bottom: 2rem;
   position: relative;
@@ -686,7 +696,7 @@ a {
     padding: 0 .5rem;
     font-size: 1rem;
     line-height: 1rem;
-    color: var(--primary); }
+    color: var(--secondary); }
   .card .category a {
     padding: .25rem .5rem;
     border-radius: .25rem;
@@ -765,11 +775,9 @@ a {
 
 .content a {
   color: var(--primary);
-  background-color: var(--white);
   transition: all 1s; }
   .content a:hover {
-    color: var(--secondary);
-    background-color: var(--white); }
+    color: var(--secondary); }
 
 .content .content-header {
   text-align: center;
@@ -800,7 +808,7 @@ a {
 
 .markdown h2 {
   margin-top: 3.5rem;
-  color: var(--primary);
+  color: var(--secondary);
   font-size: 1.5rem;
   font-weight: 500; }
 
@@ -886,6 +894,8 @@ a {
   .markdown .footnotes ol {
     font-size: .875rem;
     padding-left: 1rem; }
+    .markdown .footnotes ol li::marker {
+      color: var(--secondary); }
     .markdown .footnotes ol li {
       padding-left: .5rem; }
       .markdown .footnotes ol li p {
@@ -919,6 +929,9 @@ a {
 
 .markdown ul li {
   list-style: disc; }
+
+.markdown ul li::marker {
+  color: var(--secondary); }
 
 .markdown .table-container {
   overflow: auto; }

@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/movie-of-the-week/the-substance/</loc>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/filmes/</loc>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/filmes/</loc>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/flutter/</loc>
@@ -23,19 +35,10 @@
     <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/blog/code/tg_v2/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/tumulo-dos-vagalumes/</loc>
-    <lastmod>2024-11-21T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/filmes/</loc>
-    <lastmod>2024-11-21T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/filmes/</loc>
     <lastmod>2024-11-21T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/me/uselessweb/</loc>
@@ -54,9 +57,6 @@
     <lastmod>2024-08-23T11:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/baby-driver/</loc>
-    <lastmod>2024-08-16T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/movie-of-the-week/the-substance/</loc>
     <lastmod>2024-08-16T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/flutter/</loc>
