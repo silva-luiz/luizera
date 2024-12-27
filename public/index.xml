@@ -19,6 +19,13 @@
       <description>&lt;p&gt;O último filme do ano não poderia ser mais maluco do que esse. Chega mais!!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Site de cara nova!</title>
+      <link>http://localhost:1313/en/blog/site-on/hugo-copy/</link>
+      <pubDate>Tue, 17 Dec 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/site-on/hugo-copy/</guid>
+      <description>&lt;p&gt;Caso não tenha notado, o blog tá de cara nova!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>TG V2</title>
       <link>http://localhost:1313/en/blog/code/tg_v2/</link>
       <pubDate>Sun, 01 Dec 2024 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>

@@ -19,6 +19,13 @@
       <description></description>
     </item>
     <item>
+      <title>Site</title>
+      <link>http://localhost:1313/tags/site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/site/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Code</title>
       <link>http://localhost:1313/tags/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
@@ -72,13 +79,6 @@
       <link>http://localhost:1313/tags/dicas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/tags/dicas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Site</title>
-      <link>http://localhost:1313/tags/site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/tags/site/</guid>
       <description></description>
     </item>
     <item>

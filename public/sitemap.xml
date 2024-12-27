@@ -23,6 +23,15 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/site/</loc>
+    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/site/</loc>
+    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/site-on/hugo-copy/</loc>
+    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
@@ -81,12 +90,6 @@
     <lastmod>2024-07-07T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dicas/</loc>
-    <lastmod>2024-07-06T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/site/</loc>
-    <lastmod>2024-07-06T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/site/</loc>
     <lastmod>2024-07-06T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/uselessweb/uselessweb/</loc>
