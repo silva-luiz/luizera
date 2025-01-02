@@ -1,5 +1,7 @@
-html { 
+html {
     height: 100%;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--secondary) var(--baseof-bg);
 }
 
 body {
@@ -26,12 +28,14 @@ body {
     background-color: var(--stager-bg);
     color: var(--stage-ft);
 }
+
 #stager {
     grid-column: 1;
     grid-row: 3;
     background-color: var(--stager-bg);
     color: var(--stage-ft);
 }
+
 #footer {
     grid-column: 1;
     grid-row: 4;
