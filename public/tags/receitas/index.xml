@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dicas on Drinks &amp; bytes</title>
-    <link>http://localhost:1313/tags/dicas/</link>
-    <description>Recent content in Dicas on Drinks &amp; bytes</description>
+    <title>Receitas on Drinks &amp; bytes</title>
+    <link>http://localhost:1313/tags/receitas/</link>
+    <description>Recent content in Receitas on Drinks &amp; bytes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
     <lastBuildDate>Tue, 31 Dec 2024 22:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dicas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/receitas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[RECIPE] - DEZEMBRONESE DE ALHO</title>
       <link>http://localhost:1313/en/blog/dicas/tg_v2/</link>
       <pubDate>Tue, 31 Dec 2024 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/dicas/tg_v2/</guid>
       <description>&lt;p&gt;Receita de maionese de alho pra você comer junto com aquele churrasquinho, ou no seu podrão!!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The best website ever</title>
-      <link>http://localhost:1313/en/blog/uselessweb/uselessweb/</link>
-      <pubDate>Sat, 06 Jul 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/uselessweb/uselessweb/</guid>
-      <description>&lt;p&gt;Tá de bobeira na internet procurando algum site tosco pra passar o tempo? Então se liga nesse site aqui!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

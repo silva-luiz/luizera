@@ -35,7 +35,7 @@
 
     blockquote {
         border-left: .375rem solid var(--grey-500);
-        background-color: var(--grey-100);
+        background-color: var(--baseof-bg);
         font-size: 1.25rem;
         font-family: $serif;
         margin: 1rem auto 0;
@@ -43,7 +43,8 @@
 
         p {
             margin: 0;
-            color: var(--stager-ft);
+            color: var(--secondary);
+            font-style: italic;
         }
     }
 

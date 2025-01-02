@@ -4,7 +4,7 @@ date: 2024-07-06T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
 categories: "Site"
-tags: ["Site", "Dicas"]
+tags: ["site", "dicas"]
 thumbnail: "https://preview.redd.it/hlhm992orc961.jpg?auto=webp&s=af467cdc66f7e7d0b4594ba815f41a9cb1e19408"
 headline: true
 ---

@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/blog/dicas/tg_v2/</loc>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dicas/</loc>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/receitas/</loc>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-31T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/site/</loc>
+    <lastmod>2024-12-27T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/site/</loc>
+    <lastmod>2024-12-27T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/site-on/hugo-copy/</loc>
+    <lastmod>2024-12-27T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/the-substance/</loc>
     <lastmod>2024-12-26T18:54:33+08:00</lastmod>
@@ -20,25 +44,10 @@
     <loc>http://localhost:1313/categories/filmes/</loc>
     <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/site/</loc>
-    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/site/</loc>
-    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/site-on/hugo-copy/</loc>
-    <lastmod>2024-12-17T18:54:33+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/flutter/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/me/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/react/</loc>
@@ -88,9 +97,6 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/portrait-of-god/</loc>
     <lastmod>2024-07-07T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dicas/</loc>
-    <lastmod>2024-07-06T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/uselessweb/uselessweb/</loc>
     <lastmod>2024-07-06T18:54:33+08:00</lastmod>
