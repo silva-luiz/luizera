@@ -1,5 +1,5 @@
 ---
-title: "Problemas com AndroidStudio LadyBug"
+title: "Problemas com Android Studio - LadyBug"
 date: 2025-01-23T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
@@ -24,7 +24,7 @@ Com a ajuda do meu mano Felipe, descobrimos que os downloads de versões mais an
 
 ## Versão em inglês
 
-Com o site em inglês, basta clicar no [neste link](https://developer.android.com/studio/archive), que você será redirecionado para os termos de uso do AS. Após aceitar os termos, você já será direcionado para a página de **Downloads** onde poderá escolher a versão que deseja (menos a LadyBug pelo amor de Deus).
+Com o site em inglês, basta clicar [neste link](https://developer.android.com/studio/archive), que você será redirecionado para os termos de uso do AS. Após aceitar os termos, você já será direcionado para a página de **Downloads** onde poderá escolher a versão que deseja (menos a LadyBug pelo amor de Deus).
 
 {{< figure src="/image/default/as-english.png" title="repare no idioma lá em cima" >}}
 
