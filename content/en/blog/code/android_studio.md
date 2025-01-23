@@ -40,4 +40,4 @@ Após aceitar os termos de uso no final da página, você será direcionado para
 
 {{< figure src="/image/default/as-downloads.png" title="repare no idioma lá em cima" >}}
 
-Então esse foi minha experiência bosta com o AndroidStudio e com o site deles que é mais bosta ainda. E deixo um grande agradecimento ao meu mano [Felipe Júnior](https://www.instagram.com/_feejunior/), por ter me ajudado a resolver esse enrosco que me tomou alguns dias.
+Então esse foi minha experiência bosta com o AndroidStudio e com o site deles que é mais bosta ainda. E deixo um grande agradecimento ao meu mano [Felipe Junior](https://www.instagram.com/_feejunior/), por ter me ajudado a resolver esse enrosco que me tomou alguns dias.
