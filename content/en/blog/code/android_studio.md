@@ -22,16 +22,22 @@ A primeira ideia que tive foi tentar baixar a versão que usava anteriormente, q
 
 Com a ajuda do meu mano Felipe, descobrimos que os downloads de versões mais antigas só ficam visíveis no site caso a página esteja em **inglês** (puta EasterEgg de merda). Para fazer a alteração é só ir no menu superior, na direita e selecionar o idioma Inglês. Com isso foi possível seguir o fluxo de download da antiga versão do Koala e voltar a usar normalmente o Android Studio.
 
-## Versão em inglês
-
-Com o site em inglês, basta clicar [neste link](https://developer.android.com/studio/archive), que você será redirecionado para os termos de uso do AS. Após aceitar os termos, você já será direcionado para a página de **Downloads** onde poderá escolher a versão que deseja (menos a LadyBug pelo amor de Deus).
-
-{{< figure src="/image/default/as-english.png" title="repare no idioma lá em cima" >}}
+O link para selecionar versões mais antigas é [esse aqui](https://developer.android.com/studio/archive).
 
 ## Versão em português
 
- Caso a página esteja em português, vc será redirecionado pra outro lugar, onde não será possível prosseguir para os Downloads.
+Caso a página esteja em português, vc será redirecionado pra outro lugar, onde não será possível prosseguir para os Downloads, mesmo que utilize o link acima.
 
 {{< figure src="/image/default/as-portuguese.png" title="o mesmo link, mesma URL, com resultados diferentes" >}}
+
+## Versão em inglês
+
+Com o site em inglês, ao clicar no link, você será redirecionado para os termos de uso do AS. 
+
+{{< figure src="/image/default/as-english.png" title="repare no idioma lá em cima" >}}
+
+Após aceitar os termos de uso no final da página, você será direcionado para a página de **Downloads** onde poderá escolher a versão anterior que desejar (menos a LadyBug pelo amor de Deus).
+
+{{< figure src="/image/default/as-downloads.png" title="repare no idioma lá em cima" >}}
 
 Então esse foi minha experiência bosta com o AndroidStudio e com o site deles que é mais bosta ainda. E deixo um grande agradecimento ao meu mano [Felipe Júnior](https://www.instagram.com/_feejunior/), por ter me ajudado a resolver esse enrosco que me tomou alguns dias.
