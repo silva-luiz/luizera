@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Drinks &amp; bytes</title>
+    <title>Tags on Luizera´s quotes</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Drinks &amp; bytes</description>
+    <description>Recent content in Tags on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/tags/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/tags/mobile/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dicas</title>
       <link>http://localhost:1313/tags/dicas/</link>
@@ -37,13 +58,6 @@
       <link>http://localhost:1313/tags/filmes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/tags/filmes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>http://localhost:1313/tags/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drinks &amp; bytes</title>
+    <title>Luizera´s quotes</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Drinks &amp; bytes</description>
+    <description>Recent content on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
@@ -12,7 +12,7 @@
     <lastBuildDate>Thu, 23 Jan 2025 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Problemas com AndroidStudio LadyBug</title>
+      <title>Problemas com Android Studio - LadyBug</title>
       <link>http://localhost:1313/en/blog/code/android_studio/</link>
       <pubDate>Thu, 23 Jan 2025 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/code/android_studio/</guid>
@@ -150,6 +150,13 @@
       <pubDate>Wed, 19 Jun 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/site-on/hugo/</guid>
       <description>&lt;p&gt;Depois de muito tempo falando que ia criar um blog pra postar bobeira, depois de trocar o layout um milhão de vezes, finalmente essa budega está no ar!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/links/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,17 @@
+.container .title-links{
+    color: var(--secondary);
+    padding-bottom: 10px;
+}
+
+.category-title-links{
+    color: var(--secondary);
+    padding-bottom: 10px;
+}
+
+.links-list{
+    padding: 10px;
+}
+
+li::marker{
+    color: var(--secondary);
+}

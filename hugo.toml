@@ -1,6 +1,6 @@
 baseURL = 'https://luizera.com.br/'
 languageCode = 'en-us'
-title = 'Drinks & bytes'
+title = 'Luizera´s quotes'
 theme = 'luizera_theme'
 copyright = 'All Rights Reserved'
 [author]

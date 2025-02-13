@@ -7,6 +7,13 @@ paginate = 10
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
+[minify]
+  disableCSS = false
+
+[params]
+  enableSCSS = true
+
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
