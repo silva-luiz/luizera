@@ -9,8 +9,15 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 23 Jan 2025 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</title>
+      <link>http://localhost:1313/en/blog/dicas/saladao/</link>
+      <pubDate>Sun, 23 Feb 2025 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/dicas/saladao/</guid>
+      <description>&lt;p&gt;Tá de dietinha e não aguenta mais comer saladinha sem graça??? Cole aqui com teu PAI!!!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Problemas com Android Studio - LadyBug</title>
       <link>http://localhost:1313/en/blog/code/android_studio/</link>
