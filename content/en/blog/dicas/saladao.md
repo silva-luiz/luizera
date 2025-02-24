@@ -11,7 +11,7 @@ headline: true
 Tá de dietinha e não aguenta mais comer saladinha sem graça??? Cole aqui com teu PAI!!!
 <!--more-->
 
-Recentemente encontrei uma receita maluca de salada, que fiquei com contade de fazer, e no final das contas fiquei surpreso com o resultado.
+Recentemente encontrei uma receita maluca de salada, que fiquei com vontade de fazer, e no final das contas fiquei surpreso com o resultado.
 
 
 Dei a ideia pra dona do nosso date de sábado ser um jantarzinho feito por nós mesmos, e sugeri de fazer essa salada maluca, visto que estou tentando botar o SHAPE, mas sem deixar de comer coisas gostosas. Ela aceitou, e resolvemos fazer o SALADÃO!
@@ -49,7 +49,7 @@ Pra fazer o saladão com creme de gorgonzola você vai precisar dos seguintes in
 
 ## MODO DE PREPARO
 
-Pro frango, cortamos em cubinhos, temperamos com limão e lemon pepper e deixamos reservado por uns 10 minutos. Depois só botar na panela lá e ficar mexendo até secar. EASY FILHO. Depois que estiver pronto, reserva o frango no cantinho ai, que vamos usar depois.
+Pra preparar o frango, cortamos em cubinhos, temperamos com limão e lemon pepper e deixamos reservado por uns 10 minutos. Depois só botar na panela lá e ficar mexendo até secar. EASY FILHO. Depois que estiver pronto, reserva o frango no cantinho aí, que vamos usar depois.
 
 Pros croutons é só cortar as fatias de pão em pedacinhos pequenos em um recipiente, jogar um pouco do azeite, orégano e pimenta do reino e mexer tudo. Depois disso, leva pra air fryer por 10 minutinhos e tá pronto o sorvetinho.
 
@@ -59,7 +59,7 @@ E por fim, o mais importante, o creme de gorgonzola. O primeiro passo é amassar
 
 Depois que vc fez todo esse rolê, é só jogar tudo ali dentro do bowl e mexer pra misturar bem o creme na salada. O frango e os croutons podem ir junto, mas se vc preferir, pode colocar separado também (eu prefiro tudo junto, pro frango misturar no creme também).
 
-E tá pronta sua saladinha de proteíca e de baixa caloria. Com um sabor maravilhoso, e de quebra ainda é um prato bonito pra vc fazer bonito com a primeira dama! Nosso jantar foi acompanhado de um vinhozinho e foi 10/10. Sé fazer e correr pro abraço.
+E tá pronta sua saladinha proteíca e de baixa caloria. Com um sabor maravilhoso, e de quebra ainda é um prato bonito pra vc fazer uma média com a primeira dama! Nosso jantar foi acompanhado de um vinhozinho e foi 10/10. É só fazer e correr pro abraço.
 
 ABAIXO A FOTO DA PERIPÉCIA:
 
