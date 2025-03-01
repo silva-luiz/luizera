@@ -354,7 +354,8 @@ img {
 html {
   height: 100%;
   scroll-behavior: smooth;
-  scrollbar-color: var(--secondary) var(--baseof-bg); }
+  scrollbar-color: var(--secondary) var(--baseof-bg);
+  scrollbar-width: thin; }
 
 body {
   height: 100%;
@@ -968,6 +969,20 @@ a {
     .markdown ul ol,
     .markdown ul ul {
       padding-left: 2rem; } }
+
+.container .title-links {
+  color: var(--secondary);
+  padding-bottom: 10px; }
+
+.category-title-links {
+  color: var(--secondary);
+  padding-bottom: 10px; }
+
+.links-list {
+  padding: 10px; }
+
+li::marker {
+  color: var(--secondary); }
 
 .markdown figure {
   margin: 1rem 0 0; }
