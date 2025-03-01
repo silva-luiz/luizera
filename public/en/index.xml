@@ -9,8 +9,15 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Feb 2025 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter Pokédex</title>
+      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex/</link>
+      <pubDate>Fri, 28 Feb 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex/</guid>
+      <description>&lt;p&gt;A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</title>
       <link>http://localhost:1313/en/blog/dicas/saladao/</link>

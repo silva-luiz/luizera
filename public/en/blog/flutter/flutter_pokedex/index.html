@@ -69,7 +69,7 @@
     <li class="breadcrumb-item">Ens</li>
 
     
-    <li class="breadcrumb-item">Problemas com Android Studio - LadyBug</li>
+    <li class="breadcrumb-item">Flutter Pokédex</li>
 
 </ol>
 </div>
@@ -84,9 +84,9 @@
     
     <article>
         <div class="content-header">
-            <h1 class="title">Problemas com Android Studio - LadyBug</h1>
+            <h1 class="title">Flutter Pokédex</h1>
             <p class="meta">
-                <span>Jan 23, 2025</span>
+                <span>Feb 28, 2025</span>
                 <span>
                     
                         Luizera do taticão
@@ -94,58 +94,39 @@
                 </span>
             </p>
         </div>
-        <div class="markdown"><p>Tá com dificuldade pra utilizar o AndroidStudio pós LadyBug? Te ensino a desfazer essa cagada!</p>
-<h2 id="android-studio">Android Studio</h2>
-<p>Se você é desenvolvedor mobile e usa o AndroidStudio (AS), recomendo que continue usando a versão que está usando agora, e não faça o upgrade para a versão LadyBug. Recentemente precisei formatar meu computador e instalei essa maravilha tecnológica na minha máquina e os emuladores simplesmente não estavam mais compatíveis com nenhuma versão do Java e com isso, não foi possível rodar os projetos em que estou desempenhando no trabalho.</p>
+        <div class="markdown"><p>A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.</p>
+<p>Fala guys, cês tão bem?</p>
+<p>Seguindo na trilha dos estudos, estou estudando agora sobre a nova arquitetura que a Google recomendou para os próximos projetos em Flutter. Com isso, também teremos algumas mudanças no trabalho, e precisamos nos adaptar à nova arquitetura, e uma forma que encontrei pra entender melhor alguns pontos que ainda não estão tão claros pra mim, é criando um projeto do zero, tentando me adequar ao que foi proposto.</p>
 
 <figure>
-    <img src="/image/default/francis.webp" />
+    <img src="/image/default/arch_flutter.png" />
     <figcaption>
-        A joaninha é homem
+        Flutter Architecture
     </figcaption>
 </figure>
 
-<p>A primeira ideia que tive foi tentar baixar a versão que usava anteriormente, que era a Koala, então resolvi ir ao site do AndroidStudio para baixar. Mas para minha surpresa, não havia nenhum link de download. E todo e qualquer link que aparecia, redirecionava pro download do maldito LadyBug.</p>
+<p>Dito isso, resolvi criar um projetinho simples, que muitos já devem ter feito, mas eu ainda não havia tentado, que é a <strong>Pokédex</strong>, porém, seguindo o modelo de arquitetura recomendado pela Google.</p>
+<h2 id="sobre-o-projeto">Sobre o projeto</h2>
+<p>O projeto foi pensado basicamente em ter poucas funcionalidades: Listar todos os pokémons e mostrar as características individuais de cada um. Os dados podem ser acessados em uma API pública que deixarei o link no fim do post. A API é extremamente rica em detalhes, contendo literalmente <strong>TODAS</strong> as informações sobre <strong>TODOS</strong> os Pokémons, desde os atributos de luta (attack, defense, HP, etc..), até descrição dos ataques, onde podem ser localizados&hellip;enfim, tudo que vc pensar aí sobre Pokémon, vai ter nessa API.</p>
+<h3 id="como-o-app-está-no-momento">Como o App está no momento?</h3>
+<p>Até o momento, o App está com a aparência das fotos abaixo, sem muita firula, apenas com o básico e com o foco em melhorar e aprender mais sobre a <strong>Arquitetura</strong>, e principalmente sobre as suas camadas, que ainda me parece um pouco confuso de entender. A ideia aqui é entender bem como tudo funciona, e em seguida melhorar visualmente, colocando mais personalidade e até mesmo novas funcionalidades no App (que ainda não pensei em nenhuma hehe).</p>
 
 <figure>
-    <img src="/image/default/android-studio.png" />
+    <img src="/image/default/pokedex-app.png" />
     <figcaption>
-        maldito LadyBug
+        A cara do App ai pra vcs
     </figcaption>
 </figure>
 
-<p>Com a ajuda do meu mano Felipe, descobrimos que os downloads de versões mais antigas só ficam visíveis no site caso a página esteja em <strong>inglês</strong> (puta EasterEgg de merda). Para fazer a alteração é só ir no menu superior, na direita e selecionar o idioma Inglês. Com isso foi possível seguir o fluxo de download da antiga versão do Koala e voltar a usar normalmente o Android Studio.</p>
-<p>O link para selecionar versões mais antigas é <a href="https://developer.android.com/studio/archive">esse aqui</a>.</p>
-<h2 id="versão-em-português">Versão em português</h2>
-<p>Caso a página esteja em português, vc será redirecionado pra outro lugar, onde não será possível prosseguir para os Downloads, mesmo que utilize o link acima.</p>
-
-<figure>
-    <img src="/image/default/as-portuguese.png" />
-    <figcaption>
-        o mesmo link, mesma URL, com resultados diferentes
-    </figcaption>
-</figure>
-
-<h2 id="versão-em-inglês">Versão em inglês</h2>
-<p>Com o site em inglês, ao clicar no link, você será redirecionado para os termos de uso do AS.</p>
-
-<figure>
-    <img src="/image/default/as-english.png" />
-    <figcaption>
-        repare no idioma lá em cima
-    </figcaption>
-</figure>
-
-<p>Após aceitar os termos de uso no final da página, você será direcionado para a página de <strong>Downloads</strong> onde poderá escolher a versão anterior que desejar (menos a LadyBug pelo amor de Deus).</p>
-
-<figure>
-    <img src="/image/default/as-downloads.png" />
-    <figcaption>
-        repare no idioma lá em cima
-    </figcaption>
-</figure>
-
-<p>Então esse foi minha experiência bosta com o AndroidStudio e com o site deles que é mais bosta ainda. E deixo um grande agradecimento ao meu mano <a href="https://www.instagram.com/_feejunior/">Felipe Junior</a>, por ter me ajudado a resolver esse enrosco que me tomou alguns dias.</p></div>
+<h3 id="próximos-passos">Próximos passos</h3>
+<p>A princípio, o que temos pra hoje é isso aí, mas conforme o projeto for avançando, estarei postando sobre as alterações, novas implementações, sobre o que foi aprendido e as dificuldades encontradas pelo caminho. Quando sentir que o App está minimamente utilizável, vou disponibilizar um link para download do APK para ser utilizado por quem quiser dar uma brincada no App hehe (apenas pra Android infelizmente).</p>
+<h2 id="links-úteis">Links úteis</h2>
+<p>A seguir, deixo pra quem se interessar alguns links úteis sobre o assunto:</p>
+<ul>
+<li><a href="https://docs.flutter.dev/app-architecture">Flutter Architecture</a></li>
+<li><a href="https://github.com/silva-luiz/pokedex">Repo Pokedex Github</a></li>
+<li><a href="https://pokeapi.co/">Poke API</a></li>
+</ul></div>
     </article>
 
     
@@ -154,15 +135,11 @@
         <span><i class="bi bi-bookmarks-fill"></i></span>
         
         <span>
+            <a class="item-link" href="/tags/flutter">flutter</a>
+        </span>
+        
+        <span>
             <a class="item-link" href="/tags/code">code</a>
-        </span>
-        
-        <span>
-            <a class="item-link" href="/tags/android">android</a>
-        </span>
-        
-        <span>
-            <a class="item-link" href="/tags/mobile">mobile</a>
         </span>
         
     </div> 
@@ -175,19 +152,14 @@
 
     <div class="pagination-item">
         
-        <a class="left item-link" href="http://localhost:1313/en/blog/dicas/dezembronese/">
+        <a class="left item-link" href="http://localhost:1313/en/blog/dicas/saladao/">
             <i class="bi bi-chevron-left"></i>
-            <span>[RECIPE] - DEZEMBRONESE DE ALHO</span>
+            <span>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</span>
         </a>
         
     </div>
 
     <div class="pagination-item">
-        
-        <a class="right item-link" href="http://localhost:1313/en/blog/dicas/saladao/">
-            <i class="bi bi-chevron-right"></i>
-            <span>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</span>
-        </a>
         
     </div>
 
@@ -203,9 +175,13 @@
     <div class="toc">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#android-studio">Android Studio</a></li>
-    <li><a href="#versão-em-português">Versão em português</a></li>
-    <li><a href="#versão-em-inglês">Versão em inglês</a></li>
+    <li><a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#como-o-app-está-no-momento">Como o App está no momento?</a></li>
+        <li><a href="#próximos-passos">Próximos passos</a></li>
+      </ul>
+    </li>
+    <li><a href="#links-úteis">Links úteis</a></li>
   </ul>
 </nav>
     </div>
@@ -227,6 +203,16 @@
         <p class="related-item">
             <i class="bi bi-link-45deg"></i>
             <a class="item-link" href="http://localhost:1313/en/blog/flutter/modular/">Gerenciamento de rotas com Flutter Modular</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/code/android_studio/">Problemas com Android Studio - LadyBug</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/ferias/ferias/">Férias!!</a>
         </p>
         
     </div>
