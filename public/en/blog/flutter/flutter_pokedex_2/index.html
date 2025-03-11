@@ -69,7 +69,7 @@
     <li class="breadcrumb-item">Ens</li>
 
     
-    <li class="breadcrumb-item">Flutter Pokédex</li>
+    <li class="breadcrumb-item">Flutter Pokédex - Continuação</li>
 
 </ol>
 </div>
@@ -84,9 +84,9 @@
     
     <article>
         <div class="content-header">
-            <h1 class="title">Flutter Pokédex</h1>
+            <h1 class="title">Flutter Pokédex - Continuação</h1>
             <p class="meta">
-                <span>Feb 28, 2025</span>
+                <span>Mar 10, 2025</span>
                 <span>
                     
                         Luizera do taticão
@@ -94,39 +94,48 @@
                 </span>
             </p>
         </div>
-        <div class="markdown"><p>A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.</p>
-<p>Fala guys, cês tão bem?</p>
-<p>Seguindo na trilha dos estudos, estou estudando agora sobre a nova arquitetura que a Google recomendou para os próximos projetos em Flutter. Com isso, também teremos algumas mudanças no trabalho, e precisamos nos adaptar à nova arquitetura, e uma forma que encontrei pra entender melhor alguns pontos que ainda não estão tão claros pra mim, é criando um projeto do zero, tentando me adequar ao que foi proposto.</p>
+        <div class="markdown"><p>A continuação do nosso projetinho pra entender a arquitetura</p>
+<p>Primeiramente um salve a todos</p>
+<p>Segundamente, esse post é de atualização sobre a nossa Pokedex, que está quase se encaminhando pra próxima etapa. Tá ficando bem legal, e estou começando a entender melhor as reponsabilidades de cada parte do projeto. Aproveito pra deixar aqui também um grande agradecimento ao meu amigo e colega de trabalho <a href="https://github.com/AbnerRibeirodaSilva">Abnera</a>, que tem sido bastante paciente tirando minhas dúvidas e me ajudando com as partes que estou tendo dificuldades.</p>
+<h2 id="alterações-feitas-no-projeto">Alterações feitas no projeto</h2>
+<p>A maioria das alterações feitas no App desde a última postagem foram alterações visuais, como Badges de identificação dos tipos de cada Pokemón, assim como um degradê no background baseado nas cores de seu tipo (ou tipos).</p>
 
 <figure>
-    <img src="/image/default/arch_flutter.png" />
+    <img src="/image/default/pokedex_2.png" />
     <figcaption>
-        Flutter Architecture
+        Tá ficando bonito o negócio
     </figcaption>
 </figure>
 
-<p>Dito isso, resolvi criar um projetinho simples, que muitos já devem ter feito, mas eu ainda não havia tentado, que é a <strong>Pokédex</strong>, porém, seguindo o modelo de arquitetura recomendado pela Google.</p>
-<h2 id="sobre-o-projeto">Sobre o projeto</h2>
-<p>O projeto foi pensado basicamente em ter poucas funcionalidades: Listar todos os pokémons e mostrar as características individuais de cada um. Os dados podem ser acessados em uma API pública que deixarei o link no fim do post. A API é extremamente rica em detalhes, contendo literalmente <strong>TODAS</strong> as informações sobre <strong>TODOS</strong> os Pokémons, desde os atributos de luta (attack, defense, HP, etc..), até descrição dos ataques, onde podem ser localizados&hellip;enfim, tudo que vc pensar aí sobre Pokémon, vai ter nessa API.</p>
-<h3 id="como-o-app-está-no-momento">Como o App está no momento?</h3>
-<p>Até o momento, o App está com a aparência das fotos abaixo, sem muita firula, apenas com o básico e com o foco em melhorar e aprender mais sobre a <strong>Arquitetura</strong>, e principalmente sobre as suas camadas, que ainda me parece um pouco confuso de entender. A ideia aqui é entender bem como tudo funciona, e em seguida melhorar visualmente, colocando mais personalidade e até mesmo novas funcionalidades no App (que ainda não pensei em nenhuma hehe).</p>
+<p>Mas o principal ponto de mudança no App foi a adição das <strong>viewmodels</strong> (ou controllers), que antes estavam juntos da view (ou pages), o que não é o ideal de acordo com o primeiro conceito do <strong><a href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">SOLID</a></strong>, que é o Single Responsiblity Principle ou Princípio da responsabilidade única, onde cada classe deve ter apenas uma responsabilidade ou motivo para mudar. Neste formato atual:</p>
+<ul>
+<li>A view tem a responsabilidade de apenas exibir a interface gráfica e reagir a interações do usuário.</li>
+<li>A viewmodel tem a responsabilidade de gerenciar dados, estados e ações sem se preocupar com como esses dados são exibidos.</li>
+</ul>
 
 <figure>
-    <img src="/image/default/pokedex-app.png" />
+    <img src="/image/default/pokedex_pastas.png" />
     <figcaption>
-        A cara do App ai pra vcs
+        Aqui vcs podem ver como ficou a distribuição dos arquivos
     </figcaption>
 </figure>
 
-<h3 id="próximos-passos">Próximos passos</h3>
-<p>A princípio, o que temos pra hoje é isso aí, mas conforme o projeto for avançando, estarei postando sobre as alterações, novas implementações, sobre o que foi aprendido e as dificuldades encontradas pelo caminho. Quando sentir que o App está minimamente utilizável, vou disponibilizar um link para download do APK para ser utilizado por quem quiser dar uma brincada no App hehe (apenas pra Android infelizmente).</p>
+<p>O segundo ponto importante do SOLID abordado aqui é o Princípio da Inversão de Dependência (DIP). O DIP sugere que módulos de alto nível não devem depender de módulos de baixo nível diretamente, mas de abstrações. No caso de separar views e viewmodels, a view não depende diretamente de como os dados são gerenciados ou de como a lógica é implementada. A view apenas interage com uma abstração (geralmente a viewmodel ou um controlador) para buscar dados e responder a mudanças de estado.</p>
+<ul>
+<li>A viewmodel não sabe nada sobre a view específica, mantendo a lógica de negócio desacoplada da interface.</li>
+<li>A view depende de interfaces ou abstrações para acessar a viewmodel, promovendo uma arquitetura flexível e de fácil manutenção.</li>
+</ul>
+<h2 id="próximos-passos">Próximos passos</h2>
+<p>Os próximos passos incluem a adição de um ícone para o App, uma Splash art pra inicializar tudo bonitinho, e a criação de mais módulos que ainda não pensei (até tenho algumas ideias, mas ainda preciso validar pra ver se realmente faz sentido). Se tudo correr bem, quem sabe não vem uma publicação na PlayStore&hellip;não é o objetivo, mas pode acontecer.</p>
 <h2 id="links-úteis">Links úteis</h2>
-<p>A seguir, deixo pra quem se interessar alguns links úteis sobre o assunto:</p>
+<p>Ctrl + C, Ctrl + V do outro post, os links úteis, caso interesse:</p>
 <ul>
 <li><a href="https://docs.flutter.dev/app-architecture">Flutter Architecture</a></li>
 <li><a href="https://github.com/silva-luiz/pokedex">Repo Pokedex Github</a></li>
 <li><a href="https://pokeapi.co/">Poke API</a></li>
-</ul></div>
+</ul>
+<p>E caso alguém se interesse e queira uma versão do App, pode entrar em contato comigo, que envio um APK pra vcs brincarem aí hehehe - lembrando que só para dispositivos <strong>Android</strong>.</p>
+<p>Valeu guys, e até a próxima!!</p></div>
     </article>
 
     
@@ -152,19 +161,14 @@
 
     <div class="pagination-item">
         
-        <a class="left item-link" href="http://localhost:1313/en/blog/dicas/saladao/">
+        <a class="left item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex/">
             <i class="bi bi-chevron-left"></i>
-            <span>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</span>
+            <span>Flutter Pokédex</span>
         </a>
         
     </div>
 
     <div class="pagination-item">
-        
-        <a class="right item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex_2/">
-            <i class="bi bi-chevron-right"></i>
-            <span>Flutter Pokédex - Continuação</span>
-        </a>
         
     </div>
 
@@ -180,12 +184,8 @@
     <div class="toc">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#sobre-o-projeto">Sobre o projeto</a>
-      <ul>
-        <li><a href="#como-o-app-está-no-momento">Como o App está no momento?</a></li>
-        <li><a href="#próximos-passos">Próximos passos</a></li>
-      </ul>
-    </li>
+    <li><a href="#alterações-feitas-no-projeto">Alterações feitas no projeto</a></li>
+    <li><a href="#próximos-passos">Próximos passos</a></li>
     <li><a href="#links-úteis">Links úteis</a></li>
   </ul>
 </nav>
@@ -199,6 +199,11 @@
 <section class="card">
     <div class="card-title">RELATED POSTS</div>
     <div class="related">
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex/">Flutter Pokédex</a>
+        </p>
         
         <p class="related-item">
             <i class="bi bi-link-45deg"></i>

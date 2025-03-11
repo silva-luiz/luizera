@@ -354,12 +354,8 @@ img {
 html {
   height: 100%;
   scroll-behavior: smooth;
-<<<<<<< HEAD
-  scrollbar-color: var(--secondary) var(--baseof-bg); }
-=======
   scrollbar-color: var(--secondary) var(--baseof-bg);
   scrollbar-width: thin; }
->>>>>>> 5d1586904c53124f963755eb7f6871a4dddd6b95
 
 body {
   height: 100%;
@@ -941,40 +937,6 @@ a {
   .markdown ol li,
   .markdown ul li {
     margin-top: .5rem; }
-<<<<<<< HEAD
-
-.markdown ul li {
-  list-style: disc; }
-
-.markdown ul li::marker {
-  color: var(--secondary); }
-
-.markdown .table-container {
-  overflow: auto; }
-  .markdown .table-container table {
-    width: 100%;
-    margin-top: 1rem;
-    font-size: .875rem;
-    color: var(--stager-ft); }
-    .markdown .table-container table th {
-      background-color: var(--grey-500);
-      padding: .5rem .75rem;
-      text-align: center; }
-    .markdown .table-container table td {
-      background-color: var(--grey-100);
-      padding: .25rem .5rem;
-      text-align: center; }
-
-@media (min-width: 1040px) {
-  .markdown ol,
-  .markdown ul {
-    padding-left: 2.5rem; }
-    .markdown ol ol,
-    .markdown ol ul,
-    .markdown ul ol,
-    .markdown ul ul {
-      padding-left: 2rem; } }
-=======
 
 .markdown ul li {
   list-style: disc; }
@@ -1021,7 +983,6 @@ a {
 
 li::marker {
   color: var(--secondary); }
->>>>>>> 5d1586904c53124f963755eb7f6871a4dddd6b95
 
 .markdown figure {
   margin: 1rem 0 0; }
