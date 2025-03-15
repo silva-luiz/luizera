@@ -43,6 +43,6 @@ Nos links úteis, vou colocar os mesmos de antes, e adicionar também a document
 
 E como disse lá em cima que teria um adicional aqui no final do post, segue abaixo o Link para download do APK da versão v1.1.0+1:
 
-- [FLUTTER POKÉDEX v1.0.1+1](https://drive.google.com/drive/folders/1IOeDbGWjqre_tcr45Er1YTs3HCxNEeIb?usp=sharing)
+- [FLUTTER POKÉDEX v1.1.0+1](https://drive.google.com/drive/folders/1IOeDbGWjqre_tcr45Er1YTs3HCxNEeIb?usp=sharing)
 
 É isso feras, até o próximo capítulo!!!
