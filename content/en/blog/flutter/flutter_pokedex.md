@@ -4,7 +4,7 @@ date: 2025-02-28T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
 categories: "flutter"
-tags: ["flutter", "code"]
+tags: ["flutter", "code", "pokedex"]
 thumbnail: "/image/default/pokedex.jpg"
 headline: true
 ---

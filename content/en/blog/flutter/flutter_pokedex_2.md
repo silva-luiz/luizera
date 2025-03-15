@@ -1,10 +1,10 @@
 ---
-title: "Flutter Pokédex - Continuação"
+title: "[PT-2] - Flutter Pokédex <> CAMADAS"
 date: 2025-03-10T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
 categories: "flutter"
-tags: ["flutter", "code"]
+tags: ["flutter", "code", "pokedex"]
 thumbnail: "/image/default/pokedex.jpg"
 headline: true
 ---

@@ -16,7 +16,14 @@
       <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</link>
       <pubDate>Mon, 10 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</guid>
-      <description>&lt;p&gt;A continuação do nosso projetinho de arquitetura&lt;/p&gt;</description>
+      <description>&lt;p&gt;A continuação do nosso projetinho pra entender a arquitetura&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flutter Pokédex - pt.3</title>
+      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</link>
+      <pubDate>Mon, 10 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</guid>
+      <description>&lt;p&gt;Novos módulos adicionados no projeto, seguindo a saga!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flutter Pokédex</title>

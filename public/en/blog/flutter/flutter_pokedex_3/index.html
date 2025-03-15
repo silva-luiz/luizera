@@ -69,7 +69,7 @@
     <li class="breadcrumb-item">Ens</li>
 
     
-    <li class="breadcrumb-item">[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</li>
+    <li class="breadcrumb-item">[PT.3] - Flutter Pokédex &lt;&gt; FIREBASE</li>
 
 </ol>
 </div>
@@ -84,9 +84,9 @@
     
     <article>
         <div class="content-header">
-            <h1 class="title">[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</h1>
+            <h1 class="title">[PT.3] - Flutter Pokédex &lt;&gt; FIREBASE</h1>
             <p class="meta">
-                <span>Mar 10, 2025</span>
+                <span>Mar 15, 2025</span>
                 <span>
                     
                         Luizera do taticão
@@ -94,48 +94,37 @@
                 </span>
             </p>
         </div>
-        <div class="markdown"><p>A continuação do nosso projetinho pra entender a arquitetura</p>
-<p>Primeiramente um salve a todos</p>
-<p>Segundamente, esse post é de atualização sobre a nossa Pokedex, que está quase se encaminhando pra próxima etapa. Tá ficando bem legal, e estou começando a entender melhor as reponsabilidades de cada parte do projeto. Aproveito pra deixar aqui também um grande agradecimento ao meu amigo e colega de trabalho <a href="https://github.com/AbnerRibeirodaSilva">Abnera</a>, que tem sido bastante paciente tirando minhas dúvidas e me ajudando com as partes que estou tendo dificuldades.</p>
+        <div class="markdown"><p>Novos módulos adicionados no projeto, seguindo a saga!!</p>
+<p>Um salve a todos, voltamos com a saga da Pokédex, que começou como um projeto bobinho e agora já está tomando forma!!</p>
+<p>Dessa vez venho trazer algumas novidades que foram adicionadas: os novos módulos de reigstro e autenticação de usuário, e também um adicional no final do post!</p>
 <h2 id="alterações-feitas-no-projeto">Alterações feitas no projeto</h2>
-<p>A maioria das alterações feitas no App desde a última postagem foram alterações visuais, como Badges de identificação dos tipos de cada Pokemón, assim como um degradê no background baseado nas cores de seu tipo (ou tipos).</p>
+<p>Nesta etapa, o objetivo era implementar o registro e a autenticação de usuário, para que fosse feito um login único para cada um, para que futuramente, o usuário possa criar suas equipes de Pokémon (ainda não tem uma função definida pra essas equipes, mas vai ter).</p>
+<p>Com isso, optei pela implementação do Firebase, para que fosse possível fazer um controle e uma implementação mais simplificada do processo - e mesmo assim achei um pouco confuso em alguns pontos - mas no final, foi uma implementação tranquila e sem muitas emoções.</p>
+<p>Então a tela inicial e o fluxo de cadastro ficaram da seguinte forma:</p>
 
 <figure>
-    <img src="/image/default/pokedex_2.png" />
+    <img src="/image/default/pokedex_firebase.png" />
     <figcaption>
-        Tá ficando bonito o negócio
+        Tela de login / Tela de Registro de usuário
     </figcaption>
 </figure>
 
-<p>Mas o principal ponto de mudança no App foi a adição das <strong>viewmodels</strong> (ou controllers), que antes estavam juntos da view (ou pages), o que não é o ideal de acordo com o primeiro conceito do <strong><a href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">SOLID</a></strong>, que é o Single Responsiblity Principle ou Princípio da responsabilidade única, onde cada classe deve ter apenas uma responsabilidade ou motivo para mudar. Neste formato atual:</p>
-<ul>
-<li>A view tem a responsabilidade de apenas exibir a interface gráfica e reagir a interações do usuário.</li>
-<li>A viewmodel tem a responsabilidade de gerenciar dados, estados e ações sem se preocupar com como esses dados são exibidos.</li>
-</ul>
-
-<figure>
-    <img src="/image/default/pokedex_pastas.png" />
-    <figcaption>
-        Aqui vcs podem ver como ficou a distribuição dos arquivos
-    </figcaption>
-</figure>
-
-<p>O segundo ponto importante do SOLID abordado aqui é o Princípio da Inversão de Dependência (DIP). O DIP sugere que módulos de alto nível não devem depender de módulos de baixo nível diretamente, mas de abstrações. No caso de separar views e viewmodels, a view não depende diretamente de como os dados são gerenciados ou de como a lógica é implementada. A view apenas interage com uma abstração (geralmente a viewmodel ou um controlador) para buscar dados e responder a mudanças de estado.</p>
-<ul>
-<li>A viewmodel não sabe nada sobre a view específica, mantendo a lógica de negócio desacoplada da interface.</li>
-<li>A view depende de interfaces ou abstrações para acessar a viewmodel, promovendo uma arquitetura flexível e de fácil manutenção.</li>
-</ul>
-<h2 id="próximos-passos">Próximos passos</h2>
-<p>Os próximos passos incluem a adição de um ícone para o App, uma Splash art pra inicializar tudo bonitinho, e a criação de mais módulos que ainda não pensei (até tenho algumas ideias, mas ainda preciso validar pra ver se realmente faz sentido). Se tudo correr bem, quem sabe não vem uma publicação na PlayStore&hellip;não é o objetivo, mas pode acontecer.</p>
+<p>A ideia foi criar algo simples, mas ao mesmo tempo elegante, então o cadastro necessita apenas de um e-mail e uma senha (com algumas validações, claro), e a confirmação da senha para finalizar o fluxo. Depois do cadastro, já é possível se conectar ao App, porém a parte de dentro dele não teve muita mudança, então está bem semelhante ao que estava na versão anterior.</p>
+<h2 id="próximo-passo">Próximo passo</h2>
+<p>A ideia para o próximo passo será talvez a criação das equipes Pokémon individuais de cada usuário, limitando-se a um total de 5 Pokémons por equipe, pra também não virar bagunça. Depois disso, não tenho mais ideias, mas ainda tenho interesse em colocar mais algumas coisas pra treinar mais, porém, sem perder a essência do App.</p>
 <h2 id="links-úteis">Links úteis</h2>
-<p>Ctrl + C, Ctrl + V do outro post, os links úteis, caso interesse:</p>
+<p>Nos links úteis, vou colocar os mesmos de antes, e adicionar também a documentação do Firebase, que me ajudou demais na implementação no projeto:</p>
 <ul>
 <li><a href="https://docs.flutter.dev/app-architecture">Flutter Architecture</a></li>
 <li><a href="https://github.com/silva-luiz/pokedex">Repo Pokedex Github</a></li>
 <li><a href="https://pokeapi.co/">Poke API</a></li>
+<li><a href="https://firebase.google.com/docs/flutter?hl=pt-br">Documentação Flutter Firebase</a></li>
 </ul>
-<p>E caso alguém se interesse e queira uma versão do App, pode entrar em contato comigo, que envio um APK pra vcs brincarem aí hehehe - lembrando que só para dispositivos <strong>Android</strong>.</p>
-<p>Valeu guys, e até a próxima!!</p></div>
+<p>E como disse lá em cima que teria um adicional aqui no final do post, segue abaixo o Link para download do APK da versão v1.1.0+1:</p>
+<ul>
+<li><a href="https://drive.google.com/drive/folders/1IOeDbGWjqre_tcr45Er1YTs3HCxNEeIb?usp=sharing">FLUTTER POKÉDEX v1.0.1+1</a></li>
+</ul>
+<p>É isso feras, até o próximo capítulo!!!</p></div>
     </article>
 
     
@@ -165,19 +154,14 @@
 
     <div class="pagination-item">
         
-        <a class="left item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex/">
+        <a class="left item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex_2/">
             <i class="bi bi-chevron-left"></i>
-            <span>Flutter Pokédex</span>
+            <span>[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</span>
         </a>
         
     </div>
 
     <div class="pagination-item">
-        
-        <a class="right item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex_3/">
-            <i class="bi bi-chevron-right"></i>
-            <span>[PT.3] - Flutter Pokédex &lt;&gt; FIREBASE</span>
-        </a>
         
     </div>
 
@@ -194,7 +178,7 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#alterações-feitas-no-projeto">Alterações feitas no projeto</a></li>
-    <li><a href="#próximos-passos">Próximos passos</a></li>
+    <li><a href="#próximo-passo">Próximo passo</a></li>
     <li><a href="#links-úteis">Links úteis</a></li>
   </ul>
 </nav>
@@ -208,6 +192,11 @@
 <section class="card">
     <div class="card-title">RELATED POSTS</div>
     <div class="related">
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/flutter/flutter_pokedex_2/">[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</a>
+        </p>
         
         <p class="related-item">
             <i class="bi bi-link-45deg"></i>
