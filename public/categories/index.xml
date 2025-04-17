@@ -9,24 +9,20 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-<<<<<<< HEAD
-    <lastBuildDate>Mon, 10 Mar 2025 18:54:33 +0800</lastBuildDate>
-=======
     <lastBuildDate>Thu, 17 Apr 2025 22:00:00 +0800</lastBuildDate>
->>>>>>> 3cbb062 (new post added)
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Flutter</title>
-      <link>http://localhost:1313/categories/flutter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/categories/flutter/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Me</title>
       <link>http://localhost:1313/categories/me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/categories/me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/categories/flutter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/categories/flutter/</guid>
       <description></description>
     </item>
     <item>

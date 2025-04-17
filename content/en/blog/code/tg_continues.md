@@ -84,7 +84,7 @@ Referente aos módulos que estão sendo implementados no sistema, acredito que a
 
 Porém a pior parte, na minha opinião, ainda é a próxima: Escrever a monografia. 
 
-{{< figure src="/image/default/spongebob.gif" title="Vamo de Next" >}}
+{{< figure src="/image/default/spongebob.gif" title="Odeio escrever" >}}
 
 
 Escrever nunca foi meu forte, e estamos finalmente chegando nesta parte que acredito que vai ser a mais desafiadora do TG. Escrever aqui me ajuda a pensar um pouco mais em como organizar as ideias e fazer com que na hora de escrever o documeno, as coisas comecem a fluir melhor.

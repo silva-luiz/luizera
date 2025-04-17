@@ -18,5 +18,19 @@
       <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</guid>
       <description>&lt;p&gt;Novos módulos adicionados no projeto, seguindo a saga!!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</title>
+      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</link>
+      <pubDate>Mon, 10 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</guid>
+      <description>&lt;p&gt;A continuação do nosso projetinho pra entender a arquitetura&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flutter Pokédex</title>
+      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex/</link>
+      <pubDate>Fri, 28 Feb 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex/</guid>
+      <description>&lt;p&gt;A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

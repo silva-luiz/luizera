@@ -9,21 +9,21 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 10 Mar 2025 18:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Flutter Pokédex - Continuação</title>
+      <title>[PT.3] - Flutter Pokédex &lt;&gt; FIREBASE</title>
+      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</link>
+      <pubDate>Sat, 15 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</guid>
+      <description>&lt;p&gt;Novos módulos adicionados no projeto, seguindo a saga!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[PT-2] - Flutter Pokédex &lt;&gt; CAMADAS</title>
       <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</link>
       <pubDate>Mon, 10 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_2/</guid>
       <description>&lt;p&gt;A continuação do nosso projetinho pra entender a arquitetura&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flutter Pokédex - pt.3</title>
-      <link>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</link>
-      <pubDate>Mon, 10 Mar 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</guid>
-      <description>&lt;p&gt;Novos módulos adicionados no projeto, seguindo a saga!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flutter Pokédex</title>
