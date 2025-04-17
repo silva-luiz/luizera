@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
+<<<<<<< HEAD
     <lastmod>2025-03-10T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
@@ -31,6 +32,33 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/flutter/flutter_pokedex/</loc>
     <lastmod>2025-02-28T18:54:33+08:00</lastmod>
+=======
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/next/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/code/tg_continues/</loc>
+    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+>>>>>>> 3cbb062 (new post added)
   </url><url>
     <loc>http://localhost:1313/en/blog/dicas/saladao/</loc>
     <lastmod>2025-02-23T22:00:00+08:00</lastmod>
@@ -38,9 +66,12 @@
     <loc>http://localhost:1313/tags/dicas/</loc>
     <lastmod>2025-02-23T22:00:00+08:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/categories/me/</loc>
     <lastmod>2025-02-23T22:00:00+08:00</lastmod>
   </url><url>
+=======
+>>>>>>> 3cbb062 (new post added)
     <loc>http://localhost:1313/tags/receitas/</loc>
     <lastmod>2025-02-23T22:00:00+08:00</lastmod>
   </url><url>
@@ -74,7 +105,11 @@
     <loc>http://localhost:1313/categories/filmes/</loc>
     <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:1313/tags/react/</loc>
+=======
+    <loc>http://localhost:1313/tags/flutter/</loc>
+>>>>>>> 3cbb062 (new post added)
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/code/tg_v2/</loc>

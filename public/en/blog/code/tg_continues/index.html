@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-us" data-theme="light">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>Luizera´s quotes</title>
+
+
+<link href="/favicon.jpeg" rel="icon">
+<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
+
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <header id="header"><header class="container base-header">
+
+    <div id="title">
+        <a href="/">Luizera´s quotes</a>
+    </div>
+
+    <div id="menuToggle">
+        <a><i class="bi bi-list"></i></a>
+    </div>
+
+    <div id="menu">
+        <ul class="menu">
+            
+            
+            
+            
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/en">Todos os posts</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/tags">Tags</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/links">Links</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="https://github.com/silva-luiz" target="_blank">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</header></header>
+        <div id="necker">
+<div class="container"><ol class="breadcrumb">
+    
+    
+        
+    
+        
+    
+    <li class="breadcrumb-item">Luizera´s quotes</li>
+
+    
+    <li class="breadcrumb-item">Ens</li>
+
+    
+    <li class="breadcrumb-item">TG - Atualizações</li>
+
+</ol>
+</div>
+
+        </div>
+        <div id="stager">
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container"><div class="content">
+
+    
+    <article>
+        <div class="content-header">
+            <h1 class="title">TG - Atualizações</h1>
+            <p class="meta">
+                <span>Apr 17, 2025</span>
+                <span>
+                    
+                        Luizera do taticão
+                    
+                </span>
+            </p>
+        </div>
+        <div class="markdown"><p>Trazendo um pouco mais de atualizações sobre o TG, agora em &ldquo;&ldquo;&ldquo;reta final&rdquo;&rdquo;&rdquo; (com muitas aspas mesmo).</p>
+<p>Sumido, mas nunca parado! Voltamos com atualizações do TG2, trazendo um pouco das mudanças que ocorreram nesse meio período de sumiço, e também pra falar um pouco das implementações que foram inseridas no projeto.</p>
+<h2 id="mudança-de-framework-de-novo">Mudança de framework (de novo)</h2>
+<p>Durante a construção do nosso projeto, comentei com um amigo (salve Kainã), sobre o TG, e ele sugeriu que fizéssemos o projeto utilizando NextJS&hellip; ele comentou sobre algumas vantagens do Next, e disse que nos ajudaria a entender e fazer a migração do projeto. No começo, ficamos com um pouco de pé atrás, porque seria muito trabalho refazer tudo do zero, mas acabamos aceitando, e muita coisa foi reaproveitada no processo de migração. Agora então, estamos utilizando <strong>NextJS</strong> no frontend.</p>
+<h2 id="sobre-o-nextjs">Sobre o NextJS</h2>
+
+<figure>
+    <img src="/image/default/nextjs.jpeg" />
+    <figcaption>
+        Vamo de Next
+    </figcaption>
+</figure>
+
+<p>O Next.js é um framework de desenvolvimento fullstack para aplicações React. Criado pela Vercel, ele traz recursos como renderização híbrida (estática e servidor), roteamento automático e integração fácil com APIs, tudo com foco em performance e SEO. Atualmente, ele é um dos frameworks mais utilizados quando se trata de frontend. Devido a isso, existe uma grande comunidade e muito conteúdo pra se consultar na internet (além é claro, das IAs pra auxiliar no desenvolvimento).</p>
+<p>Ainda separei algumas vantagens do NextJs, que ajudaram na decisão da migração do framework:</p>
+<ol>
+<li>
+<p>Renderização Híbrida (SSR, SSG, ISR)</p>
+<ul>
+<li>
+<p>SSR (Server-Side Rendering): Gera as páginas no servidor a cada requisição.</p>
+</li>
+<li>
+<p>SSG (Static Site Generation): Gera páginas estáticas em tempo de build.</p>
+</li>
+<li>
+<p>ISR (Incremental Static Regeneration): Permite atualizar páginas estáticas depois do build, sem rebuild total.</p>
+</li>
+<li>
+<p>Ideal para escolher a melhor estratégia de renderização dependendo da página.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Roteamento Automático</p>
+<ul>
+<li>
+<p>Basta criar arquivos dentro da pasta pages e o Next cria as rotas automaticamente.</p>
+</li>
+<li>
+<p>Suporte a rotas dinâmicas (/produto/[id].js) e rotas aninhadas.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Excelente para SEO</p>
+<ul>
+<li>Por suportar SSR e SSG, o conteúdo é renderizado no servidor, o que ajuda os mecanismos de busca a indexar melhor.</li>
+</ul>
+</li>
+<li>
+<p>API Routes</p>
+<ul>
+<li>Você pode criar endpoints de API diretamente no projeto Next, sem precisar de um backend separado.</li>
+</ul>
+</li>
+<li>
+<p>Performance Otimizada</p>
+<ul>
+<li>
+<p>Pré-carregamento automático de páginas com o next/link.</p>
+</li>
+<li>
+<p>Divisão de código inteligente.</p>
+</li>
+<li>
+<p>Otimização automática de imagens com next/image.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Integração com Vercel</p>
+<ul>
+<li>
+<p>Deploy ultra simples com a plataforma Vercel.</p>
+</li>
+<li>
+<p>CI/CD integrado, pré-visualizações e escaneamento de performance.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Experiência de Desenvolvedor</p>
+<ul>
+<li>
+<p>Hot Reloading.</p>
+</li>
+<li>
+<p>Suporte a TypeScript nativo.</p>
+</li>
+<li>
+<p>Middleware, Layouts e novas features com App Router (desde a versão 13).</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Escalabilidade</p>
+<ul>
+<li>Suporta tanto sites pequenos quanto grandes aplicações enterprise.</li>
+</ul>
+</li>
+</ol>
+<p>Após a migração, foi um pouco difícil entender o sistema de divisão de pastas, e tudo que era necessário pra funcionar do jeito certo, mas depois de bastante teste e ficar mexendo em tudo, o projeto voltou a caminhar (e até que bem rápido).</p>
+<h2 id="e-agora-o-que-falta">E agora, o que falta?</h2>
+<p>Referente aos módulos que estão sendo implementados no sistema, acredito que agora, falte apenas um pra finalizarmos. Depois, será necessário fazer algumas refatorações pra melhorar alguns aspectos visuais, e de organização.</p>
+<p>Porém a pior parte, na minha opinião, ainda é a próxima: Escrever a monografia.</p>
+
+<figure>
+    <img src="/image/default/spongebob.gif" />
+    <figcaption>
+        Vamo de Next
+    </figcaption>
+</figure>
+
+<p>Escrever nunca foi meu forte, e estamos finalmente chegando nesta parte que acredito que vai ser a mais desafiadora do TG. Escrever aqui me ajuda a pensar um pouco mais em como organizar as ideias e fazer com que na hora de escrever o documeno, as coisas comecem a fluir melhor.</p>
+<p>Por enquanto é isso, mas em breve trago mais atualizações de como está sendo encerrado mais esse ciclo. E o post não vai ter spoilers de como o sistema está ficando&hellip;agora só vai aparecer depois de pronto. Aguardem!</p>
+<h2 id="links-úteis-ou-nem-tanto">Links úteis (ou nem tanto)</h2>
+<ul>
+<li><a href="https://nextjs.org/docs">NextJS Docs</a></li>
+</ul></div>
+    </article>
+
+    
+    
+    <div class="content-tag">
+        <span><i class="bi bi-bookmarks-fill"></i></span>
+        
+        <span>
+            <a class="item-link" href="/tags/code">code</a>
+        </span>
+        
+        <span>
+            <a class="item-link" href="/tags/react">react</a>
+        </span>
+        
+        <span>
+            <a class="item-link" href="/tags/next">next</a>
+        </span>
+        
+    </div> 
+    
+
+</div>
+
+</div>
+            <div class="nav-container"><div class="pagination">
+
+    <div class="pagination-item">
+        
+        <a class="left item-link" href="http://localhost:1313/en/blog/dicas/saladao/">
+            <i class="bi bi-chevron-left"></i>
+            <span>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</span>
+        </a>
+        
+    </div>
+
+    <div class="pagination-item">
+        
+    </div>
+
+</div></div>
+        </main>
+        <div class="gutter"></div>
+        <aside>
+            <div class="cards-container">
+                <div class="card-container">
+
+<section class="card">
+    <div class="card-title">TABLE OF CONTENT</div>
+    <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mudança-de-framework-de-novo">Mudança de framework (de novo)</a></li>
+    <li><a href="#sobre-o-nextjs">Sobre o NextJS</a></li>
+    <li><a href="#e-agora-o-que-falta">E agora, o que falta?</a></li>
+    <li><a href="#links-úteis-ou-nem-tanto">Links úteis (ou nem tanto)</a></li>
+  </ul>
+</nav>
+    </div>
+
+</section>
+</div>
+                <div class="card-container">
+
+
+<section class="card">
+    <div class="card-title">RELATED POSTS</div>
+    <div class="related">
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/code/tg_v2/">TG V2</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/code/android_studio/">Problemas com Android Studio - LadyBug</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/flutter/modular/">Gerenciamento de rotas com Flutter Modular</a>
+        </p>
+        
+    </div>
+</section>
+
+
+</div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+        </div>
+        <footer id="footer"><div class="container">
+    <div class="copyright">
+        <span>Taubatexas</span>
+        <span>2025</span>
+        <i class="bi bi-c-circle"></i>
+        <span>Todos os direitos reservados</span>
+    </div>
+</div>
+</footer>
+<script src="/vendor/jquery/jquery-3.7.0.js"></script>
+
+
+<script src="/js/main.js"></script></body>
+</html>
+

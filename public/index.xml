@@ -9,6 +9,7 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
+<<<<<<< HEAD
     <lastBuildDate>Sat, 15 Mar 2025 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -31,6 +32,16 @@
       <pubDate>Fri, 28 Feb 2025 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
       <guid>http://localhost:1313/en/blog/flutter/flutter_pokedex/</guid>
       <description>&lt;p&gt;A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.&lt;/p&gt;</description>
+=======
+    <lastBuildDate>Thu, 17 Apr 2025 22:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TG - Atualizações</title>
+      <link>http://localhost:1313/en/blog/code/tg_continues/</link>
+      <pubDate>Thu, 17 Apr 2025 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <guid>http://localhost:1313/en/blog/code/tg_continues/</guid>
+      <description>&lt;p&gt;Trazendo um pouco mais de atualizações sobre o TG, agora em &amp;ldquo;&amp;ldquo;&amp;ldquo;reta final&amp;rdquo;&amp;rdquo;&amp;rdquo; (com muitas aspas mesmo).&lt;/p&gt;</description>
+>>>>>>> 3cbb062 (new post added)
     </item>
     <item>
       <title>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</title>
