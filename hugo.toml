@@ -5,3 +5,6 @@ theme = 'luizera_theme'
 copyright = 'All Rights Reserved'
 [params.author]
     name = "Luiz Henrique"
+    description = "Estudante de análise e desenvolvimento de sistemas, programador Flutter e aspirante à barman da galera. Faço uns desenhos e uns drinks malucos"
+    email = "luiz.hgsilva@hotmail.com"
+    github = "https://github.com/silva-luiz/"
