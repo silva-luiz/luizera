@@ -3,8 +3,5 @@ languageCode = 'en-us'
 title = 'Luizera´s quotes'
 theme = 'luizera_theme'
 copyright = 'All Rights Reserved'
-[author]
-    name = "Luizera"
-    description = "Estudante de análise e desenvolvimento de sistemas, programador Flutter, apaixonado por filmes e aspirante à barman da galera. Faço uns desenhos e uns drinks malucos. Aqui falo principalmente sobre filmes e outras coisas que gosto"
-    email = "luiz.hgsilva@hotmail.com"
-    github = "https://github.com/silva-luiz/"
+[params.author]
+    name = "Luiz Henrique"

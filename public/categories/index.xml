@@ -6,56 +6,41 @@
     <description>Recent content in Categories on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
-    <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
-<<<<<<< HEAD
-    <lastBuildDate>Thu, 17 Apr 2025 22:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-=======
-    <lastBuildDate>Mon, 02 Jun 2025 18:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 22:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filmes</title>
       <link>http://localhost:1313/categories/filmes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Sun, 01 Jun 2025 22:54:33 +0800</pubDate>
       <guid>http://localhost:1313/categories/filmes/</guid>
       <description></description>
     </item>
     <item>
-      <title>Flutter</title>
-      <link>http://localhost:1313/categories/flutter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/categories/flutter/</guid>
-      <description></description>
-    </item>
-    <item>
->>>>>>> da49216 (new post added)
       <title>Me</title>
       <link>http://localhost:1313/categories/me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Thu, 17 Apr 2025 22:00:00 +0800</pubDate>
       <guid>http://localhost:1313/categories/me/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
       <link>http://localhost:1313/categories/flutter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Sat, 15 Mar 2025 18:54:33 +0800</pubDate>
       <guid>http://localhost:1313/categories/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Site</title>
       <link>http://localhost:1313/categories/site/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Fri, 27 Dec 2024 18:54:33 +0800</pubDate>
       <guid>http://localhost:1313/categories/site/</guid>
       <description></description>
     </item>
     <item>
       <title>First Post</title>
       <link>http://localhost:1313/categories/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate>
       <guid>http://localhost:1313/categories/first-post/</guid>
       <description></description>
     </item>

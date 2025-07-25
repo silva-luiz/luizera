@@ -3,16 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-<<<<<<< HEAD
-    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/movie-of-the-week/final-destination-6/</loc>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/filmes/</loc>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/filmes/</loc>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-01T22:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2025-04-17T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/me/</loc>
@@ -24,46 +35,16 @@
     <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2025-04-17T22:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-17T22:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/blog/code/tg_continues/</loc>
     <lastmod>2025-04-17T22:00:00+08:00</lastmod>
-=======
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/movie-of-the-week/final-destination-6/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/filmes/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/filmes/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-02T18:54:33+08:00</lastmod>
->>>>>>> da49216 (new post added)
   </url><url>
     <loc>http://localhost:1313/en/blog/flutter/flutter_pokedex_3/</loc>
     <lastmod>2025-03-15T18:54:33+08:00</lastmod>
   </url><url>
-<<<<<<< HEAD
-=======
-    <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2025-03-15T18:54:33+08:00</lastmod>
-  </url><url>
->>>>>>> da49216 (new post added)
-    <loc>http://localhost:1313/tags/flutter/</loc>
-    <lastmod>2025-03-15T18:54:33+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/flutter/</loc>
+    <lastmod>2025-03-15T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/flutter/</loc>
     <lastmod>2025-03-15T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/pokedex/</loc>
@@ -96,10 +77,10 @@
     <loc>http://localhost:1313/en/blog/dicas/dezembronese/</loc>
     <lastmod>2024-12-31T22:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/site/</loc>
+    <loc>http://localhost:1313/categories/site/</loc>
     <lastmod>2024-12-27T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/site/</loc>
+    <loc>http://localhost:1313/tags/site/</loc>
     <lastmod>2024-12-27T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/site-on/hugo-copy/</loc>
@@ -108,24 +89,13 @@
     <loc>http://localhost:1313/en/blog/movie-of-the-week/the-substance/</loc>
     <lastmod>2024-12-26T18:54:33+08:00</lastmod>
   </url><url>
-<<<<<<< HEAD
-    <loc>http://localhost:1313/tags/filmes/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/filmes/</loc>
-    <lastmod>2024-12-26T18:54:33+08:00</lastmod>
-=======
-    <loc>http://localhost:1313/tags/react/</loc>
-    <lastmod>2024-12-01T22:00:00+08:00</lastmod>
->>>>>>> da49216 (new post added)
-  </url><url>
     <loc>http://localhost:1313/en/blog/code/tg_v2/</loc>
     <lastmod>2024-12-01T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/tumulo-dos-vagalumes/</loc>
     <lastmod>2024-11-21T18:54:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/blog/me/uselessweb/</loc>
+    <loc>http://localhost:1313/en/blog/me/birthday/</loc>
     <lastmod>2024-10-14T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bday/</loc>
@@ -145,6 +115,12 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/flutter/modular/</loc>
     <lastmod>2024-08-04T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/me/first-class-bjj/</loc>
+    <lastmod>2024-07-25T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bjj/</loc>
+    <lastmod>2024-07-25T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ferias/</loc>
     <lastmod>2024-07-19T18:54:33+08:00</lastmod>

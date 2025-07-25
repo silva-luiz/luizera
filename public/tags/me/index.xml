@@ -6,36 +6,41 @@
     <description>Recent content in Me on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
-    <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
     <lastBuildDate>Mon, 14 Oct 2024 18:54:33 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>29 yo</title>
-      <link>http://localhost:1313/en/blog/me/uselessweb/</link>
-      <pubDate>Mon, 14 Oct 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
-      <guid>http://localhost:1313/en/blog/me/uselessweb/</guid>
+      <link>http://localhost:1313/en/blog/me/birthday/</link>
+      <pubDate>Mon, 14 Oct 2024 18:54:33 +0800</pubDate>
+      <guid>http://localhost:1313/en/blog/me/birthday/</guid>
       <description>&lt;p&gt;Um post de aniversário&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Back to fight</title>
+      <link>http://localhost:1313/en/blog/me/first-class-bjj/</link>
+      <pubDate>Thu, 25 Jul 2024 18:54:33 +0800</pubDate>
+      <guid>http://localhost:1313/en/blog/me/first-class-bjj/</guid>
+      <description>&lt;p&gt;Com o fim da faculdade, consegui novamente um pouco de tempo disponível pra voltar a praticar alguma arte marcial.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Viagem para Monte Verde-MG</title>
       <link>http://localhost:1313/en/blog/ferias/viagem_monte_verde/</link>
-      <pubDate>Fri, 19 Jul 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Fri, 19 Jul 2024 18:54:33 +0800</pubDate>
       <guid>http://localhost:1313/en/blog/ferias/viagem_monte_verde/</guid>
       <description>&lt;p&gt;Com um pouco de atraso, fizemos nossa viagem de 2 anos de namoro, e o destino foi a cidade de Monte Verde, em Minas Gerais.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Férias!!</title>
       <link>http://localhost:1313/en/blog/ferias/ferias/</link>
-      <pubDate>Wed, 03 Jul 2024 18:54:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Wed, 03 Jul 2024 18:54:33 +0800</pubDate>
       <guid>http://localhost:1313/en/blog/ferias/ferias/</guid>
       <description>&lt;p&gt;Mais um semestre encerrado na faculdade, e agora faltam só mais dois!&lt;/p&gt;</description>
     </item>
     <item>
       <title>print(&#39;hello world&#39;);</title>
       <link>http://localhost:1313/en/blog/hugo-theme-walden/</link>
-      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate>
       <guid>http://localhost:1313/en/blog/hugo-theme-walden/</guid>
       <description></description>
     </item>

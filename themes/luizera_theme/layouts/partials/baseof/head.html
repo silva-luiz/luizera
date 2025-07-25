@@ -18,5 +18,5 @@
 <link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
 
 <!-- SASS -->
-{{ $css := resources.Get "sass/main.scss" | resources.ToCSS (dict "targetPath" "css/main.css" ) }}
+{{ $css := resources.Get "sass/main.scss" | css.Sass (dict "targetPath" "css/main.css") }}
 <link href="{{ $css.RelPermalink }}" rel="stylesheet" type="text/css">

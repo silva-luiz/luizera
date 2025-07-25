@@ -3,15 +3,15 @@
 <section class="item">
 
     <div class="item-thumbnail">
-    {{ with .Resources.Get "tags.jpg" }}
+        {{ with .Resources.Get "tags.jpg" }}
         <img src="{{ .RelPermalink }}" alt="Thumbnail">
-    {{ else }}
-        {{ with .Params.thumbnail }}
-            <img src="{{ . | relURL}}" alt="Thumbnail">
         {{ else }}
-            <img src="{{"image/default/tags.jpg" | relURL}}" alt="Thumbnail">
+        {{ with .Params.thumbnail }}
+        <img src="{{ . | relURL}}" alt="Thumbnail">
+        {{ else }}
+        <img src="{{" image/default/tags.jpg" | relURL}}" alt="Thumbnail">
         {{ end }}
-    {{ end }}
+        {{ end }}
     </div>
 
     <div class="item-text">
@@ -22,11 +22,11 @@
                 <p>
                     <span>{{.Date.Format "Jan 2, 2006"}}</span>
                     <span>
-                    By {{ if ne .Params.author "" }}
-                    {{ .Params.author }}
-                    {{ else }}
-                    {{ .Site.Author.name }}
-                    {{ end }}
+                        By {{ if ne .Params.author "" }}
+                        {{ .Params.author }}
+                        {{ else }}
+                        {{ .Site.Params.author.name }}
+                        {{ end }}
                     </span>
                 </p>
             </div>
@@ -34,9 +34,6 @@
     </div>
 
 </section>
-    
+
 
 {{ end }}
-
-
-

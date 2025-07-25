@@ -6,15 +6,13 @@
     <description>Recent content in First Post on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
-    <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
     <lastBuildDate>Thu, 20 Jun 2024 00:03:08 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/first-post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>print(&#39;hello world&#39;);</title>
       <link>http://localhost:1313/en/blog/hugo-theme-walden/</link>
-      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Thu, 20 Jun 2024 00:03:08 +0800</pubDate>
       <guid>http://localhost:1313/en/blog/hugo-theme-walden/</guid>
       <description></description>
     </item>

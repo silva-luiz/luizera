@@ -6,15 +6,13 @@
     <description>Recent content in Android on Luizera´s quotes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>luiz.hgsilva@hotmail.com (Luizera)</managingEditor>
-    <webMaster>luiz.hgsilva@hotmail.com (Luizera)</webMaster>
     <copyright>All Rights Reserved</copyright>
     <lastBuildDate>Thu, 23 Jan 2025 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problemas com Android Studio - LadyBug</title>
       <link>http://localhost:1313/en/blog/code/android_studio/</link>
-      <pubDate>Thu, 23 Jan 2025 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luizera)</author>
+      <pubDate>Thu, 23 Jan 2025 22:00:00 +0800</pubDate>
       <guid>http://localhost:1313/en/blog/code/android_studio/</guid>
       <description>&lt;p&gt;Tá com dificuldade pra utilizar o AndroidStudio pós LadyBug? Te ensino a desfazer essa cagada!&lt;/p&gt;</description>
     </item>
