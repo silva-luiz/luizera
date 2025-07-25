@@ -3,7 +3,9 @@
         <img src="{{" /image/default/avatar.jpg" | relURL }}" alt="avatar">
     </div>
     <h3 class="name">Luizera</h3>
-    <p class="description">{{.Site.Author.description}}</p>
+    {{ with .Site.Params.author.description }}
+    <p class="description">{{ . }}</p>
+    {{ end }}
 
     <h3 class="name">Buy me a coffee <i class="bi bi-cup-hot-fill"></i></h3>
 
