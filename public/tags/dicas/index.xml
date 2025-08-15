@@ -9,8 +9,15 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luiz Henrique)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luiz Henrique)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 23 Feb 2025 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/dicas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chave SSH</title>
+      <link>http://localhost:1313/en/blog/dicas/ssh/</link>
+      <pubDate>Fri, 15 Aug 2025 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luiz Henrique)</author>
+      <guid>http://localhost:1313/en/blog/dicas/ssh/</guid>
+      <description>&lt;p&gt;Chave SSH: para que serve e como criar a sua.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</title>
       <link>http://localhost:1313/en/blog/dicas/saladao/</link>

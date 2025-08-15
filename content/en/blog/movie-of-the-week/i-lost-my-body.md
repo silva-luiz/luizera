@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: "Filmes"
 tags: ["Filmes"]
-thumbnail: "https://arkade.com.br/wp-content/uploads/2023/01/chaves-pel%C3%A9.jpg"
+thumbnail: "https://64.media.tumblr.com/552d899e9bb25e8b3d3a87f82bb5f48e/tumblr_o809e0GGrs1tszwcio1_640.jpg"
 headline: true
 ---
 Dessa vez o filme da semana é uma animação, com uma ideia bem diferente, e ao mesmo tempo, muito legal!

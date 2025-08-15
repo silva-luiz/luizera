@@ -5,17 +5,19 @@ draft: false
 author: "Luizera do taticão"
 categories: "me"
 tags: ["dicas", "receitas"]
-thumbnail: "https://recreio.com.br/media/_versions/2024/06/ratatouille-filme_widelg.jpg"
+thumbnail: "/image/default/family_guy_kitchen.jpg"
 headline: true
 ---
+
 Receita de maionese de alho pra você comer junto com aquele churrasquinho, ou no seu podrão!!
+
 <!--more-->
 
 Salve rapeize, cês tão bão!? Pra variar um pouco no conteúdo do blog, resolvi postar aqui também umas receitas malucas, seja de drinks, ou de comidas. E a receita de hoje vai ser essa Dezembronese de alho...receitinha fácil que qualquer lerdão consegue fazer
 
 {{< figure src="/image/default/dezembronese.jpg" title="DEZEMBRONESE" >}}
 
-> "Aah, mas o que eu vou precisar pra fazer essa maravilha culinária??" 
+> "Aah, mas o que eu vou precisar pra fazer essa maravilha culinária??"
 
 Vou te ensinar, pega a visão fi
 
@@ -33,7 +35,7 @@ Pra fazer a dezembronese de alho você vai precisar de:
 
 ## MODO DE PREPARO
 
-Mlk, pra preparar isso aqui não tem erro. 
+Mlk, pra preparar isso aqui não tem erro.
 
 Primeiro coloca os três ovos e um pouquinho de óleo dentro do liquidificador. Em seguida, dá uma batidinha pra misturar e depois joga tudo junto pra bater, com exceção do queijo.
 
@@ -42,6 +44,3 @@ Aí o negócio é ir colocando óleo enquanto vai batendo, pra dar a consistênc
 Depois de tudo feito, é só levar pra geladeira por mais ou menos meia horinha, e já tá pronto pra fazer sucesso no chrurasco.
 
 Me agradeça depois!
-
-
-

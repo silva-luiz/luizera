@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>Luizera´s quotes</title>
+
+
+<link href="/favicon.jpeg" rel="icon">
+<link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css"> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cutive Mono" rel="stylesheet" type="text/css">
+
+
+
+<link href="/css/main.min.e3fd254d4db986074f4b9cfc559a4e59036046f71d5588be81de1e35b00ea7db.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header id="header"><header class="container base-header">
+
+    <div id="title">
+        <a href="/">Luizera´s quotes</a>
+    </div>
+
+    <div id="menuToggle">
+        <a><i class="bi bi-list"></i></a>
+    </div>
+
+    <div id="menu">
+        <ul class="menu">
+            
+            
+            
+            
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/en">Todos os posts</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/tags">Tags</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="/links">Links</a>
+            </li>
+            <li class="menu-item">
+                <a class="lang-toggle menu-item" href="https://github.com/silva-luiz" target="_blank">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</header></header>
+    <div id="necker">
+<div class="container"><ol class="breadcrumb">
+    
+    
+        
+    
+        
+    
+    <li class="breadcrumb-item">Luizera´s quotes</li>
+
+    
+    <li class="breadcrumb-item">Ens</li>
+
+    
+    <li class="breadcrumb-item">SSH</li>
+
+</ol>
+</div>
+
+    </div>
+    <div id="stager">
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container"><div class="content">
+
+    
+    <article>
+        <div class="content-header">
+            <h1 class="title">SSH</h1>
+            <p class="meta">
+                <span>Aug 15, 2025</span>
+                <span>
+                    
+                    Luizera do taticão
+                    
+                </span>
+            </p>
+        </div>
+        <div class="markdown"><p><strong>Chave SSH</strong>: para que serve e como criar a sua.</p>
+<p>Se você trabalha com servidores, deploys ou repositórios Git, provavelmente já ouviu falar em chaves SSH. Elas são uma forma segura e prática de autenticação, que substitui o uso de senhas tradicionais.</p>
+<p>Com uma chave SSH configurada, você consegue se conectar a servidores ou enviar código para o Git sem precisar digitar senha toda hora — e ainda ganha um bom reforço de segurança no processo.</p>
+<p>Neste post, vou mostrar como criar a sua chave SSH e configurá-la para que seu fluxo de trabalho fique mais ágil e protegido.</p>
+<h2 id="o-surgimento-do-ssh">O surgimento do SSH</h2>
+<p>O <strong>SSH</strong> (Secure Shell) surgiu na década de 1990, criado pelo pesquisador finlandês <strong>Tatu Ylönen</strong>. Na época, muitos administradores e desenvolvedores ainda utilizavam protocolos como Telnet e FTP para acessar servidores remotamente — e o problema é que esses protocolos transmitiam informações, incluindo senhas, em <strong>texto puro</strong>, sem qualquer criptografia.</p>
+<p>Isso tornava as conexões extremamente vulneráveis, já que qualquer interceptação na rede poderia revelar dados sensíveis.</p>
+<p>O SSH veio para resolver exatamente essa falha, trazendo <strong>comunicação criptografada ponta a ponta</strong>, permitindo que duas máquinas troquem informações de forma segura, mesmo por redes inseguras como a internet.</p>
+<h2 id="para-que-serve-a-chave-ssh">Para que serve a chave SSH</h2>
+<p>Além da criptografia, o SSH trouxe um recurso essencial: o <strong>uso de chaves criptográficas</strong> como forma de autenticação.</p>
+<p>As <strong>chaves SSH</strong> funcionam em pares:</p>
+<ul>
+<li><strong>Chave privada:</strong> você guarda em seu computador.</li>
+<li><strong>Chave pública:</strong> você coloca no servidor ou serviço com o qual deseja se conectar.</li>
+</ul>
+<p>Quando você tenta acessar o destino, o SSH compara as chaves e, se elas corresponderem, a conexão é liberada sem a necessidade de senha.</p>
+<h2 id="vantagens-do-uso-de-chaves-ssh">Vantagens do uso de chaves SSH</h2>
+<p>O uso de chaves SSH oferece:</p>
+<ul>
+<li><strong>Mais segurança:</strong> não há senha para ser interceptada.</li>
+<li><strong>Mais praticidade:</strong> você não precisa digitar nada a cada acesso.</li>
+</ul>
+<p>Hoje, o SSH é amplamente utilizado para:</p>
+<ul>
+<li>Conexão segura a servidores remotos.</li>
+<li>Automação de deploys.</li>
+<li>Integração com repositórios Git.</li>
+<li>Transferência de arquivos com criptografia (via SCP ou SFTP).</li>
+</ul>
+<h2 id="como-criar-uma-chave-ssh">Como criar uma chave SSH?</h2>
+<p>Aqui vou exemplificar a criação de uma chave SSH, pra que você possa fazer ai no seu PC também. Quem me ensinou a criar uma chave, e pra que ela servia foi o lendário <a href="http://umgeher.org">umgeher</a>, e você pode encontrar mais conteúdos como esse acessando o blog dele.</p>
+<h3 id="gerando-o-par-de-chaves">Gerando o par de chaves</h3>
+<p>Primeiramente, para gerar seu par de chaves, execute o seguinte comando no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-keygen -t ed25519
+</span></span></code></pre></div><p>Ao executar o comando, você define onde será salva sua chave. Como já possuo uma, criei uma test-key para que a minha não seja sobrescrita. Porém, se é a sua primeira vez, aceite a opção padrão.</p>
+<p>Algumas observações importantes:</p>
+<ul>
+<li>Use uma senha forte, mas que você não esqueça, porque depois não tem como recuperar a senha (não adianta chorar);</li>
+<li>Use sempre a criptografia ed25519 e nunca RSA, pois a ed25519 é mais segura, mais rápida e mais compacta;</li>
+<li>NUNCA passe sua chave privada para ninguém, a única chave que deve ser compartilhada é a chave de formato <strong>.pub</strong></li>
+</ul>
+
+<figure>
+    <img src="/image/default/ssh-create.png" />
+    <figcaption>
+        Chave criada
+    </figcaption>
+</figure>
+
+<p>Feito isso, será gerado seu par de chaves no endereço definido no passo acima (no meu caso, os arquivos <strong>test-key</strong> e <strong>test-key.pub</strong>), e você pode ver o conteúdo da chave executando o seguinte comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat .<span style="color:#ae81ff">\t</span>est-key.pub
+</span></span></code></pre></div><p>O comando cat exibe o conteúdo do arquivo escolhido
+
+<figure>
+    <img src="/image/default/my-ssh-key.png" />
+    <figcaption>
+        Chave criada
+    </figcaption>
+</figure>
+</p>
+<p>Este é o conteúdo da sua chave pública e deve ser compartilhado apenas com servidores ou serviços nos quais você deseja se autenticar, como por exemplo (GitHub, GitLab, servidores SSH, etc&hellip;).</p>
+<h3 id="adicionando-a-chave-no-github">Adicionando a chave no GitHub</h3>
+<p>Como exemplo, vou adicionar essa a chave criada no GitHub pra autenticar meu computador com minha conta sem a necessidade de digitar a minha senha em cada operação feita.
+O primeiro passo é ir nas configurações (Settings), e em seguida escolher a opção <strong>&lsquo;SSH and GPG keys&rsquo;</strong>.
+Em seguida, <strong>&lsquo;New SSH key&rsquo;</strong></p>
+
+<figure>
+    <img src="/image/default/ssh-github-config.png" />
+    <figcaption>
+        Chave criada
+    </figcaption>
+</figure>
+
+<p>E por fim, adicione a sua chave pública e salve para finalizar o processo</p></div>
+    </article>
+
+    
+    
+    <div class="content-tag">
+        <span><i class="bi bi-bookmarks-fill"></i></span>
+        
+        <span>
+            <a class="item-link" href="/%20tags/dicas">dicas</a>
+        </span>
+        
+        <span>
+            <a class="item-link" href="/%20tags/it">IT</a>
+        </span>
+        
+    </div>
+    
+
+</div></div>
+            <div class="nav-container"><div class="pagination">
+
+    <div class="pagination-item">
+        
+        <a class="left item-link" href="http://localhost:1313/en/blog/me/first-class-bjj/">
+            <i class="bi bi-chevron-left"></i>
+            <span>Back to fight</span>
+        </a>
+        
+    </div>
+
+    <div class="pagination-item">
+        
+    </div>
+
+</div></div>
+        </main>
+        <div class="gutter"></div>
+        <aside>
+            <div class="cards-container">
+                <div class="card-container">
+
+<section class="card">
+    <div class="card-title">TABLE OF CONTENT</div>
+    <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#o-surgimento-do-ssh">O surgimento do SSH</a></li>
+    <li><a href="#para-que-serve-a-chave-ssh">Para que serve a chave SSH</a></li>
+    <li><a href="#vantagens-do-uso-de-chaves-ssh">Vantagens do uso de chaves SSH</a></li>
+    <li><a href="#como-criar-uma-chave-ssh">Como criar uma chave SSH?</a>
+      <ul>
+        <li><a href="#gerando-o-par-de-chaves">Gerando o par de chaves</a></li>
+        <li><a href="#adicionando-a-chave-no-github">Adicionando a chave no GitHub</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+</section>
+</div>
+                <div class="card-container">
+
+
+<section class="card">
+    <div class="card-title">RELATED POSTS</div>
+    <div class="related">
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/dicas/saladao/">[RECIPE] - SALADÃO COM CREME DE GORGONZOLA</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/dicas/dezembronese/">[RECIPE] - DEZEMBRONESE DE ALHO</a>
+        </p>
+        
+        <p class="related-item">
+            <i class="bi bi-link-45deg"></i>
+            <a class="item-link" href="http://localhost:1313/en/blog/uselessweb/uselessweb/">The best website ever</a>
+        </p>
+        
+    </div>
+</section>
+
+
+</div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+    </div>
+    <footer id="footer"><div class="container">
+    <div class="copyright">
+        <span>Taubatexas</span>
+        <span>2025</span>
+        <i class="bi bi-c-circle"></i>
+        <span>Todos os direitos reservados</span>
+    </div>
+</div>
+</footer>
+<script src="/vendor/jquery/jquery-3.7.0.js"></script>
+
+
+<script src="/js/main.js"></script></body>
+
+</html>
