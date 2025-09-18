@@ -9,7 +9,7 @@
         {{ with .Params.thumbnail }}
         <img src="{{ . | relURL}}" alt="Thumbnail">
         {{ else }}
-        <img src="{{" image/default/tags.jpg" | relURL}}" alt="Thumbnail">
+        <img src="{{"image/default/tags.jpg" | relURL}}" alt="Thumbnail">
         {{ end }}
         {{ end }}
     </div>
