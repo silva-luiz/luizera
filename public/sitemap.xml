@@ -3,39 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/dicas/ssh/</loc>
-    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dicas/</loc>
-    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/blog/me/formatura/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/me/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/me/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dicas/</loc>
     <lastmod>2025-08-15T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/it/</loc>
     <lastmod>2025-08-15T22:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/ssh/</loc>
     <lastmod>2025-08-15T22:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/en/blog/dicas/ssh/</loc>
     <lastmod>2025-08-15T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/me/first-class-bjj/</loc>
     <lastmod>2025-07-25T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bjj/</loc>
-    <lastmod>2025-07-25T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/me/</loc>
-    <lastmod>2025-07-25T18:54:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/me/</loc>
     <lastmod>2025-07-25T18:54:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/final-destination-6/</loc>
