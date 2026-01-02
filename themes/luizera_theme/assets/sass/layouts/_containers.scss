@@ -9,10 +9,23 @@
 }
 
 .list-container {
+    display: flex;
+    flex-direction: column;
     background-color: var(--baseof-bg);
     border-radius: 20px;
     margin-bottom: 2rem;
     padding: 1rem;
+}
+
+.all-posts {
+    align-self: flex-end;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .all-posts {
+        align-self: center;
+    }
 }
 
 .single-container {
