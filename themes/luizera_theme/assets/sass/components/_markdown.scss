@@ -1,98 +1,75 @@
 .markdown {
+    color: var(--black);
+
     h2 {
-        margin-top: 3.5rem;
-        color: var(--secondary);
-        font-size: 1.5rem;
-        font-weight: 500;
+        margin-top: 2rem;
+        padding: .2rem .35rem;
+        background: var(--teal);
+        color: var(--white);
+        border: 1px solid var(--black);
+        font-size: 1.1rem;
     }
 
-    h3 {
-        margin-top: 1.5rem;
-        color: var(--primary);
-        font-size: 1.25rem;
-        font-weight: 500;
-    }
-
-    h4 {
-        margin-top: 1.5rem;
-        color: var(--primary);
-        font-size: 1rem;
-        font-weight: 500;
-    }
-
-    h5,
-    h6 {
-        margin-top: 1.5rem;
-        color: var(--primary);
-        font-size: .875rem;
-        font-weight: 500;
+    h3, h4, h5, h6 {
+        margin-top: 1.25rem;
+        color: var(--navy);
     }
 
     p {
-        margin-top: 1rem;
-        line-height: 1.75rem;
+        margin-top: .85rem;
+        line-height: 1.65rem;
     }
 
     blockquote {
-        border-left: .375rem solid var(--grey-500);
-        background-color: var(--baseof-bg);
-        font-size: 1.25rem;
+        border-left: .35rem solid var(--navy);
+        background: var(--ui-light);
+        font-size: 1rem;
         font-family: $serif;
         margin: 1rem auto 0;
-        padding: 1rem 1.5rem;
+        padding: .75rem 1rem;
 
         p {
             margin: 0;
-            color: var(--secondary);
-            font-style: italic;
+            color: var(--black);
         }
     }
 
-    sub,
-    sup {
-        font-size: .625rem;
-    }
-
     kbd {
-        background-color: var(--grey-800);
-        color: var(--grey-100);
+        background: var(--ui);
+        color: var(--black);
+        border: 1px solid var(--black);
+        box-shadow: 1px 1px 0 var(--ui-dark);
         font-size: .75rem;
-        padding: .25rem .375rem;
-        margin: 0 .375rem;
-        border-radius: .25rem;
+        padding: .1rem .3rem;
     }
-
 
     mark {
-        background-color: var(--secondary);
-        color: var(--white);
-        padding: 0 .25rem;
+        background: var(--yellow);
+        color: var(--black);
+        padding: 0 .2rem;
     }
 
     code {
         font-family: $monospace;
-        font-size: 1.125rem;
-        background-color: var(--grey-200);
-        padding: .125rem .375rem;
+        font-size: .95rem;
+        background: var(--ui-light);
+        border: 1px solid var(--ui-shadow);
+        padding: .05rem .25rem;
     }
 
     pre {
-        padding: .25rem;
+        padding: .5rem;
         margin-top: 1rem;
-
-        border: 1px solid var(--baseof-bd);
-
-        overflow-y: hidden;
+        background: #111;
+        color: #eee;
+        border: 2px inset var(--ui);
         overflow-x: auto;
 
         code {
             padding: 0;
-
-            span {
-                span {
-                    margin: .25rem 0;
-                }
-            }
+            background: transparent;
+            border: 0;
+            color: inherit;
         }
     }
 
@@ -100,89 +77,26 @@
         margin: 1rem 0 0;
         width: 100%;
         max-width: 100%;
-        border: 1px solid var(--markdown-bd);
+        border: 2px solid var(--black);
     }
 
     .footnotes {
-        margin-top: 3rem;
-        border-top: 1px solid var(--baseof-bd);
+        margin-top: 2rem;
+        border-top: 1px solid var(--ui-shadow);
 
-        hr {
-            display: none;
-        }
-
-        ol {
-            font-size: .875rem;
-            padding-left: 1rem;
-
-
-            li::marker {
-                color: var(--secondary);
-
-            }
-
-            li {
-                padding-left: .5rem;
-
-                p {
-                    line-height: 1.5rem;
-
-                    .footnote-backref {
-                        padding: 0 .25rem;
-                    }
-                }
-            }
-        }
+        ol { font-size: .8rem; padding-left: 1rem; }
     }
 
-    cite {
-        .footnote-ref {
+    ol, ul {
+        margin-top: .75rem;
+        padding-left: 1.5rem;
 
-            font-style: normal;
-            padding: .125rem .125rem;
+        ol, ul { margin-top: 0; padding-left: 1rem; }
 
-            &::before {
-                content: "[";
-                padding-right: .125rem;
-            }
-
-            &::after {
-                content: "]";
-                padding-left: .125rem;
-            }
-        }
+        li { margin-top: .35rem; }
     }
 
-
-    ol,
-    ul {
-
-        margin-top: 1rem;
-        padding-left: 1.25rem;
-
-        ol,
-        ul {
-            margin-top: 0;
-            padding-left: 1rem;
-        }
-
-        li {
-            margin-top: .5rem;
-        }
-    }
-
-    ul {
-        li {
-            list-style: disc;
-        }
-
-        li::marker {
-            color: var(--secondary);
-
-        }
-
-    }
-
+    ul li::marker { color: var(--navy); }
 
     .table-container {
         overflow: auto;
@@ -190,38 +104,21 @@
         table {
             width: 100%;
             margin-top: 1rem;
-            font-size: .875rem;
-            color: var(--stager-ft);
-
-            tr {}
+            border-collapse: collapse;
+            font-size: .85rem;
 
             th {
-                background-color: var(--grey-500);
-                padding: .5rem .75rem;
-                text-align: center;
+                background: var(--navy);
+                color: var(--white);
+                padding: .4rem .5rem;
+                border: 1px solid var(--black);
             }
 
             td {
-                background-color: var(--grey-100);
-                padding: .25rem .5rem;
-                text-align: center;
+                background: var(--white);
+                padding: .3rem .5rem;
+                border: 1px solid var(--ui-shadow);
             }
         }
-    }
-}
-
-@media (min-width: $lg) {
-    .markdown {
-
-        ol,
-        ul {
-            padding-left: 2.5rem;
-
-            ol,
-            ul {
-                padding-left: 2rem;
-            }
-        }
-
     }
 }

@@ -1,8 +1,34 @@
 <div class="container">
+    <div class="system-footer">
+        <span class="start-button">▣ Start</span>
+        <span class="task-button">Luizera.exe</span>
+        <span class="footer-spacer"></span>
+        <span class="footer-status">STATUS: ONLINE</span>
+
+        <span class="footer-status" id="footer-clock"></span>
+    </div>
     <div class="copyright">
-        <span>Taubatexas</span>
-        <span>{{ now.Format "2006" }}</span>
-        <i class="bi bi-c-circle"></i>
-        <span>Todos os direitos reservados</span>
+        <span>© {{ now.Format "2006" }} Luizera Internet System</span>
+        <span>|</span>
+        <span>Best viewed at 1024×768</span>
+        <span>|</span>
+        <span>Feito orgulhosamente na cidade de Taubaté</span>
     </div>
 </div>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+
+    document.getElementById("footer-clock").textContent =
+      now.toLocaleTimeString("pt-BR", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second:"2-digit",
+        hour12: false
+      });
+  }
+
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>

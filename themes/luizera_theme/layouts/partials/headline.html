@@ -2,12 +2,16 @@
     {{ with .Resources.Get "headline.jpg" }}
     <div class="headline" style="background: url({{ .RelPermalink }}) center center no-repeat;">
     {{ else }}
-    <div class="headline" style="background: url({{ "./image/default/headline.jpg" | relURL}}) center center no-repeat;">
+    <div class="headline" style="background: url({{ "./image/default/headline.jpg" | relURL }}) center center no-repeat;">
     {{ end }}
-    <p class="new-post">New post!!</p>
-        <div class="headline-text">
-            <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-            <p>{{ .Summary }}</p>
+        <div class="headline-window">
+            <div class="headline-window-title">FEATURED_POST.EXE <span>_ □ ×</span></div>
+            <div class="headline-window-body">
+                <p class="new-post">★ NEW POST / FEATURED ★</p>
+                <a href="{{ .Permalink }}">{{ .Params.title }}</a>
+                <p>{{ .Summary }}</p>
+                <div class="headline-meta">Posted {{ .Date.Format "Jan 2, 2006" }} &nbsp;|&nbsp; Status: ONLINE</div>
+            </div>
         </div>
     </div>
 {{ end }}

@@ -1,128 +1,73 @@
 .card {
-
-    border: 1px solid var(--baseof-ft);
-    padding: .75rem;
-    margin-bottom: 2rem;
     position: relative;
-
-    font-size: .875rem;
-
+    padding: .85rem .6rem .6rem;
+    margin-bottom: .75rem;
+    background: var(--window-bg);
+    color: var(--black);
+    border: 2px solid var(--black);
+    box-shadow: 2px 2px 0 var(--ui-dark), inset 1px 1px 0 var(--ui-bright);
+    font-size: .82rem;
 
     .card-title {
-
-        position: absolute;
-        top: -0.75rem;
-        right: 1rem;
-
-        background-color: var(--stager-bg);
-        padding: 0 .5rem;
-
-        font-size: 1rem;
-        line-height: 1rem;
-        color: var(--secondary);
-
+        margin: -.55rem .25rem .5rem;
+        padding: .15rem .35rem;
+        background: var(--window-title);
+        color: var(--white);
+        border: 1px solid var(--black);
+        font-size: .82rem;
+        font-weight: bold;
     }
 
+    .category a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .15rem .25rem;
+        color: var(--blue);
 
+        .dashed-line {
+            flex: 1;
+            border-bottom: 1px dotted var(--ui-shadow);
+            margin: 0 .5rem;
+        }
 
-
-
-
-    .category {
-
-        a {
-            padding: .25rem .5rem;
-            border-radius: .25rem;
-
-            
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-
-            .dashed-line {
-                flex: 1;
-                border-bottom: 1px dashed var(--stager-ft);
-                margin: 0 1rem;
-            }
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            &:hover {
-                .dashed-line {
-                    border-bottom: 1px dashed var(--white);
-                }
-            }
+        &:hover .dashed-line {
+            border-bottom-color: var(--black);
         }
     }
 
-    .tag {
-
-        a {
-            display: inline-block;
-            line-height: 1.25rem;
-            margin-right: .5rem;
-            padding: .125rem .375rem;
-            border-radius: .25rem;
-        }
-
-        span {
-            margin-left: .5rem;
-        }
+    .tag a {
+        display: inline-block;
+        margin: 0 .2rem .25rem 0;
+        padding: .1rem .25rem;
+        color: var(--blue);
+        border: 1px solid var(--ui-shadow);
+        background: var(--ui-light);
     }
 
-    .related {
+    .tag span { margin-left: .25rem; }
 
-        .related-item {
-            display: flex;
-            flex-direction: row;
-        }
+    .related-item {
+        display: flex;
+        gap: .25rem;
+        margin: .25rem 0;
 
-        i {
-            font-size: 1rem;
-            color: var(--stager-ft);
-            padding: .25rem 0 .25rem .25rem;
-
-        }
-        a {
-            padding: .25rem .25rem .25rem .5rem;
-            border-radius: .25rem;
-        }
-
+        i { color: var(--navy); }
     }
 
-    .toc {
+    .toc ul {
+        list-style: none;
+        padding: .25rem .5rem;
 
-        ul {
-            list-style: none;
-            padding: .25rem .5rem;
-
-            li {
-                line-height: 1.5rem;
-                &::before {
-                    content: "\2022";
-                    color: var(--stager-ft);
-                    font-weight: bold;
-                    display: inline-block; 
-                    width: .5rem;
-                }
-
-                ul {
-                    margin-left: 1rem;
-                }
+        li {
+            line-height: 1.35rem;
+            &::before {
+                content: "▸";
+                color: var(--navy);
+                margin-right: .25rem;
             }
         }
 
-        a {
-            border-radius: .25rem;
-            padding: .125rem .5rem;
-
-
-
-        }
-
+        ul { margin-left: .75rem; }
     }
 }

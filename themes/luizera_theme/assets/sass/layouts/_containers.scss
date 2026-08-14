@@ -4,47 +4,92 @@
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1180px;
     margin: 0 auto;
+}
+
+.list-container,
+.single-container {
+    background: var(--window-bg);
+    border: 2px solid var(--black);
+    box-shadow: 2px 2px 0 var(--ui-dark), inset 1px 1px 0 var(--ui-bright);
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .list-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--baseof-bg);
-    border-radius: 20px;
-    margin-bottom: 2rem;
-    padding: 1rem;
 }
 
 .all-posts {
     align-self: flex-end;
-    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: .25rem .5rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.nav-container {
+    margin-bottom: 1rem;
+    padding: 0 .25rem;
+}
+
+.cards-container {
+    position: sticky;
+    top: .5rem;
+}
+
+.card-container {
+    margin-bottom: .75rem;
+    padding: 0 .25rem;
 }
 
 @media (max-width: 768px) {
+    .container {
+        width: calc(100% - .75rem);
+    }
+
     .all-posts {
         align-self: center;
     }
 }
 
+
+.window-recent::before,
+.window-posts::before,
+.window-notepad::before,
+.window-links::before {
+    display: block;
+    margin: -1rem -1rem .75rem;
+    padding: .15rem .35rem;
+    background: var(--window-title);
+    color: var(--white);
+    border-bottom: 1px solid var(--black);
+    font-family: $sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.window-recent::before { content: "RECENT_POSTS.EXE  —  [ _ ] [ □ ] [ X ]"; }
+.window-posts::before { content: "ARCHIVE.EXE  —  [ _ ] [ □ ] [ X ]"; }
+.window-notepad::before { content: "NOTEPAD.EXE  —  [ _ ] [ □ ] [ X ]"; }
+.window-links::before { content: "LINKS.EXE  —  [ _ ] [ □ ] [ X ]"; }
+
+.list-container,
 .single-container {
-    background-color: var(--stager-bg);
-    margin-bottom: 2rem;
-    padding: 1rem;
+    position: relative;
 }
 
-.nav-container {
-    margin-bottom: 2rem;
-    padding: 0 1rem;
-}
-
-.cards-container {
-    position: sticky;
-    top: 3rem;
-}
-
-.card-container {
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+.list-container::after,
+.single-container::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid var(--ui-shadow);
+    border-bottom: 1px solid var(--ui-shadow);
+    pointer-events: none;
 }

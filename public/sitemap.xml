@@ -3,39 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/dicas/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/it/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/dicas/experiencia-curso-auvp/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ssh/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-08-04T22:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/blog/movie-of-the-week/skeleton_key/</loc>
-    <lastmod>2026-03-14T22:00:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/filmes/</loc>
-    <lastmod>2026-03-14T22:00:33+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/filmes/</loc>
-    <lastmod>2026-03-14T22:00:33+08:00</lastmod>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/shadow_of_the_vampire/</loc>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/filmes/</loc>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/filmes/</loc>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-05T22:00:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-05T22:00:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/movie-of-the-week/butterfly_kisses/</loc>
@@ -49,6 +34,15 @@
   </url><url>
     <loc>http://localhost:1313/tags/me/</loc>
     <lastmod>2025-09-18T18:54:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dicas/</loc>
+    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/it/</loc>
+    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ssh/</loc>
+    <lastmod>2025-08-15T22:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/blog/dicas/ssh/</loc>
     <lastmod>2025-08-15T22:00:00+08:00</lastmod>

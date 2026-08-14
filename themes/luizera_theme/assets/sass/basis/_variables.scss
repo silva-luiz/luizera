@@ -1,12 +1,11 @@
-// Break Point
+// Responsive breakpoints
 $sm: 640px;
 $md: 840px;
 $lg: 1040px;
 $xl: 1240px;
 $xxl: 1440px;
 
-// Font Family
-$sans-serif: Poppins, sans-serif;
-$serif: Alegreya, serif;
-$monospace: Cutive Mono, mono;
-
+// 2000s personal-web typography: intentionally system-first.
+$sans-serif: Tahoma, Verdana, Arial, sans-serif;
+$serif: Georgia, "Times New Roman", serif;
+$monospace: "Courier New", Courier, monospace;

@@ -1,57 +1,46 @@
 .stager {
-
     display: flex;
     flex-direction: column;
+    padding: .5rem 0 1rem;
 
     main {
-        overflow: auto;
+        min-width: 0;
+        overflow: visible;
     }
 
-    aside {}
-
     .gutter {
-        height: 1rem;
-        width: 1rem;
+        height: .75rem;
+        width: .75rem;
     }
 
     a {
-        color: var(--primary);
-        transition: all .5s;
+        color: var(--blue);
+    }
 
-        &:hover {
-            color: var(--secondary);
-        }
+    a:hover {
+        color: var(--red);
     }
 }
 
 @media (min-width: $md) {
     .stager {
-        display: flex;
         flex-direction: row;
-        justify-content: stretch;
+        align-items: flex-start;
 
         main {
             flex: 1;
         }
 
         aside {
-            width: 280px;
+            width: 290px;
         }
     }
 }
 
 @media (min-width: $lg) {
-    .stager {
-        aside {
-            width: 320px;
-        }
-    }
+    .stager aside { width: 320px; }
 }
 
 @media (min-width: $xl) {
-    .stager {
-        aside {
-            width: 340px;
-        }
-    }
+    .stager aside { width: 340px; }
 }
