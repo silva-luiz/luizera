@@ -9,8 +9,22 @@
     <managingEditor>luiz.hgsilva@hotmail.com (Luiz Henrique)</managingEditor>
     <webMaster>luiz.hgsilva@hotmail.com (Luiz Henrique)</webMaster>
     <copyright>All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 22:00:33 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 22:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minha experiência com a AUVP</title>
+      <link>http://localhost:1313/en/blog/dicas/experiencia-curso-auvp/</link>
+      <pubDate>Tue, 04 Aug 2026 22:00:00 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luiz Henrique)</author>
+      <guid>http://localhost:1313/en/blog/dicas/experiencia-curso-auvp/</guid>
+      <description>&lt;p&gt;Me perguntaram recentemente como está sendo minha experiência com o curso da AUVP, então resolvi contar neste post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Filme da semana</title>
+      <link>http://localhost:1313/en/blog/movie-of-the-week/skeleton_key/</link>
+      <pubDate>Sat, 14 Mar 2026 22:00:33 +0800</pubDate><author>luiz.hgsilva@hotmail.com (Luiz Henrique)</author>
+      <guid>http://localhost:1313/en/blog/movie-of-the-week/skeleton_key/</guid>
+      <description>&lt;p&gt;De vez em quando eu lembro de escrever algo legal aqui, então dessa vez tenho mais uma indicação legal de filme&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Filme da semana</title>
       <link>http://localhost:1313/en/blog/movie-of-the-week/shadow_of_the_vampire/</link>
