@@ -13,7 +13,7 @@
 <link href="/vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" rel="stylesheet" type="text/css">
 
 
-<link href="/css/main.min.4f36535a9c22a3fa4753dc4a3f0514fe14f016f63a2a548501992175e84f3fb2.css" rel="stylesheet" type="text/css">
+<link href="/css/main.min.6b42839bcd6d2b099dd679c09f88cfd69dbcfc4326e4cb47ef9bcc1fbd028609.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -220,14 +220,13 @@
 
         <h3 class="name">Buy me a coffee <i class="bi bi-cup-hot-fill"></i></h3>
         <div class="coffee">
-            <img src="/image/default/buy-me-a-coffee.jpg" alt="coffee">
+            <img src="/image/default/buy-me-a-coffee.jpeg" alt="coffee">
         </div>
-        <p>Cardano (ADA)</p>
+        <p>QR Code do Pix misterioso</p>
 
         <p class="email">
             <span><a href="https://www.instagram.com/slvlz_/">Instagram</a></span>
             <span><a href="https://github.com/silva-luiz">Github</a></span>
-            <span><a href="https://www.tiktok.com/@fala.luizera">TikTok</a></span>
         </p>
 
         <div class="web-badges">
@@ -252,7 +251,7 @@
         <span class="footer-spacer"></span>
         <span class="footer-status">STATUS: ONLINE</span>
 
-        <span class="footer-status">23:30</span>
+        <span class="footer-status" id="footer-clock"></span>
     </div>
     <div class="copyright">
         <span>© 2026 Luizera Internet System</span>
@@ -261,7 +260,24 @@
         <span>|</span>
         <span>Feito orgulhosamente na cidade de Taubaté</span>
     </div>
-</div></footer>
+</div>
+
+<script>
+  function updateClock() {
+    const now = new Date();
+
+    document.getElementById("footer-clock").textContent =
+      now.toLocaleTimeString("pt-BR", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second:"2-digit",
+        hour12: false
+      });
+  }
+
+  updateClock();
+  setInterval(updateClock, 1000);
+</script></footer>
 <script src="/vendor/jquery/jquery-3.7.0.js"></script>
 
 
