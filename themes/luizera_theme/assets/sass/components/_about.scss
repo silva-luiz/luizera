@@ -20,19 +20,167 @@
 
     .about-body { padding: .6rem; }
 
-    // .avatar {
-    //     display: flex;
-    //     justify-content: center;
-    //     margin-bottom: .5rem;
+    .avatar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: .5rem;
 
-    //     img {
-    //         height: 110px;
-    //         width: 110px;
-    //         border: 2px solid var(--black);
-    //         padding: 2px;
-    //         background: var(--white);
-    //     }
-    // }
+        img {
+            height: 110px;
+            width: 110px;
+            border: 2px solid var(--black);
+            padding: 2px;
+            background: var(--white);
+        }
+    }
+
+    .retro-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 88px;
+  height: 31px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  font-family: "Courier New", monospace;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #fff;
+
+  border: 2px outset #fff;
+  background: #222;
+
+  cursor: pointer;
+
+  image-rendering: pixelated;
+}
+
+.retro-badge:hover {
+  filter: brightness(1.25);
+}
+
+.retro-badge:active {
+  border-style: inset;
+}
+
+.retro-badge img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  image-rendering: pixelated;
+}
+
+.retro-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.retro-badge span {
+  padding: 2px;
+}
+
+.retro-badge.green {
+  color: #00ff66;
+  background: #001a0a;
+
+  border-color: #00aa44;
+
+  text-shadow:
+    0 0 3px #00ff66,
+    0 0 6px #00ff66;
+
+  box-shadow:
+    inset 0 0 8px rgba(0, 255, 102, 0.25),
+    1px 1px 0 #000;
+}
+
+.retro-badge.blue {
+  color: #ffffff;
+
+  background: linear-gradient(
+    to bottom,
+    #4f9cff 0%,
+    #1768c4 45%,
+    #063b80 100%
+  );
+
+  border-color: #d8ecff;
+
+  text-shadow: 1px 1px 0 #003366;
+
+  box-shadow:
+    inset 0 1px rgba(255, 255, 255, 0.7),
+    1px 1px 0 #000;
+}
+
+.retro-badge.yellow {
+  color: #000;
+
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      #ffd800 0,
+      #ffd800 8px,
+      #111 8px,
+      #111 16px
+    );
+
+  border-color: #fff;
+
+  text-shadow: none;
+
+  box-shadow:
+    1px 1px 0 #000;
+}
+
+.retro-badge.yellow span {
+  background: #ffd800;
+  padding: 4px 3px;
+
+  color: #000;
+
+  text-shadow: none;
+}
+
+.retro-badge.black {
+  color: #fff;
+
+  background: #111;
+
+  border-color: #888;
+
+  text-shadow:
+    0 0 3px #fff;
+
+  box-shadow:
+    inset 0 0 5px #555,
+    1px 1px 0 #000;
+}
+
+.retro-badge.blink span {
+  animation: retro-blink 1s steps(2, start) infinite;
+}
+
+@keyframes retro-blink {
+  50% {
+    visibility: hidden;
+  }
+}
 
     .coffee {
         display: flex;

@@ -4,7 +4,7 @@
     <div class="about-body">
         <div class="avatar-frame">
             <div class="avatar">
-                <img src="{{ "/image/default/avatar.gif" | relURL }}" alt="avatar">
+                <img src="{{ " /image/default/avatar.gif" | relURL }}" alt="avatar">
             </div>
             <span class="avatar-caption">luizera.gif</span>
         </div>
@@ -13,13 +13,53 @@
         {{ with .Site.Params.author.description }}
         <p class="description">{{ . }}</p>
         {{ end }}
-{{/*  
+        {{/*
         <div class="status-widget">
             <div class="status-line"><b>● SYSTEM STATUS</b><span class="online">ONLINE</span></div>
             <div class="status-line"><span>Browser</span><span>Internet Explorer</span></div>
             <div class="status-line"><span>Connection</span><span>56k nostalgia</span></div>
-        </div>  */}}
+        </div> */}}
+        <div class="widget-divider">★ ★ ★</div>
 
+        <div class="retro-badges">
+
+            {{ partial "badge.html" (dict
+            "image" "/image/badges/github.gif"
+            "url" "https://github.com/silva-luiz"
+            "alt" "Github"
+            "style" "gif"
+            ) }}
+
+             {{ partial "badge.html" (dict
+             "url" "https://www.instagram.com/slvlz_/"
+            "text" "INSTAGRAM"
+            "style" "blink"
+            ) }}
+
+            {{ partial "badge.html" (dict
+            "image" "/image/badges/homernow.gif"
+            "alt" "Homer Now"
+            "style" "gif"
+            ) }}
+
+            {{ partial "badge.html" (dict
+            "image" "/image/badges/iefuck.gif"
+            "alt" "IeFuck"
+            "style" "gif"
+            ) }}
+
+            {{ partial "badge.html" (dict
+            "image" "/image/badges/doombut.gif"
+            "alt" "Doom but"
+            "style" "gif"
+            ) }}
+
+            {{ partial "badge.html" (dict
+            "text" "UNDER CONSTRUCTION"
+            "style" "yellow"
+            ) }}
+
+        </div>
         <div class="widget-divider">★ ★ ★</div>
 
         <div class="mini-widget">
@@ -31,7 +71,7 @@
 
         <h3 class="name">Buy me a coffee <i class="bi bi-cup-hot-fill"></i></h3>
         <div class="coffee">
-            <img src="{{ "/image/default/buy-me-a-coffee.jpeg" | relURL }}" alt="coffee">
+            <img src="{{ " /image/default/buy-me-a-coffee.jpeg" | relURL }}" alt="coffee">
         </div>
         <p>QR Code do Pix misterioso</p>
 
@@ -41,9 +81,9 @@
         </p>
 
         <div class="web-badges">
-            <span>[  LUIZERA.NET  ]</span>
-            <span>[  HTML 4.01  ]</span>
-            <span>[  HUGO  ]</span>
+            <span>[ LUIZERA.COM.BR ]</span>
+            <span>[ HTML 4.01 ]</span>
+            <span>[ HUGO ]</span>
         </div>
         <div class="visitor-counter">You are visitor <b>#001337</b></div>
     </div>

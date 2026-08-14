@@ -1,0 +1,7 @@
+<a class="retro-badge {{ .style | default "" }}" href="{{ .url | default "#" }}">
+  {{ if .image }}
+    <img src="{{ .image }}" alt="{{ .alt | default .text }}">
+  {{ else }}
+    <span>{{ .text }}</span>
+  {{ end }}
+</a>
