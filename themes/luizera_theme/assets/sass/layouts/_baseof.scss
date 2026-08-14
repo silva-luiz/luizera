@@ -1,44 +1,73 @@
 html {
-    height: 100%;
-    scroll-behavior: smooth;
-    scrollbar-color: var(--secondary) var(--baseof-bg);
-    scrollbar-width: thin;
+    min-height: 100%;
+    scrollbar-color: var(--ui-shadow) var(--ui);
+    scrollbar-width: auto;
 }
 
 body {
-    height: 100%;
-
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto 1fr auto;
-
-    font-size: 16px;
+    font-size: 14px;
     font-family: $sans-serif;
+    line-height: 1.35;
     background-color: var(--baseof-bg);
     color: var(--baseof-ft);
+    image-rendering: auto;
+}
 
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: .045;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, .9) 0,
+        rgba(255, 255, 255, .9) 1px,
+        transparent 1px,
+        transparent 3px
+    );
 }
 
 #header {
     grid-column: 1;
     grid-row: 1;
+    background: var(--ui);
+    border-bottom: 2px solid var(--black);
 }
 
-#necker {
-    grid-column: 1;
-    grid-row: 2;
-    background-color: var(--stager-bg);
-    color: var(--stage-ft);
-}
-
+#necker,
 #stager {
     grid-column: 1;
-    grid-row: 3;
-    background-color: var(--stager-bg);
-    color: var(--stage-ft);
+    background: var(--stager-bg);
+    color: var(--stager-ft);
 }
+
+#necker { grid-row: 2; }
+#stager { grid-row: 3; }
 
 #footer {
     grid-column: 1;
     grid-row: 4;
+    background: var(--ui);
+    border-top: 2px solid var(--black);
+}
+
+::selection { background: var(--navy); color: var(--white); }
+
+button,
+input,
+textarea,
+select {
+    font-family: $sans-serif;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dotted var(--ui-shadow);
+    border-bottom: 1px solid var(--white);
 }

@@ -1,46 +1,53 @@
 <header class="container base-header">
+    <div class="window-titlebar">
+        <div id="title">
+            <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}.exe</a>
+        </div>
+        <div class="window-controls" aria-hidden="true"><span>_</span><span>□</span><span>×</span></div>
+    </div>
 
-    <div id="title">
-        <a href="{{ "/" | relLangURL}}">{{.Site.Title}}</a>
+    <div class="browser-menubar" aria-label="Browser menu">
+        <span>File</span><span>Edit</span><span>View</span><span>Favorites</span><span>Tools</span><span>Help</span>
+    </div>
+
+    <div class="browser-toolbar">
+        <span class="toolbar-button" aria-hidden="true">◀</span>
+        <span class="toolbar-button" aria-hidden="true">▶</span>
+        <span class="toolbar-button" aria-hidden="true">↻</span>
+        <span class="toolbar-divider"></span>
+        <span class="address-label">Address</span>
+        <div class="address-bar"><span>🌐</span>&nbsp; https://luizera.com.br/</div>
+        <span class="go-button">Go</span>
     </div>
 
     <div id="menuToggle">
-        <a><i class="bi bi-list"></i></a>
+        <a href="#menu" aria-label="Open menu">☰ MENU</a>
     </div>
 
-    <div id="menu">
+    <nav id="menu" aria-label="Main navigation">
         <ul class="menu">
             {{ $current := . }}
             {{ range .Site.Menus.main }}
             {{ $active := eq .Name $current.Title }}
-            {{ $active = or $active ( eq .Identifier $current.Section ) }}
+            {{ $active = or $active (eq .Identifier $current.Section) }}
             <li class="menu-item">
-                <a class="{{ if $active }} active {{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
-            <!-- 语言选择 开始 -->
             {{ if hugo.IsMultilingual }}
-            {{- $p := .Site.Language.LanguageName -}}
+            {{ $p := .Site.Language.LanguageName }}
             {{ range $.Site.Home.AllTranslations }}
-            {{- if ne .Language.LanguageName $p }}
+            {{ if ne .Language.LanguageName $p }}
             <li class="menu-item">
-                <a class="lang-toggle" href="{{ .Permalink }}">{{.Site.Language.LanguageName}}</a>
+                <a class="lang-toggle" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
             </li>
             {{ end }}
             {{ end }}
             {{ end }}
-            <li class="menu-item">
-                <a class="lang-toggle menu-item" href="/en">Todos os posts</a>
-            </li>
-            <li class="menu-item">
-                <a class="lang-toggle menu-item" href="/tags">Tags</a>
-            </li>
-            <li class="menu-item">
-                <a class="lang-toggle menu-item" href="/links">Links</a>
-            </li>
-            <li class="menu-item">
-                <a class="lang-toggle menu-item" href="https://github.com/silva-luiz" target="_blank">GitHub</a>
-            </li>
+            <li class="menu-item"><a href="/en">Todos os posts</a></li>
+            <li class="menu-item"><a href="/tags">Tags</a></li>
+            <li class="menu-item"><a href="/links">Links</a></li>
+            <li class="menu-item"><a href="https://github.com/silva-luiz" target="_blank" rel="noopener">GitHub</a></li>
         </ul>
-    </div>
+    </nav>
 </header>

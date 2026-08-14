@@ -1,27 +1,27 @@
 :root {
+    // Classic Windows / early-web palette
+    --white: #ffffff;
+    --black: #000000;
+    --ui: #c0c0c0;
+    --ui-light: #dfdfdf;
+    --ui-bright: #ffffff;
+    --ui-shadow: #808080;
+    --ui-dark: #404040;
+    --navy: #000080;
+    --blue: #0000ee;
+    --visited: #551a8b;
+    --teal: #008080;
+    --green: #008000;
+    --yellow: #ffff00;
+    --red: #800000;
 
-    --white:    #ffffff;
-    --black:    #000000;
-
-    --blue:     #0d6efd;
-    --indigo:   #6610f2;
-    --purple:   #6f42c1;
-    --pink:     #d63384;
-    --red:      #dc3545;
-    --orange:   #fd7e14;
-    --yellow:   #ffc107;
-    --green:    #198754;
-    --teal:     #20c997;
-    --cyan:     #0dcaf0;
-
-    --grey-100: #f8f9fa;
-    --grey-200: #e9ecef;
-    --grey-300: #dee2e6;
-    --grey-400: #ced4da;
-    --grey-500: #adb5bd;
-    --grey-600: #6c757d;
-    --grey-700: #495057;
-    --grey-800: #343a40;
-    --grey-900: #212529;
-
+    --grey-100: #f7f7f7;
+    --grey-200: #e9e9e9;
+    --grey-300: #d5d5d5;
+    --grey-400: #bcbcbc;
+    --grey-500: #969696;
+    --grey-600: #666666;
+    --grey-700: #444444;
+    --grey-800: #222222;
+    --grey-900: #111111;
 }

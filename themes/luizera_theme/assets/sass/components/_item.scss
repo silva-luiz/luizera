@@ -1,25 +1,24 @@
 .item {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--baseof-bd);
-
-
     display: flex;
     flex-direction: row;
+    margin-bottom: .75rem;
+    padding: .5rem;
+    background: var(--white);
+    border: 1px solid var(--ui-shadow);
+    box-shadow: inset 1px 1px 0 var(--ui-bright);
 
     .item-thumbnail {
-
         display: none;
-        padding: 0;
-
-        width: 180px;
-        height: 120px;
-        margin-right: 1rem;
+        width: 150px;
+        height: 100px;
+        margin-right: .75rem;
+        flex-shrink: 0;
 
         img {
             width: 100%;
-            max-width: 100%;
-            border-radius: .5rem;
+            height: 100%;
+            object-fit: cover;
+            border: 1px solid var(--black);
         }
     }
 
@@ -27,81 +26,65 @@
         flex: 1;
 
         .item-text-title {
-            font-size: 1.25rem;
-            line-height: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            background: var(--navy);
+            padding: .2rem .35rem;
+
+            b { color: var(--white); }
         }
 
         .item-text-brief {
-            font-size: .875rem;
-            line-height: 1.375rem;
-            margin: .5rem 0;
+            color: var(--black);
+            font-size: .82rem;
+            line-height: 1.3rem;
+            margin: .45rem 0;
         }
 
         .item-text-meta {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            font-size: .875rem;
+            font-size: .75rem;
+            color: var(--grey-700);
+            border-top: 1px dotted var(--ui-shadow);
+            padding-top: .25rem;
 
-            span {
-                margin-right: 1rem;
-            }
+            span { margin-right: .75rem; }
         }
 
         a {
             display: block;
-            color: var(--white);
-            transition: all .5s;
-
-            &:hover {
-                color: var(--secondary);
-            }
+            color: var(--blue);
         }
 
+        a:hover .item-text-title b {
+            color: var(--yellow);
+        }
     }
-
-    &:last-child {
-        padding-bottom: 0;
-        margin-bottom: 0;
-        border-bottom: none;
-    }
-
 }
 
 @media (min-width: 360px) and (max-width: 500px) {
     .item {
-        display: flex;
         flex-direction: column;
 
         .item-thumbnail {
             width: 100%;
-            height: 100%;
+            height: 150px;
             display: block;
+            margin: 0 0 .5rem;
         }
     }
 }
 
 @media (min-width: $sm) {
-    .item {
-        .item-thumbnail {
-            display: block;
-        }
-    }
+    .item .item-thumbnail { display: block; }
 }
 
 @media (min-width: $md) {
-    .item {
-        .item-thumbnail {
-            display: none;
-        }
-    }
+    .item .item-thumbnail { display: none; }
 }
 
 @media (min-width: $lg) {
-    .item {
-        .item-thumbnail {
-            display: block;
-        }
-    }
+    .item .item-thumbnail { display: block; }
 }
+
+.post-icon { color: var(--navy); margin-right: .2rem; }
+.item:hover { background: #ffffe0; }

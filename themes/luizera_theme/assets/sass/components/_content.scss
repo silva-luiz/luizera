@@ -1,53 +1,41 @@
 .content {
+    color: var(--black);
 
-    a {
-        color: var(--primary);
-        transition: all 1s;
-
-        &:hover {
-            color: var(--secondary);
-        }
-    }
+    a { color: var(--blue); }
 
     .content-header {
-        text-align: center;
-        border-bottom: 1px solid var(--baseof-bd);
-        margin-bottom: 2rem;
-        padding: 1rem;
+        text-align: left;
+        border-bottom: 2px solid var(--black);
+        margin-bottom: 1rem;
+        padding: 0 0 .75rem;
 
         .title {
-            color: var(--primary);
-            font-size: 1.5rem;
-            margin: 2rem 1rem 1rem;
+            color: var(--white);
+            background: var(--navy);
+            border: 1px solid var(--black);
+            padding: .35rem .5rem;
+            font-size: 1.25rem;
+            margin-bottom: .5rem;
         }
 
         .meta {
-            margin: 0 1rem 2rem;
-            color: var(--baseof-ft);
-            font-size: .875rem;
+            margin: 0;
+            color: var(--grey-700);
+            font-size: .8rem;
 
-            span {
-                margin: 0 .5rem;
-            }
+            span { margin-right: 1rem; }
         }
     }
 
     .content-tag {
-        margin: 3rem 0;
-        padding-top: 1rem;
-        border-top: 1px solid var(--baseof-bd);
+        margin: 2rem 0 0;
+        padding-top: .75rem;
+        border-top: 1px dotted var(--ui-shadow);
 
-        span {
-            margin-right: 1rem;
-        }
+        span { margin-right: .5rem; }
     }
-
 }
 
 @media (min-width: $xl) {
-
-    .content {
-        padding: 0 1rem;
-    }
-
+    .content { padding: 0 .25rem; }
 }

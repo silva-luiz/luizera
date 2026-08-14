@@ -1,44 +1,29 @@
 .pagination {
-
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
+    font-size: .8rem;
 
-    font-size: .875rem;
+    .pagination-item { width: 50%; }
 
-    .pagination-item {
-        width: 50%;
-
+    .right,
+    .left {
+        display: flex;
+        align-items: flex-start;
+        padding: .35rem .5rem;
+        background: var(--ui);
+        border: 2px outset var(--ui-light);
+        color: var(--black);
+        text-decoration: none;
     }
 
-
-    
     .right {
-        display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
-        justify-content: stretch;
         text-align: right;
     }
 
-    .left {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: stretch;
+    span { margin: 0 .35rem; }
 
-        text-align: left;
-    }
-
-    span {
-        margin: 0 .5rem;
-    }
-
-
-    .item-link {
-        border-radius: .25rem;
-        padding: .25rem .5rem;
-
+    .item-link:active {
+        border-style: inset;
     }
 }

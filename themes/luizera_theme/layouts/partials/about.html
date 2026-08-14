@@ -1,24 +1,51 @@
 <div class="about">
-    <div class="avatar">
-        <img src="{{" /image/default/avatar.jpg" | relURL }}" alt="avatar">
+    <div class="about-titlebar">ABOUT.EXE <span>_ □ ×</span></div>
+
+    <div class="about-body">
+        <div class="avatar-frame">
+            <div class="avatar">
+                <img src="{{ "/image/default/avatar.gif" | relURL }}" alt="avatar">
+            </div>
+            <span class="avatar-caption">luizera.gif</span>
+        </div>
+
+        <h3 class="name">Luizera</h3>
+        {{ with .Site.Params.author.description }}
+        <p class="description">{{ . }}</p>
+        {{ end }}
+{{/*  
+        <div class="status-widget">
+            <div class="status-line"><b>● SYSTEM STATUS</b><span class="online">ONLINE</span></div>
+            <div class="status-line"><span>Browser</span><span>Internet Explorer</span></div>
+            <div class="status-line"><span>Connection</span><span>56k nostalgia</span></div>
+        </div>  */}}
+
+        <div class="widget-divider">★ ★ ★</div>
+
+        <div class="mini-widget">
+            <div class="mini-widget-title">NOW PLAYING</div>
+            <div class="player-screen">▶ &nbsp; WINAMP.EXE</div>
+            <div class="player-track">Linkin Park - In The End.mp3</div>
+            <div class="player-progress"><span></span></div>
+        </div>
+
+        <h3 class="name">Buy me a coffee <i class="bi bi-cup-hot-fill"></i></h3>
+        <div class="coffee">
+            <img src="{{ "/image/default/buy-me-a-coffee.jpg" | relURL }}" alt="coffee">
+        </div>
+        <p>Cardano (ADA)</p>
+
+        <p class="email">
+            <span><a href="https://www.instagram.com/slvlz_/">Instagram</a></span>
+            <span><a href="https://github.com/silva-luiz">Github</a></span>
+            <span><a href="https://www.tiktok.com/@fala.luizera">TikTok</a></span>
+        </p>
+
+        <div class="web-badges">
+            <span>[  LUIZERA.NET  ]</span>
+            <span>[  HTML 4.01  ]</span>
+            <span>[  HUGO  ]</span>
+        </div>
+        <div class="visitor-counter">You are visitor <b>#001337</b></div>
     </div>
-    <h3 class="name">Luizera</h3>
-    {{ with .Site.Params.author.description }}
-    <p class="description">{{ . }}</p>
-    {{ end }}
-
-    <h3 class="name">Buy me a coffee <i class="bi bi-cup-hot-fill"></i></h3>
-
-    <div class="coffee">
-        <img src="{{" /image/default/buy-me-a-coffee.jpg" | relURL }}" alt="coffee">
-    </div>
-    <p>Cardano (ADA)</p>
-    <p class="email">
-        <span><a href="https://www.instagram.com/slvlz_/"><i class="bi bi-instagram"></i> Instagram</a></span>
-        <span><a href="https://github.com/silva-luiz"><i class="bi bi-github"></i> Github</a></span>
-
-    </p>
-    <p class="email"><span><a href="https://www.tiktok.com/@fala.luizera"><i class="bi bi-tiktok"></i> TikTok</a></span>
-    </p>
-
 </div>

@@ -1,28 +1,17 @@
 :root[data-theme="light"] {
+    --primary: var(--navy);
+    --primary-light: #0000cc;
+    --secondary: var(--teal);
 
-    --primary-1: #030b75;
-    --primary-light-1: #0037ec;
-    --secondary-1: #e6b700;
+    --baseof-bg: #008080;
+    --baseof-ft: #000000;
+    --baseof-bd: #808080;
 
-    --baseof-bg-1: var(--white);
-    --baseof-ft-1: var(--grey-600);
-    --baseof-bd-1: var(--grey-200);
+    --stager-bg: #008080;
+    --stager-ft: #000000;
+    --stager-bd: #808080;
 
-    --stager-bg-1: var(--grey-100);
-    --stager-ft-1: var(--grey-600);
-    --stager-bd-1: var(--grey-400);
-
-    /* v2 colors */
-    --primary: #ffffff;
-    --primary-light: #414141;
-    --secondary: #00BFFF;
-
-    --baseof-bg: #292828;
-    --baseof-ft: #929292;
-    --baseof-bd: #919294;
-
-    --stager-bg: #2A2B30;
-    --stager-ft: #ffffff;
-    --stager-bd: #ffffff;
-    ;
+    --window-bg: #ffffff;
+    --window-title: #000080;
+    --window-title-inactive: #808080;
 }
