@@ -3,7 +3,7 @@ title: "Back to fight"
 date: 2025-07-25T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Me"]
 tags: ["me", "bjj"]
 thumbnail: "/image/default/bjj.jpg"
 headline: true

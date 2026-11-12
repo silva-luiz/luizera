@@ -3,7 +3,7 @@ title: "29 yo"
 date: 2024-10-14T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Me"]
 tags: ["me", "bday"]
 thumbnail: "https://www.kudoboard.com/blog-assets/wp-content/uploads/2022/02/vo7y9-1024x640.jpg"
 headline: true

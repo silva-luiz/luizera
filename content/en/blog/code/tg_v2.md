@@ -3,7 +3,7 @@ title: "TG V2"
 date: 2024-12-01T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Code"]
 tags: ["code", "flutter", "react"]
 thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNd3b-GoSbm9fgqONruAqQWPQ219HJCNilsg&s"
 headline: true

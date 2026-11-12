@@ -3,7 +3,7 @@ title: "print('hello world');"
 date: 2024-06-20T0:03:08+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "First post"
+categories: ["Me"]
 tags: ["First","me"]
 thumbnail: "https://th.bing.com/th/id/R.e77a35c97981197bec6387a43e7f9bdb?rik=uy6EF889fPwPRQ&pid=ImgRaw&r=0"
 headline: true

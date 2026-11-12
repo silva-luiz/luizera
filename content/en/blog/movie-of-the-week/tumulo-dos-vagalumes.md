@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Túmulo dos Vagalumes (1988)"
 date: 2024-11-21T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/default/filme_da_semana.jpg"
 headline: true

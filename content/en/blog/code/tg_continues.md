@@ -3,7 +3,7 @@ title: "TG - Atualizações"
 date: 2025-04-17T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Code"]
 tags: ["code", "react", "next"]
 thumbnail: "/image/default/girafales.jpeg"
 headline: true

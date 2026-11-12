@@ -3,7 +3,7 @@ title: "Blog v3"
 date: 2026-08-31T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Site"
+categories: ["Site"]
 tags: ["Site"]
 thumbnail: "/image/default/ralph.webp"
 headline: true

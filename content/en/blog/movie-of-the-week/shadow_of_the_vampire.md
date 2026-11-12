@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: A Sombra do Vampiro (2000)"
 date: 2026-01-05T22:00:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/default/mrburns_thumb.jpg"
 headline: true

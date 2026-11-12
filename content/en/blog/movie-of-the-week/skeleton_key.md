@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: A Chave Mestra (2005)"
 date: 2026-03-14T22:00:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/default/snoopy.jpeg"
 headline: true

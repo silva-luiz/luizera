@@ -3,7 +3,7 @@ title: "[RECIPE] - DEZEMBRONESE DE ALHO"
 date: 2024-12-31T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Dicas"]
 tags: ["dicas", "receitas"]
 thumbnail: "/image/default/family_guy_kitchen.jpg"
 headline: true

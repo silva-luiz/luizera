@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: A Substância (2024)"
 date: 2024-12-26T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://m.media-amazon.com/images/M/MV5BZGQyNjhiZTAtNGFmNy00ZGIyLWJjZWUtZjFkNDZkNTY3MjEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
 headline: true

@@ -3,7 +3,7 @@ title: "Formatura"
 date: 2025-09-18T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Me"]
 tags: ["me"]
 thumbnail: "/image/default/cover_theoffice.jpg"
 headline: true

@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Butterfly Kisses (2018)"
 date: 2025-10-24T22:54:33+08:00
 draft: false
 author: "Luizera do Taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/default/cover.jpg"
 headline: true

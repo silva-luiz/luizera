@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Imaculada (2024)"
 date: 2024-10-08T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://m.media-amazon.com/images/M/MV5BN2Q0ZGUzODItZDYwYS00MjE0LWI5YWQtMGM3MjdmMDZkZGY5XkEyXkFqcGdeQTNwaW5nZXN0._V1_.jpg"
 headline: true

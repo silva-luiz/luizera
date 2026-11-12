@@ -3,7 +3,7 @@ title: "Minha experiência com a AUVP"
 date: 2026-08-04T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "ssh"
+categories: ["Dicas"]
 tags: ["dicas", "IT"]
 thumbnail: "/image/default/tio-patinhas.jpg"
 headline: true

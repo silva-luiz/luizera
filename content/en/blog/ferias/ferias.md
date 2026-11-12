@@ -3,7 +3,7 @@ title: "Férias!!"
 date: 2024-07-03T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Me"]
 tags: ["me", "flutter", "ferias"]
 thumbnail: "/image/default/ferias.jpg"
 headline: true

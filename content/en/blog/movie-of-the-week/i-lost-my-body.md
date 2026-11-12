@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: I Lost My Body (2019)"
 date: 2024-08-23T11:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://64.media.tumblr.com/552d899e9bb25e8b3d3a87f82bb5f48e/tumblr_o809e0GGrs1tszwcio1_640.jpg"
 headline: true

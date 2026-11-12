@@ -3,7 +3,7 @@ title: "Filmes 2k24"
 date: 2024-06-20T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://th.bing.com/th/id/OIP.Kypikh3XdrZDDWOE2iWEMAAAAA?rs=1&pid=ImgDetMain"
 headline: true

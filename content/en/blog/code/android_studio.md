@@ -3,6 +3,7 @@ title: "Problemas com Android Studio - LadyBug"
 date: 2025-01-23T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
+categories: ["Code"]
 tags: ["code", "android", "mobile"]
 thumbnail: "/image/default/ladybug.png"
 headline: true

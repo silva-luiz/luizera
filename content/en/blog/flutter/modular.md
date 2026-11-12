@@ -3,7 +3,7 @@ title: "Gerenciamento de rotas com Flutter Modular"
 date: 2024-08-04T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "flutter"
+categories: ["Flutter"]
 tags: ["flutter", "code"]
 thumbnail: "/image/default/flutter_img.jpg"
 headline: true

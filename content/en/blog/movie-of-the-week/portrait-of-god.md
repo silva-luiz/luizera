@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Portrait of God (2022)"
 date: 2024-07-07T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://media1.giphy.com/media/u5BzptR1OTZ04/giphy_s.gif?cid=6c09b952t5cnmypsnlqrzcbvkzud0zw9ghv42v1c8quzzuz0&ep=v1_internal_gif_by_id&rid=giphy_s.gif&ct=g"
 headline: true

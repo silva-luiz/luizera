@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Baby Driver (2017)"
 date: 2024-08-16T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/rick-and-morty-watching-rick-and-morty.jpg"
 headline: true

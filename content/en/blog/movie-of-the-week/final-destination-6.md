@@ -1,9 +1,9 @@
 ---
-title: "Filme da semana"
+title: "Filme da semana: Premonição 6 - Laços de Sangue"
 date: 2025-06-01T22:54:33+08:00
 draft: false
 author: "Luizera do Taticão"
-categories: "Filmes"
+categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/default/cover.jpg"
 headline: true

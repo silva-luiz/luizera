@@ -3,7 +3,7 @@ title: "Viagem para Monte Verde-MG"
 date: 2024-07-19T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "me"
+categories: ["Me"]
 tags: ["me", "trip", "ferias"]
 thumbnail: "/image/default/mv_capa.jpeg"
 headline: true

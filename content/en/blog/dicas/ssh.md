@@ -3,7 +3,7 @@ title: "SSH"
 date: 2025-08-15T22:00:00+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "ssh"
+categories: ["Dicas"]
 tags: ["dicas", "IT"]
 thumbnail: "/image/default/ssh.jpeg"
 headline: true

@@ -3,7 +3,7 @@ title: "Site no ar (finally)!"
 date: 2024-06-19T18:54:33+08:00
 draft: false
 author: "Luizera do taticão"
-categories: "Site"
+categories: ["Site"]
 tags: ["Site"]
 thumbnail: "https://uploads.metropoles.com/wp-content/uploads/2020/11/26123358/Conheca-o-vovo-por-tras-de-um-dos-memes-mais-famosos-da-web-600x400.jpg"
 headline: true
