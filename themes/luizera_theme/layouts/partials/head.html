@@ -3,6 +3,8 @@
 <meta name="theme-color" content="#008080" />
 
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else if eq .Kind "404" }}Página não encontrada — {{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+{{ partial "seo.html" . }}
+
 <link href="{{ "favicon.jpeg" | relURL }}" rel="icon">
 <link href="{{ "vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" | relURL }}" rel="stylesheet" type="text/css">
 

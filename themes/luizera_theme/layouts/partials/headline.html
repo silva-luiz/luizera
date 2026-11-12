@@ -10,7 +10,7 @@
                 <p class="new-post">★ NEW POST / FEATURED ★</p>
                 <a href="{{ .Permalink }}">{{ .Params.title }}</a>
                 <p>{{ .Summary }}</p>
-                <div class="headline-meta">Posted {{ .Date.Format "Jan 2, 2006" }} &nbsp;|&nbsp; Status: ONLINE</div>
+                <div class="headline-meta">{{ i18n "posted" }} {{ partial "date.html" .Date }} &nbsp;|&nbsp; Status: ONLINE</div>
             </div>
         </div>
     </div>

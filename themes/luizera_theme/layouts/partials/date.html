@@ -1,0 +1,4 @@
+{{- /* Data em PT-BR, ex.: "15 ago. 2025". Uso: {{ partial "date.html" .Date }}
+       (o Hugo localiza datas pela chave do idioma, que aqui é "en") */ -}}
+{{- $meses := slice "jan." "fev." "mar." "abr." "maio" "jun." "jul." "ago." "set." "out." "nov." "dez." -}}
+{{- printf "%d %s %d" .Day (index $meses (sub (int .Month) 1)) .Year -}}
