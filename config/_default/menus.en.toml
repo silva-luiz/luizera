@@ -74,6 +74,12 @@
     [start.params]
         icon = "link-45deg"
 [[start]]
+    name = "Livro de visitas"
+    url = "/guestbook/"
+    weight = 70
+    [start.params]
+        icon = "book"
+[[start]]
     name = "GitHub"
     url = "https://github.com/silva-luiz"
     weight = 90

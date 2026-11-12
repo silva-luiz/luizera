@@ -1,0 +1,21 @@
+{{ define "necker" }}
+<div class="container">
+    {{- partial "breadcrumb.html" . -}}
+</div>
+{{ end }}
+
+{{ define "stager" }}
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container window-guestbook">
+                <div class="content">
+                    <h1 class="title">📖 {{ .Title }}</h1>
+                    <div class="markdown">{{ .Content }}</div>
+                    {{ partial "comments.html" . }}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{{ end }}

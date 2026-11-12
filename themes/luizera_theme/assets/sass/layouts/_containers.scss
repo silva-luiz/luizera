@@ -61,6 +61,7 @@
 .window-notepad::before,
 .window-search::before,
 .window-archive::before,
+.window-guestbook::before,
 .window-links::before {
     display: block;
     margin: -1rem -1rem .75rem;
@@ -98,3 +99,4 @@
 
 .window-search::before { content: "SEARCH.EXE  —  [ _ ] [ □ ] [ X ]"; }
 .window-archive::before { content: "EXPLORER.EXE — C:\\ARQUIVO  [ _ ] [ □ ] [ X ]"; }
+.window-guestbook::before { content: "GUESTBOOK.EXE  —  [ _ ] [ □ ] [ X ]"; }
