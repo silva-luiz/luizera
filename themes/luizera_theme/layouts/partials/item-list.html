@@ -7,7 +7,7 @@
         <img src="{{ .RelPermalink }}" alt="Thumbnail">
         {{ else }}
         {{ with .Params.thumbnail }}
-        <img src="{{ . | relURL}}" alt="Thumbnail">
+        {{ partial "img.html" (dict "src" . "alt" "" "widths" (slice 320 640) "sizes" "(max-width: 639px) 100vw, 150px") }}
         {{ else }}
         <img src="{{"image/default/tags.jpg" | relURL}}" alt="Thumbnail">
         {{ end }}

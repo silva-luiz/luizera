@@ -1,0 +1,33 @@
+{{- /* <img> responsivo. Parâmetros: src (ex.: "/image/posts/x.jpg"), alt, widths (lista),
+       sizes, class, dims (true = width/height no HTML), attrs (texto extra).
+       Imagens em /image/posts/ ganham versões menores em WebP (srcset). Se o Hugo não
+       conseguir processar (ex.: WebP animado) ou a imagem não for local, vai o <img> simples. */ -}}
+{{- $src := .src -}}
+{{- $srcset := slice -}}
+{{- $w := 0 -}}{{- $h := 0 -}}
+{{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+  {{- $res := . -}}
+  {{- if and (eq $res.MediaType.MainType "image") (ne $res.MediaType.SubType "svg") -}}
+    {{- with try $res.Width -}}
+      {{- if not .Err -}}
+        {{- $w = $res.Width -}}{{- $h = $res.Height -}}
+        {{- $src = $res.RelPermalink -}}
+        {{- range ($.widths | default (slice 480 800)) -}}
+          {{- if lt . $w -}}
+            {{- with try ($res.Resize (printf "%dx webp q75" .)) -}}
+              {{- if not .Err }}{{ $srcset = $srcset | append (printf "%s %dw" .Value.RelPermalink .Value.Width) }}{{ end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $srcset }}{{ $srcset = $srcset | append (printf "%s %dw" $res.RelPermalink $w) }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $src = $src | relURL -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .alt }}" loading="{{ .loading | default "lazy" }}" decoding="async"
+  {{- with .class }} class="{{ . }}"{{ end }}
+  {{- if and .dims $w }} width="{{ $w }}" height="{{ $h }}"{{ end }}
+  {{- with $srcset }} srcset="{{ delimit . ", " }}" sizes="{{ $.sizes | default "100vw" }}"{{ end }}
+  {{- with .attrs }} {{ . | safeHTMLAttr }}{{ end }}>

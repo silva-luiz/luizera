@@ -265,7 +265,7 @@ function setupImageViewer() {
         const img = imgs[current];
         const fig = img.closest("figure");
         const cap = fig && fig.querySelector("figcaption");
-        big.src = img.currentSrc || img.src;
+        big.src = img.src; // sempre a original (não a versão menor do srcset)
         big.alt = img.alt;
         name.textContent = "IMAGEVIEW.EXE — " + decodeURIComponent(big.src.split("/").pop().split("?")[0]);
         caption.textContent = cap ? cap.textContent.trim() : img.alt;
