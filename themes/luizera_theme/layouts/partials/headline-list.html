@@ -21,7 +21,7 @@
                 <p>
                     <span>{{ partial "date.html" .Date }}</span>
                     <span>{{ i18n "by" }} {{ .Params.author | default .Site.Params.author.name }}</span>
-                    <span>Comments: 0</span>
+                    <span>{{ partial "reading-time.html" . }}</span>
                 </p>
             </div>
         </a>

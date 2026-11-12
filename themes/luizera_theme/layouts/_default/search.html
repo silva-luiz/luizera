@@ -1,0 +1,27 @@
+{{ define "necker" }}
+<div class="container">
+    {{- partial "breadcrumb.html" . -}}
+</div>
+{{ end }}
+
+{{ define "stager" }}
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container window-search">
+                <div class="content">
+                    <h1 class="title">Buscar no blog</h1>
+                    <form class="search-form" role="search" action="" onsubmit="return false">
+                        <label for="search-input" class="visually-hidden">Termo de busca</label>
+                        <input id="search-input" type="search" name="q" placeholder="Digite e aperte Enter..." autocomplete="off" autofocus
+                            data-index="{{ "index.json" | relURL }}">
+                    </form>
+                    <p id="search-status" class="search-status" aria-live="polite"></p>
+                    <ul id="search-results" class="search-results"></ul>
+                    <noscript>A busca precisa de JavaScript. Use as <a href="{{ "tags/" | relURL }}">tags</a> ou o <a href="{{ "arquivo/" | relURL }}">arquivo</a>.</noscript>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{{ end }}

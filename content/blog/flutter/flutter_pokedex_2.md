@@ -7,6 +7,7 @@ categories: ["Flutter"]
 tags: ["flutter", "code", "pokedex"]
 thumbnail: "/image/posts/pokedex.jpg"
 headline: true
+series: ["Flutter Pokédex"]
 ---
 A continuação do nosso projetinho pra entender a arquitetura
 <!--more-->

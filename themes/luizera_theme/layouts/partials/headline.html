@@ -1,16 +1,16 @@
 {{ range first 1 (where .Site.RegularPages "Params.headline" true) }}
-    {{ with .Resources.Get "headline.jpg" }}
-    <div class="headline" style="background: url({{ .RelPermalink }}) center center no-repeat;">
-    {{ else }}
-    <div class="headline" style="background: url({{ "./image/default/headline.jpg" | relURL }}) center center no-repeat;">
-    {{ end }}
+    {{- /* Fundo: headline.jpg do bundle > thumbnail do post > imagem padrão */ -}}
+    {{- $bg := "image/default/headline.jpg" | relURL -}}
+    {{- with .Params.thumbnail }}{{ $bg = . | relURL }}{{ end -}}
+    {{- with .Resources.Get "headline.jpg" }}{{ $bg = .RelPermalink }}{{ end }}
+    <div class="headline" style="background: url('{{ $bg | safeURL }}') center center no-repeat;">
         <div class="headline-window">
             <div class="headline-window-title">FEATURED_POST.EXE <span>_ □ ×</span></div>
             <div class="headline-window-body">
                 <p class="new-post">★ NEW POST / FEATURED ★</p>
-                <a href="{{ .Permalink }}">{{ .Params.title }}</a>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
                 <p>{{ .Summary }}</p>
-                <div class="headline-meta">{{ i18n "posted" }} {{ partial "date.html" .Date }} &nbsp;|&nbsp; Status: ONLINE</div>
+                <div class="headline-meta">{{ i18n "posted" }} {{ partial "date.html" .Date }} &nbsp;|&nbsp; {{ partial "reading-time.html" . }}</div>
             </div>
         </div>
     </div>

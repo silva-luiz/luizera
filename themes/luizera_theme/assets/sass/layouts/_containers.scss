@@ -60,6 +60,8 @@
 .window-posts::before,
 .window-notepad::before,
 .window-error::before,
+.window-search::before,
+.window-archive::before,
 .window-links::before {
     display: block;
     margin: -1rem -1rem .75rem;
@@ -95,3 +97,6 @@
     border-bottom: 1px solid var(--ui-shadow);
     pointer-events: none;
 }
+
+.window-search::before { content: "SEARCH.EXE  —  [ _ ] [ □ ] [ X ]"; }
+.window-archive::before { content: "EXPLORER.EXE — C:\\ARQUIVO  [ _ ] [ □ ] [ X ]"; }

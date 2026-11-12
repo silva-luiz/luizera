@@ -7,6 +7,7 @@ categories: ["Code"]
 tags: ["code", "flutter", "react"]
 thumbnail: "/image/posts/tg-v2-thumb.webp"
 headline: true
+series: ["TG"]
 ---
 Novidades no projeto e possíveis atualizações do que vem a ser o nosso TG.
 <!--more-->

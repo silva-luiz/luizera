@@ -9,6 +9,11 @@
     url = "/blog/"
     weight = 20
 [[main]]
+    identifier = "arquivo"
+    name = "Arquivo"
+    url = "/arquivo/"
+    weight = 25
+[[main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
@@ -18,6 +23,11 @@
     name = "Links"
     url = "/links/"
     weight = 40
+[[main]]
+    identifier = "busca"
+    name = "Busca"
+    url = "/busca/"
+    weight = 45
 [[main]]
     identifier = "github"
     name = "GitHub"

@@ -1,0 +1,173 @@
+// Funcionalidades extras: série, comentários, busca, arquivo e copiar código.
+// Todas seguem o visual de "janela" do tema.
+
+%retro-window {
+    border: 2px solid var(--black);
+    box-shadow: 3px 3px 0 var(--black);
+    background: var(--window-bg);
+}
+
+%retro-window-title {
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem .4rem;
+    background: var(--navy);
+    color: var(--white);
+    font-family: $sans-serif;
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+// ---- Série de posts ----------------------------------------------------
+.series-box {
+    @extend %retro-window;
+    margin: 1rem 0;
+    font-size: .85rem;
+}
+
+.series-box-title {
+    @extend %retro-window-title;
+}
+
+.series-box-list {
+    margin: 0;
+    padding: .5rem 1rem .5rem 2rem;
+
+    li {
+        margin: .2rem 0;
+    }
+}
+
+// ---- Comentários (Giscus) ---------------------------------------------
+.comments-window {
+    @extend %retro-window;
+    margin-top: 1.5rem;
+}
+
+.comments-window-title {
+    @extend %retro-window-title;
+}
+
+.comments-window-body {
+    padding: .75rem;
+}
+
+// ---- Busca -------------------------------------------------------------
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+.search-form {
+    display: flex;
+    gap: .4rem;
+    margin-bottom: 1rem;
+
+    input {
+        flex: 1;
+        min-width: 0;
+        padding: .3rem .4rem;
+        font: inherit;
+        background: var(--white);
+        color: var(--black);
+        border: 1px solid var(--ui-dark);
+        box-shadow: inset 1px 1px 0 var(--black);
+    }
+}
+
+.search-status {
+    margin-bottom: .75rem;
+    font-size: .8rem;
+}
+
+.search-results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        padding: .5rem 0;
+        border-bottom: 1px dotted var(--ui-shadow);
+    }
+
+    .search-result-title {
+        font-weight: bold;
+    }
+
+    .search-result-meta {
+        font-size: .75rem;
+        color: var(--ui-dark);
+    }
+
+    p {
+        margin: .25rem 0 0;
+        font-size: .85rem;
+    }
+
+    mark {
+        background: var(--yellow);
+        color: var(--black);
+    }
+}
+
+// ---- Arquivo por ano ---------------------------------------------------
+.archive-year {
+    margin: 1rem 0 .4rem;
+    padding: .1rem .4rem;
+    background: var(--ui);
+    border: 1px solid var(--black);
+    font-size: .95rem;
+}
+
+.archive-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: flex;
+        gap: .75rem;
+        padding: .2rem .25rem;
+        font-size: .9rem;
+    }
+
+    .archive-date {
+        flex: 0 0 5.5rem;
+        font-family: $monospace;
+        font-size: .8rem;
+    }
+}
+
+// ---- Botão de copiar código --------------------------------------------
+.highlight {
+    position: relative;
+}
+
+.copy-code {
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    padding: .1rem .45rem;
+    font-family: $sans-serif;
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--black);
+    background: var(--ui);
+    border: 1px solid var(--black);
+    box-shadow: inset 1px 1px 0 var(--ui-bright), inset -1px -1px 0 var(--ui-shadow);
+    cursor: pointer;
+    opacity: .85;
+
+    &:hover,
+    &:focus-visible {
+        opacity: 1;
+    }
+
+    &:active {
+        box-shadow: inset 1px 1px 0 var(--ui-shadow), inset -1px -1px 0 var(--ui-bright);
+    }
+}

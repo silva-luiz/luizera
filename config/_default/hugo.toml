@@ -6,6 +6,10 @@ theme = 'luizera_theme'
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
+removePathAccents = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
 
 [pagination]
   pagerSize = 10
@@ -20,9 +24,20 @@ defaultContentLanguageInSubdir = false
     description = "Faço uns programas aí. Brinco de barman às vezes, também rabisco e toco música."
     github = "https://github.com/silva-luiz/"
 
+  # Comentários (https://giscus.app). Só aparecem quando categoryId estiver preenchido.
+  [params.giscus]
+    repo = "silva-luiz/luizera"
+    repoId = "R_kgDOMMmCZg"
+    category = "Comentários"
+    categoryId = ""
+    mapping = "pathname"
+    theme = "light"
+    lang = "pt"
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
+  series = 'series'
 
 # Renderização do Markdown
 [markup]

@@ -7,6 +7,7 @@ categories: ["Flutter"]
 tags: ["flutter", "code", "pokedex"]
 thumbnail: "/image/posts/pokedex.jpg"
 headline: true
+series: ["Flutter Pokédex"]
 ---
 A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.
 <!--more-->

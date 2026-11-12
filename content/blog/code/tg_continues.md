@@ -7,6 +7,7 @@ categories: ["Code"]
 tags: ["code", "react", "next"]
 thumbnail: "/image/posts/girafales.jpeg"
 headline: true
+series: ["TG"]
 ---
 Trazendo um pouco mais de atualizações sobre o TG, agora em """reta final""" (com muitas aspas mesmo).
 <!--more-->

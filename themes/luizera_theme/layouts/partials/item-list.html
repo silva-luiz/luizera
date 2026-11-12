@@ -24,6 +24,7 @@
                     <span>
                         {{ i18n "by" }} {{ .Params.author | default .Site.Params.author.name }}
                     </span>
+                    <span>{{ partial "reading-time.html" . }}</span>
                 </p>
             </div>
         </a>
