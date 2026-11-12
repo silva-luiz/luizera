@@ -62,6 +62,12 @@
     [start.params]
         icon = "search"
 [[start]]
+    name = "Ranking de filmes"
+    url = "/filmes/"
+    weight = 45
+    [start.params]
+        icon = "film"
+[[start]]
     name = "Tags"
     url = "/tags/"
     weight = 50

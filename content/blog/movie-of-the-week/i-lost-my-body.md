@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/coerencia-thumb.webp"
 headline: true
+nota: 7.5
 ---
 Dessa vez o filme da semana é uma animação, com uma ideia bem diferente, e ao mesmo tempo, muito legal!
 <!--more-->

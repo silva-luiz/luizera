@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/cover.jpg"
 headline: true
+nota: 6.0
 ---
 
 Neste post vão as minhas considerações sobre o último filme da saga **'Premonição'**.

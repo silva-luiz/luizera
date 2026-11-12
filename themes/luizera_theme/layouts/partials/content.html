@@ -10,6 +10,9 @@
                     {{ .Params.author | default .Site.Params.author.name }}
                 </span>
                 <span>{{ partial "reading-time.html" . }}</span>
+                {{- with .Params.nota }}
+                <span>{{ partial "nota.html" . }}</span>
+                {{- end }}
             </p>
         </div>
         {{- partial "series.html" . }}

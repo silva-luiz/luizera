@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/portrait-of-god-thumb.webp"
 headline: true
+nota: 8.0
 ---
 Como essa semana não assisti nada, a avaliação de filme da semana vai ser sobre um curta de terror que já assisti há um tempo atrás
 <!--more-->

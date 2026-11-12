@@ -171,3 +171,52 @@
         box-shadow: inset 1px 1px 0 var(--ui-shadow), inset -1px -1px 0 var(--ui-bright);
     }
 }
+
+// ---- Ranking de filmes -------------------------------------------------
+.ranking-table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    font-size: .85rem;
+
+    th {
+        padding: .25rem .4rem;
+        text-align: left;
+        background: var(--ui);
+        border: 1px solid var(--ui-dark);
+        box-shadow: inset 1px 1px 0 var(--ui-bright);
+    }
+
+    td {
+        padding: .35rem .4rem;
+        border-bottom: 1px dotted var(--ui-shadow);
+        vertical-align: top;
+    }
+
+    tbody tr:nth-child(-n+3) .ranking-pos {
+        color: var(--white);
+        background: var(--navy);
+    }
+
+    small {
+        display: block;
+        font-size: .7rem;
+        color: var(--ui-dark);
+    }
+}
+
+.ranking-pos {
+    width: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ranking-nota {
+    white-space: nowrap;
+}
+
+.nota-barra {
+    margin-right: .3rem;
+    color: var(--green);
+    letter-spacing: -.05em;
+}

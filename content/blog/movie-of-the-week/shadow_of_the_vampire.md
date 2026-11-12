@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/mrburns_thumb.jpg"
 headline: true
+nota: 8.0
 ---
 Pro primeiro post do ano, resolvi trazer um filme bem interessante que já estava querendo ver há muito tempo e gostei muito
 <!--more-->

@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/the-substance-thumb.webp"
 headline: true
+nota: 8.0
 ---
 O último filme do ano não poderia ser mais maluco do que esse. Chega mais!!
 <!--more-->

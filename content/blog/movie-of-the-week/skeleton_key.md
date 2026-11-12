@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/snoopy.jpeg"
 headline: true
+nota: 9.0
 ---
 De vez em quando eu lembro de escrever algo legal aqui, então dessa vez tenho mais uma indicação legal de filme
 <!--more-->

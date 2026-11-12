@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/filme_da_semana.jpg"
 headline: true
+nota: 9.0
 ---
 A indicação da semana é uma animação muito triste, mas também, **muito boa**.
 <!--more-->

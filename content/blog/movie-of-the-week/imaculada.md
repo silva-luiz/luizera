@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/imaculada-thumb.webp"
 headline: true
+nota: 6.5
 ---
 Depois de um sumiço, e muito tempo sem postar baboseira, mais um **FILME DA SEMANA**
 <!--more-->

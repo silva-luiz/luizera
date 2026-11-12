@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/cover.jpg"
 headline: true
+nota: 8.0
 ---
 
 Como já faz um tempinho que não posto nada, lá vai um resumo de um dos últimos filmes de terror que vi e gostei muit: **Butterfly Kisses**

@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/baby-driver-thumb.webp"
 headline: true
+nota: 7.5
 ---
 Fugindo um pouco do terror e dos filmes de Plot Twist, aqui vai uma indicação de filme bem da hora
 <!--more-->

@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/coerencia-thumb.webp"
 headline: true
+nota: 8.0
 ---
 Domingo passado assisti um filme interessante e trouxe aqui minhas sinceras avaliações. Coisa de maluco!
 <!--more-->

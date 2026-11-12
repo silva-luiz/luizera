@@ -7,6 +7,7 @@ categories: ["Filmes"]
 tags: ["Filmes"]
 thumbnail: "/image/posts/filme_da_semana.jpg"
 headline: true
+nota: 9.0
 ---
 O **filme da semana** tem o maior PlotTwist que eu já vi, desde Um Contratempo! Simplesmente uma obra de arte!!
 <!--more-->
