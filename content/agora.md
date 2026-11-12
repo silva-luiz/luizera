@@ -12,20 +12,18 @@ menus:
       icon: "hourglass-split"
 ---
 
-<!-- Preencha as seções abaixo com o que você está fazendo agora e apague estes comentários. -->
-
 ## 📚 Lendo
 
-- (livro que você está lendo)
+- O médico e o Monstro - Robert Louis Stevenson
 
 ## 🎬 Assistindo
 
-- (série ou filme do momento)
+- Qualquer filme ruim que você me indicar
 
-## 🥋 Treinando
+## 🥋 Jiu-Jitsu
 
-- (como anda o BJJ)
+- Faixa Branca - 4 Graus
 
 ## 💻 Programando
 
-- (projeto em que você está trabalhando)
+- Working @ QikServe + um monte de projetos pessoais malucos

@@ -457,6 +457,8 @@ button.task-button {
 }
 
 // ---- Botões 88×31 ------------------------------------------------------
+// As cores são fixas em todos os estados (o tema muda a cor de links visitados
+// e pinta o fundo de amarelo no hover, o que estragava o contraste).
 .buttons-88 {
     display: flex;
     flex-wrap: wrap;
@@ -464,7 +466,7 @@ button.task-button {
     margin: .5rem 0 1rem;
 }
 
-.btn88 {
+a.btn88 {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -475,8 +477,23 @@ button.task-button {
     font-family: $sans-serif;
     line-height: 1;
     text-decoration: none;
+    color: var(--btn88-fg);
+    background: var(--btn88-bg);
     border: 1px solid var(--black);
-    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .6), inset -1px -1px 0 rgba(0, 0, 0, .4);
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .45), inset -1px -1px 0 rgba(0, 0, 0, .45);
+
+    &:visited,
+    &:hover,
+    &:focus-visible {
+        color: var(--btn88-fg);
+        background: var(--btn88-bg);
+    }
+
+    &:hover,
+    &:focus-visible {
+        outline: 2px solid var(--yellow);
+        outline-offset: 1px;
+    }
 
     b {
         font-size: 11px;
@@ -486,19 +503,22 @@ button.task-button {
     small {
         margin-top: 2px;
         font-size: 8px;
-    }
-
-    &:hover {
-        filter: brightness(1.15);
-        background-image: none;
+        opacity: .9;
     }
 }
 
-.btn88-umgeher { color: #00ff66; background: #111; }
-.btn88-alif    { color: #fff; background: linear-gradient(#7a3e9d, #3d1f4f); }
-.btn88-rss     { color: #fff; background: #ff6600; }
+// Contraste do texto sobre o fundo: todos acima de 7:1
+.btn88-umgeher { --btn88-fg: #00ff66; --btn88-bg: #111111; }
+.btn88-alif    { --btn88-fg: #ffffff; --btn88-bg: #4b1f66; }
+.btn88-rss     { --btn88-fg: #000000; --btn88-bg: #ff8c1a; }
 
-.btn88-img {
+// A imagem do botão do Luizera fica sempre no tamanho original (88×31)
+img.btn88-img {
+    width: 88px;
+    max-width: none;
+    height: 31px;
+    margin: 0;
+    border: 0;
     image-rendering: pixelated;
 }
 
@@ -515,8 +535,8 @@ button.task-button {
 // Badge RSS da sidebar
 .retro-badge.rss,
 .retro-badge.rss span {
-    color: #fff;
-    background: #ff6600;
+    color: #000;
+    background: #ff8c1a;
     font-weight: bold;
 }
 
@@ -577,27 +597,34 @@ button.task-button {
     background: #fffef0;
 }
 
-// Imprime só o cartão da receita
+// Imprime só o cartão da receita.
+// O JS marca o "caminho" até o cartão (.print-path) e esconde todo o resto
+// (.print-hide) com display:none, para não sobrar espaço vazio virando página em branco.
 @media print {
-    body.print-receita * {
-        visibility: hidden;
+    body.print-receita .print-hide,
+    body.print-receita .receita-print {
+        display: none !important;
     }
 
-    body.print-receita .receita.printing,
-    body.print-receita .receita.printing * {
-        visibility: visible;
+    body.print-receita,
+    body.print-receita .print-path {
+        position: static !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        box-shadow: none !important;
+        background: none !important;
+    }
+
+    body.print-receita .print-path::before,
+    body.print-receita .print-path::after {
+        display: none !important;
     }
 
     body.print-receita .receita.printing {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
         margin: 0;
         box-shadow: none;
-    }
-
-    body.print-receita .receita-print {
-        display: none;
+        break-inside: auto;
     }
 }

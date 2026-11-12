@@ -479,6 +479,12 @@ function setupKonami() {
 
 // Cartão de receita: botão que imprime só a receita
 function setupRecipes() {
+    const cleanup = function () {
+        document.body.classList.remove("print-receita");
+        document.querySelectorAll(".print-path, .print-hide, .receita.printing").forEach(function (el) {
+            el.classList.remove("print-path", "print-hide", "printing");
+        });
+    };
     document.querySelectorAll("[data-receita]").forEach(function (card) {
         const title = card.querySelector(".receita-title");
         if (!title || !window.print) return;
@@ -487,14 +493,18 @@ function setupRecipes() {
         btn.className = "receita-print";
         btn.textContent = "🖨 Imprimir receita";
         btn.addEventListener("click", function () {
+            cleanup();
+            // Do cartão até o <body>: mantém os "pais" e esconde todos os irmãos
+            for (let el = card; el && el !== document.body; el = el.parentElement) {
+                el.classList.add(el === card ? "printing" : "print-path");
+                Array.from(el.parentElement.children).forEach(function (sib) {
+                    if (sib !== el) sib.classList.add("print-hide");
+                });
+            }
             document.body.classList.add("print-receita");
-            card.classList.add("printing");
             window.print();
         });
         title.appendChild(btn);
     });
-    window.addEventListener("afterprint", function () {
-        document.body.classList.remove("print-receita");
-        document.querySelectorAll(".receita.printing").forEach(function (c) { c.classList.remove("printing"); });
-    });
+    window.addEventListener("afterprint", cleanup);
 }
