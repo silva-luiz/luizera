@@ -27,7 +27,7 @@ removePathAccents = true
   # Player da sidebar: cole aqui o link de uma playlist/álbum/música do Spotify.
   # Vazio = mostra o widget decorativo.
   [params.player]
-    spotify = ""
+    spotify = "https://open.spotify.com/intl-pt/album/6hPkbAV3ZXpGZBGUvL6jVM?si=lscJaqztSO-PF5vnytRF1g"
 
   # Comentários (https://giscus.app). Só aparecem quando categoryId estiver preenchido.
   [params.giscus]
