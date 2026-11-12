@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupImageViewer();
     setupWindows();
     setupVisitorCounter();
+    setupScreensaver();
 });
 
 // Menu no mobile
@@ -362,4 +363,66 @@ function setupVisitorCounter() {
             box.hidden = false;
         })
         .catch(function () { /* sem contador, sem problema */ });
+}
+
+// Proteção de tela "Starfield" depois de um tempo sem mexer no site
+function setupScreensaver() {
+    const IDLE_MS = 2 * 60 * 1000;
+    if (!window.matchMedia || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const canvas = document.createElement("canvas");
+    canvas.className = "screensaver";
+    canvas.hidden = true;
+    canvas.setAttribute("aria-hidden", "true");
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext && canvas.getContext("2d");
+    if (!ctx) return;
+
+    let timer = null, frame = null, stars = [], w = 0, h = 0;
+    const newStar = function (anywhere) {
+        return { x: (Math.random() - .5) * w, y: (Math.random() - .5) * h, z: anywhere ? Math.random() * w : w };
+    };
+    const resize = function () {
+        w = canvas.width = window.innerWidth;
+        h = canvas.height = window.innerHeight;
+        stars = Array.from({ length: 300 }, function () { return newStar(true); });
+    };
+    const draw = function () {
+        ctx.fillStyle = "#000";
+        ctx.fillRect(0, 0, w, h);
+        ctx.fillStyle = "#fff";
+        for (const s of stars) {
+            s.z -= 6;
+            if (s.z <= 1) Object.assign(s, newStar(false));
+            const k = 256 / s.z, x = s.x * k + w / 2, y = s.y * k + h / 2;
+            if (x < 0 || x > w || y < 0 || y > h) { Object.assign(s, newStar(false)); continue; }
+            const size = Math.max(.5, (1 - s.z / w) * 3);
+            ctx.fillRect(x, y, size, size);
+        }
+        frame = requestAnimationFrame(draw);
+    };
+    const start = function () {
+        // não interrompe quem está com o visualizador de imagem, menu ou tela de desligar abertos
+        if (document.hidden || document.querySelector(".imageview:not([hidden]), #shutdown-screen:not([hidden])")) return reset();
+        resize();
+        canvas.hidden = false;
+        frame = requestAnimationFrame(draw);
+    };
+    const stop = function () {
+        if (frame) cancelAnimationFrame(frame);
+        frame = null;
+        canvas.hidden = true;
+    };
+    const reset = function () {
+        if (!canvas.hidden) stop();
+        clearTimeout(timer);
+        timer = setTimeout(start, IDLE_MS);
+    };
+
+    ["mousemove", "mousedown", "keydown", "scroll", "touchstart", "wheel"].forEach(function (ev) {
+        window.addEventListener(ev, reset, { passive: true });
+    });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); reset(); });
+    window.addEventListener("resize", function () { if (!canvas.hidden) resize(); });
+    reset();
 }
