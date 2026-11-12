@@ -539,3 +539,65 @@ button.task-button {
 .agora-sobre {
     margin-top: 1.5rem;
 }
+
+// ---- Cartão de receita -------------------------------------------------
+.receita {
+    @extend %retro-window;
+    margin: 1.5rem 0;
+}
+
+.receita-title {
+    @extend %retro-window-title;
+    align-items: center;
+    gap: .5rem;
+}
+
+.receita-print {
+    flex: 0 0 auto;
+    padding: .1rem .4rem;
+    font: inherit;
+    font-weight: bold;
+    color: var(--black);
+    background: var(--ui);
+    border: 1px solid var(--black);
+    box-shadow: inset 1px 1px 0 var(--ui-bright), inset -1px -1px 0 var(--ui-shadow);
+    cursor: pointer;
+}
+
+.receita-meta {
+    margin: 0;
+    padding: .3rem .75rem;
+    font-size: .8rem;
+    background: var(--ui-light);
+    border-bottom: 1px solid var(--ui-shadow);
+}
+
+.receita-body {
+    padding: .25rem 1rem .75rem;
+    background: #fffef0;
+}
+
+// Imprime só o cartão da receita
+@media print {
+    body.print-receita * {
+        visibility: hidden;
+    }
+
+    body.print-receita .receita.printing,
+    body.print-receita .receita.printing * {
+        visibility: visible;
+    }
+
+    body.print-receita .receita.printing {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    body.print-receita .receita-print {
+        display: none;
+    }
+}

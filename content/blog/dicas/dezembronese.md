@@ -21,6 +21,8 @@ Salve rapeize, cês tão bão!? Pra variar um pouco no conteúdo do blog, resolv
 
 Vou te ensinar, pega a visão fi
 
+{{% receita titulo="Dezembronese de alho" %}}
+
 ## INGREDIENTES
 
 Pra fazer a dezembronese de alho você vai precisar de:
@@ -42,5 +44,7 @@ Primeiro coloca os três ovos e um pouquinho de óleo dentro do liquidificador. 
 Aí o negócio é ir colocando óleo enquanto vai batendo, pra dar a consistência da maionese. Quando estiver a com a textura que você quer, vc adiciona o queijo e continua batendo. O queijo pode ir colocando conforme o gosto, mas quanto mais queijo, mais cremosa ela fica, e o segredo tá aí. Nessa receita eu acredito que tenha usado aproximadamente 150g de queijo parmesão ralado, que fui jogando aos poucos no liquidificador.
 
 Depois de tudo feito, é só levar pra geladeira por mais ou menos meia horinha, e já tá pronto pra fazer sucesso no chrurasco.
+
+{{% /receita %}}
 
 Me agradeça depois!

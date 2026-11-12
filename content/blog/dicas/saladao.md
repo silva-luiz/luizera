@@ -20,6 +20,8 @@ Dei a ideia pra dona do nosso date de sábado ser um jantarzinho feito por nós 
 
 SIMPLES!! Pega a visão:
 
+{{% receita titulo="Saladão com creme de gorgonzola" %}}
+
 ## INGREDIENTES
 
 Pra fazer o saladão com creme de gorgonzola você vai precisar dos seguintes ingredientes:
@@ -60,6 +62,8 @@ E por fim, o mais importante, o creme de gorgonzola. O primeiro passo é amassar
 Depois que vc fez todo esse rolê, é só jogar tudo ali dentro do bowl e mexer pra misturar bem o creme na salada. O frango e os croutons podem ir junto, mas se vc preferir, pode colocar separado também (eu prefiro tudo junto, pro frango misturar no creme também).
 
 E tá pronta sua saladinha proteíca e de baixa caloria. Com um sabor maravilhoso, e de quebra ainda é um prato bonito pra vc fazer uma média com a primeira dama! Nosso jantar foi acompanhado de um vinhozinho e foi 10/10. É só fazer e correr pro abraço.
+
+{{% /receita %}}
 
 ABAIXO A FOTO DA PERIPÉCIA:
 

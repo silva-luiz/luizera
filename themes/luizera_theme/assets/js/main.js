@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupVisitorCounter();
     setupScreensaver();
     setupKonami();
+    setupRecipes();
 });
 
 // Menu no mobile
@@ -473,5 +474,27 @@ function setupKonami() {
         const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
         pos = (k === code[pos]) ? pos + 1 : (k === code[0] ? 1 : 0);
         if (pos === code.length) { pos = 0; show(); }
+    });
+}
+
+// Cartão de receita: botão que imprime só a receita
+function setupRecipes() {
+    document.querySelectorAll("[data-receita]").forEach(function (card) {
+        const title = card.querySelector(".receita-title");
+        if (!title || !window.print) return;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "receita-print";
+        btn.textContent = "🖨 Imprimir receita";
+        btn.addEventListener("click", function () {
+            document.body.classList.add("print-receita");
+            card.classList.add("printing");
+            window.print();
+        });
+        title.appendChild(btn);
+    });
+    window.addEventListener("afterprint", function () {
+        document.body.classList.remove("print-receita");
+        document.querySelectorAll(".receita.printing").forEach(function (c) { c.classList.remove("printing"); });
     });
 }
