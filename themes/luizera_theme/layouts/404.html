@@ -3,5 +3,28 @@
 {{ end }}
 
 {{ define "stager" }}
-
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container window-error">
+                <div class="content">
+                    <article>
+                        <div class="content-header">
+                            <h1 class="title">⚠ Erro 404</h1>
+                        </div>
+                        <div class="markdown">
+                            <p>Este programa executou uma operação ilegal e será fechado.</p>
+                            <p>A página que você procurou não existe (ou já existiu e foi embora).</p>
+                            <p>
+                                <a href="{{ "/" | relLangURL }}">[ Voltar para a home ]</a>
+                                &nbsp;
+                                <a href="{{ "en/" | relURL }}">[ Ver todos os posts ]</a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
 {{ end }}

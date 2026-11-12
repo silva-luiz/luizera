@@ -22,11 +22,7 @@
                 <p>
                     <span>{{.Date.Format "Jan 2, 2006"}}</span>
                     <span>
-                        By {{ if ne .Params.author "" }}
-                        {{ .Params.author }}
-                        {{ else }}
-                        {{ .Site.Params.author.name }}
-                        {{ end }}
+                        By {{ .Params.author | default .Site.Params.author.name }}
                     </span>
                 </p>
             </div>

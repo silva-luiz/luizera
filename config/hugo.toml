@@ -2,7 +2,6 @@ baseURL = 'https://luizera.com.br/'
 
 theme = 'luizera_theme'
 
-paginate = 10
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
@@ -35,3 +34,6 @@ defaultContentLanguageInSubdir = false
   [module.hugoVersion]
     extended = true
     min = "0.117.0"
+
+[pagination]
+  pagerSize = 10

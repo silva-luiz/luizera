@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: "Site"
 tags: ["Site"]
-thumbnail: "/image/default/ralph.png"
+thumbnail: "/image/default/ralph.webp"
 headline: true
 ---
 A V3 do blog ta no ar, meus bacanos!
@@ -19,7 +19,7 @@ Primeiramente, a estética de internet anos 2000. Simplesmente a melhor época d
 
 ### Aproveitei também pra fazer algumas pequenas alterações:
 
-{{< figure src="/image/default/peter.gif" title="" >}}
+{{< figure src="/image/default/peter.webp" title="" >}}
 
 - Coloquei uns badges para as redes sociais (instagram e github)
 - Retirei o QR Code pix (nunca recebi pix nenhum, só estava ali por estar mesmo)

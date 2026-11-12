@@ -59,6 +59,7 @@
 .window-recent::before,
 .window-posts::before,
 .window-notepad::before,
+.window-error::before,
 .window-links::before {
     display: block;
     margin: -1rem -1rem .75rem;
@@ -75,6 +76,7 @@
 .window-posts::before { content: "ARCHIVE.EXE  —  [ _ ] [ □ ] [ X ]"; }
 .window-notepad::before { content: "NOTEPAD.EXE  —  [ _ ] [ □ ] [ X ]"; }
 .window-links::before { content: "LINKS.EXE  —  [ _ ] [ □ ] [ X ]"; }
+.window-error::before { content: "ERROR.EXE  —  [ X ]"; }
 
 .list-container,
 .single-container {
