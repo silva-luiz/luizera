@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupClock();
     setupCopyButtons();
     setupSearch();
+    setupBSOD();
 });
 
 // Menu no mobile
@@ -205,5 +206,18 @@ function setupSearch() {
     input.addEventListener("input", function () {
         clearTimeout(timer);
         timer = setTimeout(run, 150);
+    });
+}
+
+// 404 em tela azul: mostra o caminho pedido e volta pra home com qualquer tecla
+function setupBSOD() {
+    const bsod = document.getElementById("bsod");
+    if (!bsod) return;
+    const path = document.getElementById("bsod-path");
+    if (path) path.textContent = location.host + location.pathname;
+    document.addEventListener("keydown", function (e) {
+        // Tab continua navegando pelos links; teclas de atalho do navegador são ignoradas
+        if (e.key === "Tab" || e.ctrlKey || e.metaKey || e.altKey) return;
+        location.href = bsod.dataset.home;
     });
 }

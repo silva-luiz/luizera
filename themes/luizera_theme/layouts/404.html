@@ -1,30 +1,23 @@
-{{ define "necker" }}
-
-{{ end }}
-
-{{ define "stager" }}
-<div class="container">
-    <div class="stager">
-        <main>
-            <div class="single-container window-error">
-                <div class="content">
-                    <article>
-                        <div class="content-header">
-                            <h1 class="title">⚠ Erro 404</h1>
-                        </div>
-                        <div class="markdown">
-                            <p>Este programa executou uma operação ilegal e será fechado.</p>
-                            <p>A página que você procurou não existe (ou já existiu e foi embora).</p>
-                            <p>
-                                <a href="{{ "/" | relLangURL }}">[ Voltar para a home ]</a>
-                                &nbsp;
-                                <a href="{{ "blog/" | relURL }}">[ Ver todos os posts ]</a>
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </main>
-    </div>
-</div>
-{{ end }}
+{{- /* 404 em tela azul (BSOD). Página independente, sem o layout padrão. */ -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body class="bsod-body">
+    <main class="bsod" id="bsod" data-home="{{ "/" | relURL }}">
+        <h1 class="bsod-title">LUIZERA</h1>
+        <p>
+            Ocorreu uma exceção fatal 404 em <span id="bsod-path">luizera.com.br</span>.
+            A página solicitada não foi encontrada e o programa será encerrado.
+        </p>
+        <ul>
+            <li>Pressione qualquer tecla para voltar à <a href="{{ "/" | relURL }}">página inicial</a>.</li>
+            <li>Ou tente a <a href="{{ "busca/" | relURL }}">busca</a> e o <a href="{{ "arquivo/" | relURL }}">arquivo</a>.
+                Você perderá todas as informações não salvas neste site.</li>
+        </ul>
+        <p class="bsod-continue">Pressione qualquer tecla para continuar <span class="bsod-cursor">_</span></p>
+    </main>
+    {{- partial "baseof/foot.html" . -}}
+</body>
+</html>

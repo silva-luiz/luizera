@@ -1,0 +1,55 @@
+// 404: tela azul estilo Windows 9x
+.bsod-body {
+    margin: 0;
+    min-height: 100vh;
+    background: #0000aa;
+}
+
+.bsod {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 12vh 1.25rem 2rem;
+    color: #fff;
+    font-family: "Lucida Console", "Courier New", $monospace;
+    font-size: clamp(.9rem, 2.4vw, 1.1rem);
+    line-height: 1.6;
+
+    p, ul {
+        margin: 0 0 1.4rem;
+    }
+
+    ul {
+        padding-left: 1.4rem;
+        list-style: "*  ";
+    }
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+        background: none;
+    }
+
+    a:hover,
+    a:focus-visible {
+        color: #0000aa;
+        background: #fff;
+    }
+}
+
+.bsod-title {
+    display: table;
+    margin: 0 auto 2rem;
+    padding: 0 .5rem;
+    color: #0000aa;
+    background: #aaa;
+    font-size: inherit;
+    font-weight: normal;
+}
+
+.bsod-continue {
+    text-align: center;
+}
+
+.bsod-cursor {
+    animation: retro-blink 1s steps(2, start) infinite;
+}
