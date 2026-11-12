@@ -1,4 +1,5 @@
-{{ range after 1 (first 5 (where .Site.RegularPages "Params.headline" true)) }}
+{{- /* Recebe a lista de posts da página atual da home */ -}}
+{{ range . }}
 
 <section class="item">
     <div class="item-thumbnail">

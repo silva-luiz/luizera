@@ -3,7 +3,11 @@
     justify-content: space-between;
     font-size: .8rem;
 
-    .pagination-item { width: 50%; }
+    align-items: center;
+    gap: .5rem;
+
+    .pagination-item { flex: 1; }
+    .pagination-item:last-child { display: flex; justify-content: flex-end; }
 
     .right,
     .left {
@@ -25,5 +29,34 @@
 
     .item-link:active {
         border-style: inset;
+    }
+}
+
+
+.pagination-pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-page {
+    display: inline-block;
+    min-width: 1.6rem;
+    padding: .2rem .35rem;
+    text-align: center;
+    color: var(--black);
+    text-decoration: none;
+    background: var(--ui);
+    border: 2px outset var(--ui-light);
+
+    &.current {
+        background: var(--navy);
+        color: var(--white);
+        border-style: inset;
+        font-weight: bold;
     }
 }

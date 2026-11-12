@@ -1,25 +1,37 @@
-<!-- Pagination -->
-{{ $page := $.Paginator }}
-{{ if gt $page.TotalPages 1 }}
-<div class="pagination">
+{{- /* Paginação: anterior | 1 2 3 ... | próximo */ -}}
+{{- $pag := $.Paginator }}
+{{- if gt $pag.TotalPages 1 }}
+<nav class="pagination" aria-label="Paginação">
 
     <div class="pagination-item">
-        {{ if $page.HasPrev }}
-        <a class="left item-link" href="{{ $page.Prev.URL }}">
+        {{- if $pag.HasPrev }}
+        <a class="left item-link" href="{{ $pag.Prev.URL }}" rel="prev">
             <i class="bi bi-chevron-left"></i>
             <span>{{ i18n "prev" }}</span>
         </a>
-        {{ end }}
+        {{- end }}
     </div>
 
+    <ol class="pagination-pages">
+        {{- range $pag.Pagers }}
+        <li>
+            {{- if eq .PageNumber $pag.PageNumber }}
+            <span class="pagination-page current" aria-current="page">{{ .PageNumber }}</span>
+            {{- else }}
+            <a class="pagination-page item-link" href="{{ .URL }}" aria-label="Página {{ .PageNumber }}">{{ .PageNumber }}</a>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ol>
+
     <div class="pagination-item">
-        {{ if $page.HasNext }}
-        <a class="right item-link" href="{{ $page.Next.URL }}">
+        {{- if $pag.HasNext }}
+        <a class="right item-link" href="{{ $pag.Next.URL }}" rel="next">
             <i class="bi bi-chevron-right"></i>
             <span>{{ i18n "next" }}</span>
         </a>
-        {{ end }}
+        {{- end }}
     </div>
 
-</div>
-{{ end }}
+</nav>
+{{- end }}
