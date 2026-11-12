@@ -455,3 +455,67 @@ button.task-button {
     0%, 100% { transform: translateY(0) rotate(-4deg); }
     50% { transform: translateY(-6px) rotate(4deg); }
 }
+
+// ---- Botões 88×31 ------------------------------------------------------
+.buttons-88 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin: .5rem 0 1rem;
+}
+
+.btn88 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 31px;
+    overflow: hidden;
+    font-family: $sans-serif;
+    line-height: 1;
+    text-decoration: none;
+    border: 1px solid var(--black);
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .6), inset -1px -1px 0 rgba(0, 0, 0, .4);
+
+    b {
+        font-size: 11px;
+        letter-spacing: .03em;
+    }
+
+    small {
+        margin-top: 2px;
+        font-size: 8px;
+    }
+
+    &:hover {
+        filter: brightness(1.15);
+        background-image: none;
+    }
+}
+
+.btn88-umgeher { color: #00ff66; background: #111; }
+.btn88-alif    { color: #fff; background: linear-gradient(#7a3e9d, #3d1f4f); }
+.btn88-rss     { color: #fff; background: #ff6600; }
+
+.btn88-img {
+    image-rendering: pixelated;
+}
+
+.btn88-code {
+    padding: .5rem;
+    overflow-x: auto;
+    font-size: .75rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+    background: var(--ui-light);
+    border: 1px inset var(--ui-shadow);
+}
+
+// Badge RSS da sidebar
+.retro-badge.rss,
+.retro-badge.rss span {
+    color: #fff;
+    background: #ff6600;
+    font-weight: bold;
+}
