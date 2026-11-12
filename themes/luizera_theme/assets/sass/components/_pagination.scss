@@ -25,10 +25,37 @@
         text-align: right;
     }
 
-    span { margin: 0 .35rem; }
+    .left span,
+    .right span { margin: 0 .35rem; }
 
     .item-link:active {
         border-style: inset;
+    }
+}
+
+// Paginação de listas: "anterior" e "próximo" com o mesmo tamanho
+.pager {
+    .left,
+    .right {
+        width: 8.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: $sm - 1) {
+    .pager {
+        flex-wrap: wrap;
+
+        .pagination-pages {
+            order: -1;
+            width: 100%;
+        }
+
+        .left,
+        .right {
+            width: 100%;
+        }
     }
 }
 

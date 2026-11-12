@@ -1,7 +1,7 @@
 {{- /* Paginação: anterior | 1 2 3 ... | próximo */ -}}
 {{- $pag := $.Paginator }}
 {{- if gt $pag.TotalPages 1 }}
-<nav class="pagination" aria-label="Paginação">
+<nav class="pagination pager" aria-label="Paginação">
 
     <div class="pagination-item">
         {{- if $pag.HasPrev }}
