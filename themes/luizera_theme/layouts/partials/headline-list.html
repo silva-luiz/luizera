@@ -1,4 +1,5 @@
-{{ range after 1 (first 5 (where .Site.RegularPages "Params.headline" true)) }}
+{{- /* Recebe a lista de posts da página atual da home */ -}}
+{{ range . }}
 
 <section class="item">
     <div class="item-thumbnail">
@@ -6,9 +7,9 @@
         <img src="{{ .RelPermalink }}" alt="Thumbnail">
         {{ else }}
         {{ with .Params.thumbnail }}
-        <img src="{{ . | relURL}}" alt="Thumbnail">
+        {{ partial "img.html" (dict "src" . "alt" "" "widths" (slice 320 640) "sizes" "(max-width: 639px) 100vw, 150px") }}
         {{ else }}
-        <img src="{{" image/default/thumbnail.jpg" | relURL}}" alt="Thumbnail">
+        <img src="{{ "image/default/tags.jpg" | relURL }}" alt="Thumbnail">
         {{ end }}
         {{ end }}
     </div>
@@ -19,9 +20,9 @@
             <div class="item-text-brief">{{ .Summary }}</div>
             <div class="item-text-meta">
                 <p>
-                    <span>{{.Date.Format "Jan 2, 2006"}}</span>
-                    <span>By {{ if ne .Params.author "" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author.name }}{{ end }}</span>
-                    <span>Comments: 0</span>
+                    <span>{{ partial "date.html" .Date }}</span>
+                    <span>{{ i18n "by" }} {{ .Params.author | default .Site.Params.author.name }}</span>
+                    <span>{{ partial "reading-time.html" . }}</span>
                 </p>
             </div>
         </a>

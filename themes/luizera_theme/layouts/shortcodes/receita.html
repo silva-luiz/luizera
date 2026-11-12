@@ -1,0 +1,16 @@
+{{- /* Cartão de receita. Use com % para o conteúdo ser Markdown:
+       {{% receita titulo="Saladão" porcoes="2" tempo="40 min" %}}
+       ## INGREDIENTES ...  ## MODO DE PREPARO ...
+       {{% /receita %}}
+       O HTML fica sem indentação de propósito (indentação vira bloco de código no Markdown). */ -}}
+<section class="receita" data-receita>
+<div class="receita-title"><span>RECEITA.TXT{{ with .Get "titulo" }} — {{ . }}{{ end }}</span></div>
+{{- if or (.Get "porcoes") (.Get "tempo") }}
+<p class="receita-meta">{{ with .Get "porcoes" }}🍽 {{ . }} porções{{ end }}{{ if and (.Get "porcoes") (.Get "tempo") }} · {{ end }}{{ with .Get "tempo" }}⏱ {{ . }}{{ end }}</p>
+{{- end }}
+<div class="receita-body">
+
+{{ .Inner }}
+
+</div>
+</section>

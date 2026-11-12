@@ -1,0 +1,4 @@
+{{- /* Posts da home: { featured: post em destaque, rest: todos os outros posts do blog } */ -}}
+{{- $posts := where site.RegularPages "Section" "blog" -}}
+{{- $featured := first 1 (where $posts "Params.headline" true) -}}
+{{- return dict "featured" $featured "rest" ($posts | complement $featured) -}}

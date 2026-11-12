@@ -1,6 +1,29 @@
 <div class="container">
     <div class="system-footer">
-        <span class="start-button">▣ Start</span>
+        <button type="button" class="start-button" id="start-button"
+            aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">▣ Start</button>
+
+        <nav class="start-menu" id="start-menu" aria-label="Menu Iniciar" hidden>
+            <div class="start-menu-side" aria-hidden="true"><span>Luizera<b>98</b></span></div>
+            <ul class="start-menu-items">
+                {{- range .Site.Menus.start }}
+                <li>
+                    <a href="{{ .URL }}"{{ if .Params.external }} target="_blank" rel="noopener"{{ end }}>
+                        <i class="bi bi-{{ .Params.icon | default "file-earmark" }}" aria-hidden="true"></i>
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{- end }}
+                <li class="start-menu-sep" role="separator"></li>
+                <li>
+                    <button type="button" id="shutdown-button">
+                        <i class="bi bi-power" aria-hidden="true"></i>
+                        <span>Desligar...</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
         <span class="task-button">Luizera.exe</span>
         <span class="footer-spacer"></span>
         <span class="footer-status">STATUS: ONLINE</span>
@@ -16,19 +39,7 @@
     </div>
 </div>
 
-<script>
-  function updateClock() {
-    const now = new Date();
-
-    document.getElementById("footer-clock").textContent =
-      now.toLocaleTimeString("pt-BR", {
-        hour: "2-digit",
-        minute: "2-digit",
-        second:"2-digit",
-        hour12: false
-      });
-  }
-
-  updateClock();
-  setInterval(updateClock, 1000);
-</script>
+<div class="shutdown-screen" id="shutdown-screen" role="dialog" aria-modal="true" aria-label="Desligar" tabindex="-1" hidden>
+    <p>Agora você pode desligar o<br>computador com segurança.</p>
+    <small>(clique ou aperte qualquer tecla para voltar)</small>
+</div>

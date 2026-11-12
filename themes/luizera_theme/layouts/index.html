@@ -1,7 +1,11 @@
 {{ define "necker" }}
+{{- $home := partialCached "home-posts.html" . -}}
+{{- $pager := .Paginate $home.rest -}}
+{{- if eq $pager.PageNumber 1 }}
 <div class="container-fluid">
-    {{- partial "headline.html" . -}}
+    {{- partial "headline.html" $home.featured -}}
 </div>
+{{- end }}
 {{ end }}
 
 {{ define "stager" }}
@@ -9,10 +13,13 @@
     <div class="stager">
         <main>
             <div class="list-container window-recent">
-                {{- partial "headline-list.html" . -}}
-                <a href="/en" class="all-posts">
+                {{- partial "headline-list.html" .Paginator.Pages -}}
+                <a href="{{ "blog/" | relURL }}" class="all-posts">
                     Ver todos os posts
                 </a>
+            </div>
+            <div class="nav-container">
+                {{- partial "pagination.html" . -}}
             </div>
         </main>
         <div class="gutter"></div>

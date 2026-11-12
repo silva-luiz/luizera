@@ -1,11 +1,12 @@
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#008080" />
 
-<title>{{ .Site.Title }} — {{ .Title }}</title>
-<link href="{{ "./favicon.jpeg" | relURL }}" rel="icon">
-<link href="{{ "./vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" | relURL }}" rel="stylesheet" type="text/css">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else if eq .Kind "404" }}Página não encontrada — {{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+{{ partial "seo.html" . }}
+
+<link href="{{ "favicon.jpeg" | relURL }}" rel="icon">
+<link href="{{ "vendor/bootstrap-icons/1.10.5/bootstrap-icons.min.css" | relURL }}" rel="stylesheet" type="text/css">
 
 {{ $css := resources.Get "sass/main.scss" | toCSS (dict "targetPath" "css/main.css") | minify | fingerprint }}
 <link href="{{ $css.RelPermalink }}" rel="stylesheet" type="text/css">

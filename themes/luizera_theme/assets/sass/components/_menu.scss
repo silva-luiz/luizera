@@ -36,15 +36,23 @@
         border-bottom: 1px solid var(--ui-shadow);
         text-align: right;
 
-        a {
+        button {
+            padding: 0;
+            background: none;
+            border: none;
             color: var(--black);
-            text-decoration: none;
+            font: inherit;
             font-weight: bold;
+            cursor: pointer;
         }
     }
 
     #menu {
         display: none;
+
+        &.open {
+            display: block;
+        }
     }
 
     .menu {

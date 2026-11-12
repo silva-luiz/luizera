@@ -1,4 +1,4 @@
-<header class="container base-header">
+<div class="container base-header">
     <div class="window-titlebar">
         <div id="title">
             <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}.exe</a>
@@ -6,7 +6,7 @@
         <div class="window-controls" aria-hidden="true"><span>_</span><span>□</span><span>×</span></div>
     </div>
 
-    <div class="browser-menubar" aria-label="Browser menu">
+    <div class="browser-menubar" aria-hidden="true">
         <span>File</span><span>Edit</span><span>View</span><span>Favorites</span><span>Tools</span><span>Help</span>
     </div>
 
@@ -16,12 +16,12 @@
         <span class="toolbar-button" aria-hidden="true">↻</span>
         <span class="toolbar-divider"></span>
         <span class="address-label">Address</span>
-        <div class="address-bar"><span>🌐</span>&nbsp; https://luizera.com.br/</div>
+        <div class="address-bar"><span>🌐</span>&nbsp; {{ .Permalink }}</div>
         <span class="go-button">Go</span>
     </div>
 
     <div id="menuToggle">
-        <a href="#menu" aria-label="Open menu">☰ MENU</a>
+        <button type="button" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰ MENU</button>
     </div>
 
     <nav id="menu" aria-label="Main navigation">
@@ -31,7 +31,8 @@
             {{ $active := eq .Name $current.Title }}
             {{ $active = or $active (eq .Identifier $current.Section) }}
             <li class="menu-item">
-                <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}"
+                    {{- if .Params.external }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
             </li>
             {{ end }}
             {{ if hugo.IsMultilingual }}
@@ -44,10 +45,6 @@
             {{ end }}
             {{ end }}
             {{ end }}
-            <li class="menu-item"><a href="/en">Todos os posts</a></li>
-            <li class="menu-item"><a href="/tags">Tags</a></li>
-            <li class="menu-item"><a href="/links">Links</a></li>
-            <li class="menu-item"><a href="https://github.com/silva-luiz" target="_blank" rel="noopener">GitHub</a></li>
         </ul>
     </nav>
-</header>
+</div>

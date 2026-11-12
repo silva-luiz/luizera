@@ -1,0 +1,21 @@
+{{- /* Caixa "Esta série" para posts com o parâmetro series */ -}}
+{{- with .GetTerms "series" }}
+{{- $current := $ }}
+{{- range . }}
+{{- $parts := .Pages.ByDate }}
+<section class="series-box">
+    <div class="series-box-title">SÉRIE: {{ .LinkTitle | upper }}</div>
+    <ol class="series-box-list">
+        {{- range $parts }}
+        <li>
+            {{- if eq . $current }}
+            <b aria-current="page">▸ {{ .Title }}</b>
+            {{- else }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ol>
+</section>
+{{- end }}
+{{- end }}

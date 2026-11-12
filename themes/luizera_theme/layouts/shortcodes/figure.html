@@ -1,8 +1,8 @@
-<!-- image -->
+{{- /* Uso: {{< figure src="/image/posts/x.jpg" title="Legenda" alt="Descrição opcional" >}} */ -}}
+{{- $title := .Get "title" -}}
 <figure>
-    <img src="{{ .Get "src" }}" />
-    <figcaption>
-        {{ .Get "title" }}
-    </figcaption>
+    {{ partial "img.html" (dict "src" (.Get "src") "alt" (.Get "alt" | default $title) "widths" (slice 480 800) "sizes" "(max-width: 840px) 100vw, 800px" "dims" true) }}
+    {{- with $title }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
 </figure>
-<!-- image -->

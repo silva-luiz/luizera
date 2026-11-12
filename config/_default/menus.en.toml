@@ -1,0 +1,94 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+[[main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+[[main]]
+    identifier = "arquivo"
+    name = "Arquivo"
+    url = "/arquivo/"
+    weight = 25
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+[[main]]
+    identifier = "links"
+    name = "Links"
+    url = "/links/"
+    weight = 40
+[[main]]
+    identifier = "busca"
+    name = "Busca"
+    url = "/busca/"
+    weight = 45
+[[main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/silva-luiz"
+    weight = 50
+    [main.params]
+        external = true
+
+# Menu Iniciar (botão "Start" da barra de tarefas). Ícones: https://icons.getbootstrap.com
+[[start]]
+    name = "Home"
+    url = "/"
+    weight = 10
+    [start.params]
+        icon = "house-door"
+[[start]]
+    name = "Todos os posts"
+    url = "/blog/"
+    weight = 20
+    [start.params]
+        icon = "journal-text"
+[[start]]
+    name = "Arquivo"
+    url = "/arquivo/"
+    weight = 30
+    [start.params]
+        icon = "folder2-open"
+[[start]]
+    name = "Buscar..."
+    url = "/busca/"
+    weight = 40
+    [start.params]
+        icon = "search"
+[[start]]
+    name = "Ranking de filmes"
+    url = "/filmes/"
+    weight = 45
+    [start.params]
+        icon = "film"
+[[start]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 50
+    [start.params]
+        icon = "tags"
+[[start]]
+    name = "Links"
+    url = "/links/"
+    weight = 60
+    [start.params]
+        icon = "link-45deg"
+[[start]]
+    name = "Livro de visitas"
+    url = "/guestbook/"
+    weight = 70
+    [start.params]
+        icon = "book"
+[[start]]
+    name = "GitHub"
+    url = "https://github.com/silva-luiz"
+    weight = 90
+    [start.params]
+        icon = "github"
+        external = true

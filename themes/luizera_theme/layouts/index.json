@@ -1,0 +1,14 @@
+{{- /* Índice de busca: /index.json */ -}}
+{{- $items := slice -}}
+{{- range where site.RegularPages "Section" "blog" -}}
+{{- $items = $items | append (dict
+    "title" .Title
+    "url" .RelPermalink
+    "date" (partial "date.html" .Date)
+    "summary" (.Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 180)
+    "tags" (.Params.tags | default slice)
+    "categories" (.Params.categories | default slice)
+    "content" (.Plain | htmlUnescape)
+) -}}
+{{- end -}}
+{{- $items | jsonify -}}

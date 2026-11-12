@@ -1,0 +1,32 @@
+{{ define "necker" }}
+<div class="container">
+    {{- partial "breadcrumb.html" . -}}
+</div>
+{{ end }}
+
+{{ define "stager" }}
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container window-archive">
+                <div class="content">
+                    <h1 class="title">Arquivo</h1>
+                    {{- $posts := where site.RegularPages "Section" "blog" }}
+                    <p>{{ len $posts }} posts desde o começo de tudo.</p>
+                    {{- range $posts.GroupByDate "2006" }}
+                    <h2 class="archive-year">📁 {{ .Key }} <small>({{ len .Pages }})</small></h2>
+                    <ul class="archive-list">
+                        {{- range .Pages }}
+                        <li>
+                            <span class="archive-date">{{ partial "date.html" .Date }}</span>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </li>
+                        {{- end }}
+                    </ul>
+                    {{- end }}
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{{ end }}

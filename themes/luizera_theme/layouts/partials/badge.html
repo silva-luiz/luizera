@@ -1,7 +1,15 @@
-<a class="retro-badge {{ .style | default "" }}" href="{{ .url | default "#" }}">
-  {{ if .image }}
-    <img src="{{ .image }}" alt="{{ .alt | default .text }}">
-  {{ else }}
-    <span>{{ .text }}</span>
-  {{ end }}
-</a>
+{{- /* Badge retrô. Parâmetros: image, text, alt, url (opcional), internal (link do próprio site), style */ -}}
+{{- $class := printf "retro-badge %s" (.style | default "") -}}
+{{- $inner := "" -}}
+{{- if .image -}}
+{{- $inner = printf `<img src="%s" alt="%s" loading="lazy">` (.image | relURL) (.alt | default .text) -}}
+{{- else -}}
+{{- $inner = printf `<span>%s</span>` .text -}}
+{{- end -}}
+{{- if and .url .internal }}
+<a class="{{ $class }}" href="{{ .url | relURL }}">{{ $inner | safeHTML }}</a>
+{{- else if .url }}
+<a class="{{ $class }}" href="{{ .url }}" target="_blank" rel="noopener">{{ $inner | safeHTML }}</a>
+{{- else }}
+<span class="{{ $class }}">{{ $inner | safeHTML }}</span>
+{{- end }}

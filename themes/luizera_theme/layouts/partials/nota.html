@@ -1,0 +1,7 @@
+{{- /* Nota de 0 a 10 com barrinha, ex.: ▮▮▮▮▮▮▮▮▯▯ 8.0/10. Recebe o número. */ -}}
+{{- $n := float . -}}
+{{- $cheios := int (math.Floor $n) -}}
+<span class="nota" title="Nota {{ $n }}/10">
+    <span class="nota-barra" aria-hidden="true">{{ strings.Repeat $cheios "▮" }}{{ strings.Repeat (sub 10 $cheios) "▯" }}</span>
+    <b>{{ printf "%.1f" $n }}</b>/10
+</span>

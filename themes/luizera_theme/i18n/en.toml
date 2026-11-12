@@ -1,23 +1,31 @@
+# O idioma do site tem a chave "en" (por causa das URLs /en/...),
+# mas o conteúdo é em português, então as labels estão em PT-BR.
 [categories]
-other = "CATEGORY"
+other = "CATEGORIAS"
 
 [tags]
-other = "TAG"
+other = "TAGS"
 
 [related]
-other = "RELATED POSTS"
+other = "POSTS RELACIONADOS"
 
 [toc]
-other = "TABLE OF CONTENT"
+other = "NESTE POST"
 
 [about]
-other = "ABOUT"
+other = "SOBRE"
 
 [prev]
-other = "PREV"
+other = "ANTERIOR"
 
 [next]
-other = "NEXT"
+other = "PRÓXIMO"
 
 [read]
-other = "Reading"
+other = "Lendo"
+
+[by]
+other = "Por"
+
+[posted]
+other = "Postado em"

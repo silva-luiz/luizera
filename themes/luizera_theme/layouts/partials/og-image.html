@@ -1,0 +1,24 @@
+{{- /* Imagem de compartilhamento (1200x630) gerada no build: janela retrô com a
+       thumbnail do post e o título. Retorna a URL absoluta, ou "" se não der. */ -}}
+{{- $url := "" -}}
+{{- $page := . -}}
+{{- $thumb := false -}}
+{{- with $page.Params.thumbnail }}{{ $thumb = resources.Get (strings.TrimPrefix "/" .) }}{{ end -}}
+{{- with resources.Get (cond (not $thumb) "og/base-wide.png" "og/base.png") -}}
+  {{- $img := . -}}
+  {{- $textX := 80 -}}
+  {{- with $thumb -}}
+    {{- $img = $img | images.Filter (images.Overlay (.Fill "460x446 Center") 70 118) -}}
+    {{- $textX = 560 -}}
+  {{- end -}}
+  {{- /* O título é escrito num painel branco do tamanho da área livre (o Hugo quebra a
+         linha pela largura da imagem), e o painel é colado na moldura. */ -}}
+  {{- $panel := resources.Get (cond (eq $textX 80) "og/panel-wide.png" "og/panel.png") -}}
+  {{- $panel = $panel | images.Filter (images.Text $page.Title (dict "color" "#000080" "size" 46 "linespacing" 10 "x" 0 "y" 0)) -}}
+  {{- $img = $img | images.Filter (images.Overlay $panel $textX 130) -}}
+  {{- $foot := printf "luizera.com.br  ·  %s" (partial "date.html" $page.Date) -}}
+  {{- $img = $img | images.Filter (images.Text $foot (dict "color" "#404040" "size" 26 "x" $textX "y" 535)) -}}
+  {{- $img = $img.Process "jpg q82" -}}
+  {{- $url = $img.Permalink -}}
+{{- end -}}
+{{- return $url -}}

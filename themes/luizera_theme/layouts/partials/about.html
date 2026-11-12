@@ -1,10 +1,10 @@
-<div class="about">
-    <div class="about-titlebar">ABOUT.EXE <span>_ □ ×</span></div>
+<div class="about" data-window="ABOUT.EXE">
+    <div class="about-titlebar">ABOUT.EXE {{ partial "win-controls.html" "ABOUT.EXE" }}</div>
 
     <div class="about-body">
         <div class="avatar-frame">
             <div class="avatar">
-                <img src="{{ " /image/default/avatar.gif" | relURL }}" alt="avatar">
+                <img src="{{ "image/default/avatar.webp" | relURL }}" alt="avatar">
             </div>
             <span class="avatar-caption">luizera.gif</span>
         </div>
@@ -53,17 +53,26 @@
             ) }}
 
             {{ partial "badge.html" (dict
+            "url" "/index.xml"
+            "text" "RSS FEED"
+            "style" "rss"
+            "internal" true
+            ) }}
+
+            {{ partial "badge.html" (dict
+            "url" "/guestbook/"
+            "text" "SIGN MY GUESTBOOK"
+            "style" "blink"
+            "internal" true
+            ) }}
+
+            {{ partial "badge.html" (dict
             "text" "UNDER CONSTRUCTION"
             "style" "yellow"
             ) }}
         </div>
         <div class="widget-divider">★ ★ ★</div>
-        <div class="mini-widget">
-            <div class="mini-widget-title">NOW PLAYING</div>
-            <div class="player-screen">▶ &nbsp; WINAMP.EXE</div>
-            <div class="player-track">Linkin Park - In The End.mp3</div>
-            <div class="player-progress"><span></span></div>
-        </div>
+        {{ partial "player.html" . }}
         <h3 class="name">Buy me a book</h3>
         <a href="https://www.amazon.com.br/hz/wishlist/ls/MSEACXOVOQUH?" class="visitor-counter">Lista de livros</a>
         <p class="email">
@@ -76,5 +85,11 @@
             <span>[ HUGO ]</span>
             <span>[ NOT A BOT ]</span>
         </div>
+        {{- with site.Params.goatcounter.code }}
+        <div class="visitor-counter" id="visitor-counter" hidden
+            data-src="https://{{ . }}.goatcounter.com/counter/TOTAL.json">
+            Você é o visitante nº <b>000000</b>
+        </div>
+        {{- end }}
     </div>
 </div>
