@@ -28,3 +28,13 @@ textarea,
 select {
     font: inherit;
 }
+
+// Respeita quem pediu menos movimento no sistema (piscadas, brilho, etc.)
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}

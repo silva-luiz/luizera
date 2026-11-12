@@ -1,8 +1,8 @@
-<!-- image -->
+{{- /* Uso: {{< figure src="/image/default/x.jpg" title="Legenda" alt="Descrição opcional" >}} */ -}}
+{{- $title := .Get "title" -}}
 <figure>
-    <img src="{{ .Get "src" }}" />
-    <figcaption>
-        {{ .Get "title" }}
-    </figcaption>
+    <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" | default $title }}" loading="lazy" />
+    {{- with $title }}
+    <figcaption>{{ . }}</figcaption>
+    {{- end }}
 </figure>
-<!-- image -->

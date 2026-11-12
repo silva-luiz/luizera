@@ -1,6 +1,6 @@
 <div class="content">
 
-    <!-- 正文 -->
+    <!-- Corpo do post -->
     <article>
         <div class="content-header">
             <h1 class="title">{{ .Title }}</h1>
@@ -14,7 +14,7 @@
         <div class="markdown">{{ .Content }}</div>
     </article>
 
-    <!-- 标签 -->
+    <!-- Tags -->
     {{ with .Params.tags }}
     <div class="content-tag">
         <span><i class="bi bi-bookmarks-fill"></i></span>
