@@ -39,7 +39,7 @@ Sem querer dar muitos spoilers sobre essa ferramenta incrível, coloquei abaixo 
 
 ## Bônus
 - [Rotating sandwiches](https://rotatingsandwiches.com/): O nome já fala por si só.
-- [Is my computer On?](http://www.ismycomputeron.com/): Descubra se seu computador está ligado;
+- [Is my computer On?](https://www.ismycomputeron.com/): Descubra se seu computador está ligado;
 - [Dad laugh button](https://dadlaughbutton.com/): Risada de pai;
 - [Boucing DVD logo](https://www.bouncingdvdlogo.com/): Aquele logo do DVD que vc sempre quis que encostasse no canto da tela
 

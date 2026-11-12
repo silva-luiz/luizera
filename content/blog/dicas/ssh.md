@@ -55,7 +55,7 @@ Hoje, o SSH é amplamente utilizado para:
 
 ## Como criar uma chave SSH?
 
-Aqui vou exemplificar a criação de uma chave SSH, pra que você possa fazer ai no seu PC também. Quem me ensinou a criar uma chave, e pra que ela servia foi o lendário [umgeher](http://umgeher.org), e você pode encontrar mais conteúdos como esse acessando o blog dele.
+Aqui vou exemplificar a criação de uma chave SSH, pra que você possa fazer ai no seu PC também. Quem me ensinou a criar uma chave, e pra que ela servia foi o lendário [umgeher](https://umgeher.org), e você pode encontrar mais conteúdos como esse acessando o blog dele.
 
 ### Gerando o par de chaves
 
