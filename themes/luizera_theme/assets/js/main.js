@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupBSOD();
     setupImageViewer();
     setupWindows();
+    setupVisitorCounter();
 });
 
 // Menu no mobile
@@ -346,4 +347,19 @@ function setupWindows() {
         });
         if (store.get(key) === "min") minimize(false);
     });
+}
+
+// Contador de visitas real (GoatCounter); fica escondido se não carregar
+function setupVisitorCounter() {
+    const box = document.getElementById("visitor-counter");
+    if (!box || !window.fetch) return;
+    fetch(box.dataset.src)
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (data) {
+            const n = String(data.count || "").replace(/\D/g, "");
+            if (!n) return;
+            box.querySelector("b").textContent = n.padStart(6, "0");
+            box.hidden = false;
+        })
+        .catch(function () { /* sem contador, sem problema */ });
 }

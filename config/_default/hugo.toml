@@ -29,6 +29,10 @@ removePathAccents = true
   [params.player]
     spotify = "https://open.spotify.com/intl-pt/album/6hPkbAV3ZXpGZBGUvL6jVM?si=lscJaqztSO-PF5vnytRF1g"
 
+  # Estatísticas de visitas (https://silva-luiz.goatcounter.com). Só conta no site publicado.
+  [params.goatcounter]
+    code = "silva-luiz"
+
   # Comentários (https://giscus.app). Só aparecem quando categoryId estiver preenchido.
   [params.giscus]
     repo = "silva-luiz/luizera"
