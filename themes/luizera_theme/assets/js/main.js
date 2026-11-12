@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupWindows();
     setupVisitorCounter();
     setupScreensaver();
+    setupKonami();
 });
 
 // Menu no mobile
@@ -425,4 +426,52 @@ function setupScreensaver() {
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); reset(); });
     window.addEventListener("resize", function () { if (!canvas.hidden) resize(); });
     reset();
+}
+
+// Easter egg: Konami code (↑ ↑ ↓ ↓ ← → ← → B A) chama o assistente Disquetinho
+function setupKonami() {
+    const code = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
+    let pos = 0, helper = null;
+
+    const randomPost = function () {
+        fetch("/index.json")
+            .then(function (r) { return r.json(); })
+            .then(function (posts) {
+                const others = posts.filter(function (p) { return p.url !== location.pathname; });
+                const p = others[Math.floor(Math.random() * others.length)];
+                if (p) location.href = p.url;
+            });
+    };
+    const close = function () { if (helper) { helper.remove(); helper = null; } };
+    const show = function () {
+        if (helper) return;
+        helper = document.createElement("div");
+        helper.className = "assistente";
+        helper.setAttribute("role", "dialog");
+        helper.setAttribute("aria-label", "Assistente Disquetinho");
+        helper.innerHTML =
+            '<div class="assistente-balao">' +
+            "  <p>Oi! Parece que você está tentando <b>ler um blog</b>.</p>" +
+            "  <p>Quer ajuda?</p>" +
+            '  <button type="button" data-acao="aleatorio">🎲 Me mostra um post aleatório</button>' +
+            '  <button type="button" data-acao="filmes">🎬 Quero o ranking de filmes</button>' +
+            '  <button type="button" data-acao="fechar">Não, valeu</button>' +
+            "</div>" +
+            '<div class="assistente-boneco" aria-hidden="true">💾</div>';
+        document.body.appendChild(helper);
+        helper.querySelector("button").focus();
+        helper.addEventListener("click", function (e) {
+            const acao = e.target.closest("button") && e.target.closest("button").dataset.acao;
+            if (acao === "aleatorio") randomPost();
+            else if (acao === "filmes") location.href = "/filmes/";
+            else if (acao === "fechar") close();
+        });
+    };
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") return close();
+        const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+        pos = (k === code[pos]) ? pos + 1 : (k === code[0] ? 1 : 0);
+        if (pos === code.length) { pos = 0; show(); }
+    });
 }

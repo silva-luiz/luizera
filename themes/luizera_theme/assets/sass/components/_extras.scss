@@ -385,3 +385,73 @@ button.task-button {
         display: none;
     }
 }
+
+// ---- Easter egg: assistente Disquetinho --------------------------------
+.assistente {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .4rem;
+    max-width: 16rem;
+    font-family: $sans-serif;
+    font-size: .8rem;
+}
+
+.assistente-balao {
+    position: relative;
+    padding: .6rem .7rem;
+    color: var(--black);
+    background: #ffffe1;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, .35);
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 1.6rem;
+        bottom: -8px;
+        border: 8px solid transparent;
+        border-bottom: 0;
+        border-top-color: var(--black);
+    }
+
+    p {
+        margin: 0 0 .4rem;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        margin-top: .3rem;
+        padding: .2rem .4rem;
+        font: inherit;
+        text-align: left;
+        color: var(--black);
+        background: var(--ui);
+        border: 1px solid var(--black);
+        box-shadow: inset 1px 1px 0 var(--ui-bright), inset -1px -1px 0 var(--ui-shadow);
+        cursor: pointer;
+
+        &:hover,
+        &:focus-visible {
+            background: var(--ui-light);
+        }
+    }
+}
+
+.assistente-boneco {
+    margin-right: .6rem;
+    font-size: 3rem;
+    line-height: 1;
+    animation: assistente-pulo 1.2s ease-in-out infinite;
+}
+
+@keyframes assistente-pulo {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-6px) rotate(4deg); }
+}
