@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupCopyButtons();
     setupSearch();
     setupBSOD();
+    setupImageViewer();
 });
 
 // Menu no mobile
@@ -219,5 +220,84 @@ function setupBSOD() {
         // Tab continua navegando pelos links; teclas de atalho do navegador são ignoradas
         if (e.key === "Tab" || e.ctrlKey || e.metaKey || e.altKey) return;
         location.href = bsod.dataset.home;
+    });
+}
+
+// IMAGEVIEW.EXE: clicar numa imagem do post abre ela ampliada
+function setupImageViewer() {
+    const imgs = Array.from(document.querySelectorAll(".markdown img"))
+        .filter(function (img) { return !img.closest("a"); });
+    if (!imgs.length) return;
+
+    const viewer = document.createElement("div");
+    viewer.className = "imageview";
+    viewer.hidden = true;
+    viewer.setAttribute("role", "dialog");
+    viewer.setAttribute("aria-modal", "true");
+    viewer.setAttribute("aria-label", "Visualizador de imagem");
+    viewer.innerHTML =
+        '<div class="imageview-window">' +
+        '  <div class="imageview-title"><span class="imageview-name"></span>' +
+        '    <button type="button" class="imageview-close" aria-label="Fechar">×</button></div>' +
+        '  <div class="imageview-body">' +
+        '    <button type="button" class="imageview-nav prev" aria-label="Imagem anterior">◀</button>' +
+        '    <img alt="">' +
+        '    <button type="button" class="imageview-nav next" aria-label="Próxima imagem">▶</button>' +
+        '  </div>' +
+        '  <div class="imageview-status"><span class="imageview-caption"></span><span class="imageview-count"></span></div>' +
+        '</div>';
+    document.body.appendChild(viewer);
+
+    const big = viewer.querySelector(".imageview-body img");
+    const name = viewer.querySelector(".imageview-name");
+    const caption = viewer.querySelector(".imageview-caption");
+    const count = viewer.querySelector(".imageview-count");
+    const closeBtn = viewer.querySelector(".imageview-close");
+    let current = 0, opener = null;
+
+    const show = function (i) {
+        current = (i + imgs.length) % imgs.length;
+        const img = imgs[current];
+        const fig = img.closest("figure");
+        const cap = fig && fig.querySelector("figcaption");
+        big.src = img.currentSrc || img.src;
+        big.alt = img.alt;
+        name.textContent = "IMAGEVIEW.EXE — " + decodeURIComponent(big.src.split("/").pop().split("?")[0]);
+        caption.textContent = cap ? cap.textContent.trim() : img.alt;
+        count.textContent = imgs.length > 1 ? (current + 1) + " / " + imgs.length : "";
+        viewer.classList.toggle("single", imgs.length < 2);
+    };
+    const open = function (i) {
+        opener = document.activeElement;
+        show(i);
+        viewer.hidden = false;
+        document.body.classList.add("imageview-open");
+        closeBtn.focus();
+    };
+    const close = function () {
+        viewer.hidden = true;
+        document.body.classList.remove("imageview-open");
+        if (opener) opener.focus();
+    };
+
+    imgs.forEach(function (img, i) {
+        img.classList.add("zoomable");
+        img.tabIndex = 0;
+        img.setAttribute("role", "button");
+        img.setAttribute("aria-label", "Ampliar imagem" + (img.alt ? ": " + img.alt : ""));
+        img.addEventListener("click", function () { open(i); });
+        img.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(i); }
+        });
+    });
+    closeBtn.addEventListener("click", close);
+    viewer.querySelector(".prev").addEventListener("click", function () { show(current - 1); });
+    viewer.querySelector(".next").addEventListener("click", function () { show(current + 1); });
+    viewer.addEventListener("click", function (e) { if (e.target === viewer) close(); });
+    document.addEventListener("keydown", function (e) {
+        if (viewer.hidden) return;
+        if (e.key === "Escape") close();
+        else if (e.key === "ArrowLeft") show(current - 1);
+        else if (e.key === "ArrowRight") show(current + 1);
     });
 }
