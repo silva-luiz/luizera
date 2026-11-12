@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     setupMenu();
+    setupStartMenu();
     setupClock();
     setupCopyButtons();
     setupSearch();
@@ -15,6 +16,56 @@ function setupMenu() {
         toggle.setAttribute("aria-expanded", open ? "true" : "false");
         toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
     });
+}
+
+// Menu Iniciar + tela "pode desligar o computador"
+function setupStartMenu() {
+    const button = document.getElementById("start-button");
+    const menu = document.getElementById("start-menu");
+    if (!button || !menu) return;
+    const items = function () { return Array.from(menu.querySelectorAll("a, button")); };
+
+    const open = function () {
+        menu.hidden = false;
+        button.setAttribute("aria-expanded", "true");
+        items()[0].focus();
+    };
+    const close = function (refocus) {
+        menu.hidden = true;
+        button.setAttribute("aria-expanded", "false");
+        if (refocus) button.focus();
+    };
+
+    button.addEventListener("click", function (e) {
+        e.stopPropagation();
+        if (menu.hidden) open(); else close(false);
+    });
+    document.addEventListener("click", function (e) {
+        if (!menu.hidden && !menu.contains(e.target)) close(false);
+    });
+    menu.addEventListener("keydown", function (e) {
+        const list = items(), i = list.indexOf(document.activeElement);
+        if (e.key === "Escape") { close(true); }
+        else if (e.key === "ArrowDown") { e.preventDefault(); list[(i + 1) % list.length].focus(); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); list[(i - 1 + list.length) % list.length].focus(); }
+    });
+
+    const shutdownButton = document.getElementById("shutdown-button");
+    const screen = document.getElementById("shutdown-screen");
+    if (!shutdownButton || !screen) return;
+    const wake = function () {
+        screen.hidden = true;
+        document.removeEventListener("keydown", wake);
+        button.focus();
+    };
+    shutdownButton.addEventListener("click", function () {
+        close(false);
+        screen.hidden = false;
+        screen.focus();
+        // espera o clique atual terminar antes de ouvir o próximo
+        setTimeout(function () { document.addEventListener("keydown", wake); }, 0);
+    });
+    screen.addEventListener("click", wake);
 }
 
 // Relógio da barra de tarefas
