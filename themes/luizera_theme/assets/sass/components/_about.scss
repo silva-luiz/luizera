@@ -287,3 +287,12 @@
 .web-badges { display: flex; flex-wrap: wrap; gap: .2rem; margin-top: .5rem; }
 .web-badges span { padding: .1rem .2rem; background: var(--black); color: var(--yellow); font-family: $monospace; font-size: .58rem; }
 .visitor-counter { margin-top: .6rem; padding: .3rem; background: var(--ui-light); border: 1px inset var(--ui-shadow); text-align: center; font-size: .68rem; }
+
+.player-embed {
+    display: block;
+    width: 100%;
+    margin-top: .2rem;
+    border: 1px solid var(--ui-dark);
+    border-radius: 12px;
+    background: var(--black);
+}

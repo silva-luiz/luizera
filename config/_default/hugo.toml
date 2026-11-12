@@ -24,6 +24,11 @@ removePathAccents = true
     description = "Faço uns programas aí. Brinco de barman às vezes, também rabisco e toco música."
     github = "https://github.com/silva-luiz/"
 
+  # Player da sidebar: cole aqui o link de uma playlist/álbum/música do Spotify.
+  # Vazio = mostra o widget decorativo.
+  [params.player]
+    spotify = ""
+
   # Comentários (https://giscus.app). Só aparecem quando categoryId estiver preenchido.
   [params.giscus]
     repo = "silva-luiz/luizera"

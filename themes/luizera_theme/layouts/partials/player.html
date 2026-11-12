@@ -1,0 +1,25 @@
+{{- /* Player "WINAMP.EXE" da sidebar.
+       Com params.player.spotify preenchido (link de playlist, álbum ou música do Spotify),
+       mostra o player oficial do Spotify. Sem o link, mostra o widget decorativo. */ -}}
+{{- $embed := "" -}}
+{{- with site.Params.player.spotify -}}
+  {{- $u := urls.Parse . -}}
+  {{- $path := replaceRE `^/intl-[a-z-]+/` "/" $u.Path -}}
+  {{- if findRE `^/(playlist|album|track|artist|show|episode)/[A-Za-z0-9]+` $path -}}
+    {{- $embed = printf "https://open.spotify.com/embed%s?utm_source=generator" $path -}}
+  {{- else -}}
+    {{- warnf "params.player.spotify não parece um link do Spotify: %s" . -}}
+  {{- end -}}
+{{- end }}
+<div class="mini-widget">
+    <div class="mini-widget-title">NOW PLAYING</div>
+    <div class="player-screen">▶ &nbsp; WINAMP.EXE</div>
+    {{- if $embed }}
+    <iframe class="player-embed" title="Playlist do Spotify" src="{{ $embed }}"
+        width="100%" height="152" frameborder="0" loading="lazy"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    {{- else }}
+    <div class="player-track">Linkin Park - In The End.mp3</div>
+    <div class="player-progress"><span></span></div>
+    {{- end }}
+</div>
