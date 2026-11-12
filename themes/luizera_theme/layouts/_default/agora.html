@@ -1,0 +1,40 @@
+{{ define "necker" }}
+<div class="container">
+    {{- partial "breadcrumb.html" . -}}
+</div>
+{{ end }}
+
+{{ define "stager" }}
+{{- $posts := where site.RegularPages "Section" "blog" }}
+{{- $ultimo := index $posts 0 }}
+{{- $filme := index (where $posts "Params.nota" "!=" nil) 0 }}
+<div class="container">
+    <div class="stager">
+        <main>
+            <div class="single-container window-agora">
+                <div class="content">
+                    <h1 class="title">⏳ {{ .Title }}</h1>
+                    {{- if not .Lastmod.IsZero }}
+                    <p class="agora-atualizado">Atualizado em {{ partial "date.html" .Lastmod }}</p>
+                    {{- end }}
+                    <div class="markdown">{{ .Content }}</div>
+
+                    <h2 class="archive-year">🤖 Atualizado automaticamente</h2>
+                    <ul class="agora-auto">
+                        {{- with $ultimo }}
+                        <li><b>Último post:</b> <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ partial "date.html" .Date }})</li>
+                        {{- end }}
+                        {{- with $filme }}
+                        <li><b>Último filme da semana:</b> <a href="{{ .RelPermalink }}">{{ strings.TrimPrefix "Filme da semana: " .Title }}</a> — {{ partial "nota.html" .Params.nota }}</li>
+                        {{- end }}
+                        {{- with site.Params.player.spotify }}
+                        <li><b>Tocando no WINAMP.EXE:</b> <a href="{{ . }}" target="_blank" rel="noopener">abrir no Spotify</a></li>
+                        {{- end }}
+                    </ul>
+                    <p class="agora-sobre"><small>Esta é uma <a href="https://nownownow.com/about" target="_blank" rel="noopener">página "now"</a>: o que ando fazendo neste momento da vida.</small></p>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+{{ end }}

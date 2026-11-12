@@ -519,3 +519,23 @@ button.task-button {
     background: #ff6600;
     font-weight: bold;
 }
+
+// ---- Página /agora -----------------------------------------------------
+.agora-atualizado {
+    margin-top: -.5rem;
+    font-size: .75rem;
+    color: var(--ui-dark);
+}
+
+.agora-auto {
+    padding-left: 1.2rem;
+    font-size: .9rem;
+
+    li {
+        margin: .3rem 0;
+    }
+}
+
+.agora-sobre {
+    margin-top: 1.5rem;
+}
