@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do Taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "/image/default/cover.jpg"
+thumbnail: "/image/posts/cover.jpg"
 headline: true
 ---
 
@@ -17,11 +17,11 @@ Já fazia um tempo que eu não postava nada por aqui, então resolvi voltar com 
 
 ## FINAL DESTINATION - BLOODLINE
 
-{{< figure src="/image/default/final-destination.jpg" title="Esse pôster ficou muito foda, tá" >}}
+{{< figure src="/image/posts/final-destination.jpg" title="Esse pôster ficou muito foda, tá" >}}
 
 Bom, o filme se inicia com um casal (Iris e Paul) indo visitar uma torre que está prestes a ser inaugurada, o **Skyview**. Durante a visita ao arranha-céu, Paul pede Iris em casamento, e logo em seguida o edifício começa a desabar por conta de uma sequência de acontecimentos — típico da saga — onde todos acabam morrendo. Mas essa, obviamente, foi apenas a premonição que Iris teve, e, graças a isso, conseguiu salvar grande parte das pessoas que estavam lá.
 
-{{< figure src="/image/default/Skytower.webp" title="Skyview - 4k resolution" >}}
+{{< figure src="/image/posts/Skytower.webp" title="Skyview - 4k resolution" >}}
 
 Porém, como já é sabido, a Morte volta para cobrar. Então todos que sobreviveram à tragédia morrem tempos depois — mas essa parte não é exibida no filme. Um fato interessante e diferente dos filmes anteriores é que a personagem principal não é Iris, mas sim sua **neta**, Steph, que sonha com esse acontecimento diversas vezes. O sonho retrata o que havia acontecido com a avó no passado.
 
@@ -35,7 +35,7 @@ Sobre as mortes que acontecem no filme, achei bem menos impactantes do que as do
 
 Outro ponto interessante foi que o personagem **William Bludworth**, presente nos outros filmes da saga, aparece neste filme referenciado como **JB**, amigo de Iris. Ele conta que foi salvo por ela na tragédia. De acordo com a sequência proposta no filme, ele seria um dos próximos a morrer, e relata já estar com um câncer terminal e prestes a “aposentar”. Porém, não é mostrado o momento em que ele supostamente morreria — o que abre espaço para mais um filme da sequência. Entretanto, pouco antes da estreia do filme, Tony Todd, o ator que interpreta JB, faleceu devido a um câncer no estômago.
 
-{{< figure src="/image/default/jb.jpg" title="O tal do JB" >}}
+{{< figure src="/image/posts/jb.jpg" title="O tal do JB" >}}
 
 ## Algumas curiosidades e pistas deixadas no filme
 

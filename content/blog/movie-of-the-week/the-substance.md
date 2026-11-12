@@ -13,11 +13,11 @@ O último filme do ano não poderia ser mais maluco do que esse. Chega mais!!
 
 ## A Substância - 2024
 
-{{< figure src="/image/default/substancia.webp" title="Um filme muito maluco" >}}
+{{< figure src="/image/posts/substancia.webp" title="Um filme muito maluco" >}}
 
 Em "A Substância" é contada a história de Elisabeth Sparkle (Demi Moore), uma celebridade que no passado já foi muito famosa, mas que está em declínio, prestes a ser substituída em seu programa de televisão por outra pessoa mais jovem. Em um momento de distração, Elisabeth sofre um acidente de carro, e é levada para o hospital. Um enfermeiro que trabalha lá, diz que ela é uma boa candidata (pra que?), e entrega a ela um PenDrive escrito **'THE SUBSTANCE'**.
 
-{{< figure src="/image/default/elisabeth.webp" title="A doidinha do centro" >}}
+{{< figure src="/image/posts/elisabeth.webp" title="A doidinha do centro" >}}
 
 Chegando em casa, ela espeta o pendrive na televisão, e é exibido um vídeo falando sobre a tal substância, que é algo capaz de gerar uma versão melhorada da pessoa que a usa. Dois corpos diferentes, mas ainda sim, a mesma pessoa. Então, Elisabeth faz o pedido da substância por telefone, e recebe um kit com itens e instruções precisas de como a substância deve ser utilizada:
 
@@ -28,7 +28,7 @@ Chegando em casa, ela espeta o pendrive na televisão, e é exibido um vídeo fa
 
 Dito isso, após injetar o fluído ativador, Elisabeth cai no chão, e o novo corpo sai de dentro dela, pelas costas. Elisabeth agora está no novo corpo, mas jovem, mais bonito, enquanto seu antigo corpo fica 'desmaiado', alimentado através do pacote que faz parte do kit.
 
-{{< figure src="/image/default/olho-substance.gif" title="A divisão" >}}
+{{< figure src="/image/posts/olho-substance.gif" title="A divisão" >}}
 
 
 Elisabeth, agora **Sue**, se inscreve para participar do programa, e é aprovada, porém a cada 7 dias corridos, ela deve voltar ao corpo original e seguir sua vida como Elisabeth. Porém, em uma noite ela acaba prorrogando o uso do novo corpo, e utiliza uma dose a mais do fluído estabilizador. No outro dia, o original acorda com um dos dedos totalmente envelhecido, devido à extração indevida do fluído estabilizador.

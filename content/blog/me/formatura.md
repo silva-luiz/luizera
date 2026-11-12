@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["me"]
-thumbnail: "/image/default/cover_theoffice.jpg"
+thumbnail: "/image/posts/cover_theoffice.jpg"
 headline: true
 ---
 Post atrasado pra falar sobre o fim de mais uma etapa
@@ -20,7 +20,7 @@ Acabei esquecendo de compartilhar aqui o desenrolar do último semestre, mas, de
 
 Na sequência, tivemos a colação de grau. Apesar de eu já ser formado por outra faculdade, essa foi a primeira vez que participei de uma cerimônia presencial (a anterior foi durante a pandemia, via Teams 🤡). Foi muito especial ver meus amigos e minha família presentes nesse momento tão importante. Minha digníssima amada estava em aula, longe, e por isso não conseguiu comparecer, mas, mesmo assim, senti como se ela estivesse ali comigo.
 
-{{< figure src="/image/default/formatura.jpg" title="eu e o casca formados" >}}
+{{< figure src="/image/posts/formatura.jpg" title="eu e o casca formados" >}}
 
 ## E agora, papi?
 

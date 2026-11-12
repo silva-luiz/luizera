@@ -13,7 +13,7 @@ Tá de bobeira na internet procurando algum site tosco pra passar o tempo? Entã
 
 ## The Useless Web
 
-{{< figure src="/image/default/useless_web.png" title="O que será que tem ali?" >}}
+{{< figure src="/image/posts/useless_web.png" title="O que será que tem ali?" >}}
 
 Em algum momento da minha vida, alguém me mostrou um site bem diferente do que estava acostumado a ver por aí. Um site com o único intuito de te redirecionar pra outros sites de forma aleatória, alguns muito interessantes e outros, nem tanto.
 

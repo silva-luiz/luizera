@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Flutter"]
 tags: ["flutter", "code"]
-thumbnail: "/image/default/flutter_img.jpg"
+thumbnail: "/image/posts/flutter_img.jpg"
 headline: true
 ---
 A ferramenta de injeção de dependências e gerenciamento de rotas.

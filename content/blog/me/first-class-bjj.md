@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["me", "bjj"]
-thumbnail: "/image/default/bjj.jpg"
+thumbnail: "/image/posts/bjj.jpg"
 headline: true
 ---
 
@@ -21,7 +21,7 @@ Depois de 6 longos e cansativos semestres, finalmente consegui concluir a faculd
 
 Nada! Essa foi só uma pequena explicação pra dizer que devido a todo esse tempo dedicado à faculdade que eu não estava conseguindo voltar ao esporte. Porém, agora com mais tempo livre, fui convidado pelo meu brother Márcio (sim, o dale Márcio), a fazer uma aula experimental de Jiu Jitsu. Então fui lá na academia e fazer uma aula experimental e já logo me matriculei na sequência, pq sou desses mesmo.
 
-{{< figure src="/image/default/bjj.jpg" title="OSS" >}}
+{{< figure src="/image/posts/bjj.jpg" title="OSS" >}}
 
 ## Jiu Jitsu
 
@@ -60,4 +60,4 @@ Cheguei na academia e já fui muito bem recebido por todos. É um espaço bem re
 
 À partir das próximas semanas vou dividir meus treinos entre academia e o Jiu, com a intenção se progredir nos dois. E deixo aí uma foto do primeiro treino. Em breve teremos mais! **OSS**
 
-{{< figure src="/image/default/oss.jpg" title="A cara da derrota kkkkkkkkkkkkk" >}}
+{{< figure src="/image/posts/oss.jpg" title="A cara da derrota kkkkkkkkkkkkk" >}}

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Code"]
 tags: ["code", "react", "next"]
-thumbnail: "/image/default/girafales.jpeg"
+thumbnail: "/image/posts/girafales.jpeg"
 headline: true
 ---
 Trazendo um pouco mais de atualizações sobre o TG, agora em """reta final""" (com muitas aspas mesmo).
@@ -19,7 +19,7 @@ Durante a construção do nosso projeto, comentei com um amigo (salve Kainã), s
 
 ## Sobre o NextJS
 
-{{< figure src="/image/default/nextjs.jpeg" title="Vamo de Next" >}}
+{{< figure src="/image/posts/nextjs.jpeg" title="Vamo de Next" >}}
 
 O Next.js é um framework de desenvolvimento fullstack para aplicações React. Criado pela Vercel, ele traz recursos como renderização híbrida (estática e servidor), roteamento automático e integração fácil com APIs, tudo com foco em performance e SEO. Atualmente, ele é um dos frameworks mais utilizados quando se trata de frontend. Devido a isso, existe uma grande comunidade e muito conteúdo pra se consultar na internet (além é claro, das IAs pra auxiliar no desenvolvimento).
 
@@ -84,7 +84,7 @@ Referente aos módulos que estão sendo implementados no sistema, acredito que a
 
 Porém a pior parte, na minha opinião, ainda é a próxima: Escrever a monografia. 
 
-{{< figure src="/image/default/spongebob.gif" title="Odeio escrever" >}}
+{{< figure src="/image/posts/spongebob.gif" title="Odeio escrever" >}}
 
 
 Escrever nunca foi meu forte, e estamos finalmente chegando nesta parte que acredito que vai ser a mais desafiadora do TG. Escrever aqui me ajuda a pensar um pouco mais em como organizar as ideias e fazer com que na hora de escrever o documeno, as coisas comecem a fluir melhor.

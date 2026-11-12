@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "/image/default/snoopy.jpeg"
+thumbnail: "/image/posts/snoopy.jpeg"
 headline: true
 ---
 De vez em quando eu lembro de escrever algo legal aqui, então dessa vez tenho mais uma indicação legal de filme
@@ -16,7 +16,7 @@ De vez em quando eu lembro de escrever algo legal aqui, então dessa vez tenho m
 Já fazia um bom tempo que eu não via algum filme com um plot twist maluco, entao saí procurando algumas indicações no tikoteko e em **alguns** vídeos, vi o pessoal falando sobre esse filme da chave mestra. Resolvi então pegar essa película pra assistir e vim agora depois de alguns dias trazer minhas considerações sobre o filme.
 
 
-{{< figure src="/image/default/chave_mestra.jpg" title="4k quality" >}}
+{{< figure src="/image/posts/chave_mestra.jpg" title="4k quality" >}}
 
 O filme conta a história de Caroline, uma enfermeira que trabalha como cuidadora de idosos e resolve aceitar cuidar de um senhor chamado **Ben**, que sofreu um derrame e fica praticamente imóvel quase 100% do tempo.
 
@@ -30,7 +30,7 @@ Depois disso, ela continua investigando mais sobre a casa e sobre esse tal hoodo
 
 Muito tempo atrás, essa casa pertencia a uma família muito rica. Um casal de empregados que viviam lá, eram praticantes do hoodo, eles eram **Papa Justify** e **Mama Cecile**.
 
-{{< figure src="/image/default/papa-justify.jpg" title="Papa Justify e Mama Cecile" >}}
+{{< figure src="/image/posts/papa-justify.jpg" title="Papa Justify e Mama Cecile" >}}
 
 Um belo dia, a família deu uma festa para o pessoal da alta sociedade da região e perceberam que seus filhos haviam sumido. Então quando eles foram encontrados, eles estavam participando de um tipo de "ritual" hoodoo que estava sendo feito pelo casal de empregados.
 

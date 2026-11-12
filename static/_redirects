@@ -5,3 +5,6 @@
 # Categorias renomeadas
 /categories/ssh/*         /categories/dicas/  301
 /categories/first-post/*  /categories/me/     301
+
+# Imagens dos posts mudaram de pasta (só vale para arquivos que não existem mais em /image/default/)
+/image/default/*  /image/posts/:splat  301

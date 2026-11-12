@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Dicas"]
 tags: ["dicas", "IT"]
-thumbnail: "/image/default/tio-patinhas.jpg"
+thumbnail: "/image/posts/tio-patinhas.jpg"
 headline: true
 ---
 
@@ -21,7 +21,7 @@ Então um belo dia, passeando pelo YouTube, encontrei o canal do [Raul Sena (Inv
 
 Então, depois de alguns meses consumindo o conteúdo do canal, resolvi assinar o curso, que era mencionado no final de todo vídeo. Pesquisei bastante na internet sobre o curso antes de assinar, pois não queria perder meu tempo com só mais um cursinho aleatório de internet, e nem desperdiçar o meu dinheiro. Encontrei muitos feedbacks positivos na internet, e quase nenhuma reclamaçao no Reclame Aqui, o que me convenceu de que realmente o curso poderia ser bom.
 
-{{< figure src="/image/default/peter-money.jpg" title="$$$$" >}}
+{{< figure src="/image/posts/peter-money.jpg" title="$$$$" >}}
 
 ## Sobre o curso
 
@@ -41,7 +41,7 @@ Ainda estou no módulo 4 do curso, mas posso dizer que o curso é muito completo
 
 Mas o mais interessante disso tudo, é que o curso talvez nem seja o maior benefício da assinatura, pois ao assinar a AUVP, algumas ferramentas são fornecidas também para facilitar o controle financeiro, ajudar na hora dos aportes, e na hora de escolher os ativos, além de você poder optar por abrir uma conta na plataforma de investimentos deles, que fica no BTG pactual.
 
-{{< figure src="/image/default/pica-pau.jpg" title="KERO DIERO" >}}
+{{< figure src="/image/posts/pica-pau.jpg" title="KERO DIERO" >}}
 
 Até o momento as ferramentas que mais gostei são:
 - Gestão financeira: nela você pode adicionar seus ganhos mensais que serão divididos em categorias para você gastar de maneira consciente. Por exemplo: 30% em custos fixos, 25% em liberdade financeira, 20% conforto, 10% conhecimento, 15% prazeres.

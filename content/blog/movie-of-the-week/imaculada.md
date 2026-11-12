@@ -15,7 +15,7 @@ Estava eu de neste último domingo procurando um bom filme de terror pra assisti
 
 ## Imaculada (2024)
 
-{{< figure src="/image/default/imaculada.jpg" title="A nova virgem Maria do pedaço" >}}
+{{< figure src="/image/posts/imaculada.jpg" title="A nova virgem Maria do pedaço" >}}
 
 O filme Imaculada conta a história de Cecília (Sydney Sweeney), uma jovem religiosa que quer se tornar freira, e vai parar em um convento de freiras na Itália, onde cuidam de irmãs mais próximas do fim da vida, e desde o início o lugar apresenta um clima meio estranho. A irmã que recebe e apresenta o convento para Cecília, Isabele,  já não vai muito com a cara dela e diz que se ela ainda quiser, não precisa fazer seus votos e ir embora, mas ela diz que quer ficar.
 

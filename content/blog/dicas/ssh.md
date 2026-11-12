@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Dicas"]
 tags: ["dicas", "IT"]
-thumbnail: "/image/default/ssh.jpeg"
+thumbnail: "/image/posts/ssh.jpeg"
 headline: true
 ---
 
@@ -71,7 +71,7 @@ Algumas observações importantes:
 - Use sempre a criptografia ed25519 e nunca RSA, pois a ed25519 é mais segura, mais rápida e mais compacta;
 - NUNCA passe sua chave privada para ninguém, a única chave que deve ser compartilhada é a chave de formato **.pub**
 
-{{< figure src="/image/default/ssh-create.png" title="Chave criada" >}}
+{{< figure src="/image/posts/ssh-create.png" title="Chave criada" >}}
 
 Feito isso, será gerado seu par de chaves no endereço definido no passo acima (no meu caso, os arquivos **test-key** e **test-key.pub**), e você pode ver o conteúdo da chave executando o seguinte comando:
 
@@ -79,7 +79,7 @@ Feito isso, será gerado seu par de chaves no endereço definido no passo acima 
 cat .\test-key.pub
 ```
 O comando cat exibe o conteúdo do arquivo escolhido
-{{< figure src="/image/default/my-ssh-key.png" title="Chave criada" >}}
+{{< figure src="/image/posts/my-ssh-key.png" title="Chave criada" >}}
 
 Este é o conteúdo da sua chave pública e deve ser compartilhado apenas com servidores ou serviços nos quais você deseja se autenticar, como por exemplo (GitHub, GitLab, servidores SSH, etc...).
 
@@ -89,6 +89,6 @@ Como exemplo, vou adicionar essa a chave criada no GitHub pra autenticar meu com
 O primeiro passo é ir nas configurações (Settings), e em seguida escolher a opção **'SSH and GPG keys'**.
 Em seguida, **'New SSH key'**
 
-{{< figure src="/image/default/ssh-github-config.png" title="Chave criada" >}}
+{{< figure src="/image/posts/ssh-github-config.png" title="Chave criada" >}}
 
 E por fim, adicione a sua chave pública e salve para finalizar o processo

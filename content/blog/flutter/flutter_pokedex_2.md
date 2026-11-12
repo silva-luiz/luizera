@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Flutter"]
 tags: ["flutter", "code", "pokedex"]
-thumbnail: "/image/default/pokedex.jpg"
+thumbnail: "/image/posts/pokedex.jpg"
 headline: true
 ---
 A continuação do nosso projetinho pra entender a arquitetura
@@ -19,14 +19,14 @@ Segundamente, esse post é de atualização sobre a nossa Pokedex, que está qua
 
 A maioria das alterações feitas no App desde a última postagem foram alterações visuais, como Badges de identificação dos tipos de cada Pokemón, assim como um degradê no background baseado nas cores de seu tipo (ou tipos).
 
-{{< figure src="/image/default/pokedex_2.png" title="Tá ficando bonito o negócio" >}}
+{{< figure src="/image/posts/pokedex_2.png" title="Tá ficando bonito o negócio" >}}
 
 Mas o principal ponto de mudança no App foi a adição das **viewmodels** (ou controllers), que antes estavam juntos da view (ou pages), o que não é o ideal de acordo com o primeiro conceito do **[SOLID](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530)**, que é o Single Responsiblity Principle ou Princípio da responsabilidade única, onde cada classe deve ter apenas uma responsabilidade ou motivo para mudar. Neste formato atual:
 
 - A view tem a responsabilidade de apenas exibir a interface gráfica e reagir a interações do usuário.
 - A viewmodel tem a responsabilidade de gerenciar dados, estados e ações sem se preocupar com como esses dados são exibidos.
 
-{{< figure src="/image/default/pokedex_pastas.png" title="Aqui vcs podem ver como ficou a distribuição dos arquivos" >}}
+{{< figure src="/image/posts/pokedex_pastas.png" title="Aqui vcs podem ver como ficou a distribuição dos arquivos" >}}
 
 O segundo ponto importante do SOLID abordado aqui é o Princípio da Inversão de Dependência (DIP). O DIP sugere que módulos de alto nível não devem depender de módulos de baixo nível diretamente, mas de abstrações. No caso de separar views e viewmodels, a view não depende diretamente de como os dados são gerenciados ou de como a lógica é implementada. A view apenas interage com uma abstração (geralmente a viewmodel ou um controlador) para buscar dados e responder a mudanças de estado.
 

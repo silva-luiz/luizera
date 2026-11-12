@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Dicas"]
 tags: ["dicas", "receitas"]
-thumbnail: "/image/default/family_guy_kitchen.jpg"
+thumbnail: "/image/posts/family_guy_kitchen.jpg"
 headline: true
 ---
 Tá de dietinha e não aguenta mais comer saladinha sem graça??? Cole aqui com teu PAI!!!
@@ -63,7 +63,7 @@ E tá pronta sua saladinha proteíca e de baixa caloria. Com um sabor maravilhos
 
 ABAIXO A FOTO DA PERIPÉCIA:
 
-{{< figure src="/image/default/saladao.jpg" title="SALADÃO SINISTRO" >}}
+{{< figure src="/image/posts/saladao.jpg" title="SALADÃO SINISTRO" >}}
 
 Me agradece depois!
 

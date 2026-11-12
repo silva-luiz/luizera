@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "/image/default/filme_da_semana.jpg"
+thumbnail: "/image/posts/filme_da_semana.jpg"
 headline: true
 ---
 O **filme da semana** tem o maior PlotTwist que eu já vi, desde Um Contratempo! Simplesmente uma obra de arte!!

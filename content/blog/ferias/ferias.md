@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["me", "flutter", "ferias"]
-thumbnail: "/image/default/ferias.jpg"
+thumbnail: "/image/posts/ferias.jpg"
 headline: true
 ---
 Mais um semestre encerrado na faculdade, e agora faltam só mais dois!

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Flutter"]
 tags: ["flutter", "code", "pokedex"]
-thumbnail: "/image/default/pokedex.jpg"
+thumbnail: "/image/posts/pokedex.jpg"
 headline: true
 ---
 A opção que encontrei para estudar a nova arquitetura do Flutter proposta pela Google.
@@ -15,7 +15,7 @@ Fala guys, cês tão bem?
 
 Seguindo na trilha dos estudos, estou estudando agora sobre a nova arquitetura que a Google recomendou para os próximos projetos em Flutter. Com isso, também teremos algumas mudanças no trabalho, e precisamos nos adaptar à nova arquitetura, e uma forma que encontrei pra entender melhor alguns pontos que ainda não estão tão claros pra mim, é criando um projeto do zero, tentando me adequar ao que foi proposto.
 
-{{< figure src="/image/default/arch_flutter.png" title="Flutter Architecture" >}}
+{{< figure src="/image/posts/arch_flutter.png" title="Flutter Architecture" >}}
 
 Dito isso, resolvi criar um projetinho simples, que muitos já devem ter feito, mas eu ainda não havia tentado, que é a **Pokédex**, porém, seguindo o modelo de arquitetura recomendado pela Google.
 
@@ -27,7 +27,7 @@ O projeto foi pensado basicamente em ter poucas funcionalidades: Listar todos os
 
 Até o momento, o App está com a aparência das fotos abaixo, sem muita firula, apenas com o básico e com o foco em melhorar e aprender mais sobre a **Arquitetura**, e principalmente sobre as suas camadas, que ainda me parece um pouco confuso de entender. A ideia aqui é entender bem como tudo funciona, e em seguida melhorar visualmente, colocando mais personalidade e até mesmo novas funcionalidades no App (que ainda não pensei em nenhuma hehe).
 
-{{< figure src="/image/default/pokedex-app.png" title="A cara do App ai pra vcs" >}}
+{{< figure src="/image/posts/pokedex-app.png" title="A cara do App ai pra vcs" >}}
 
 ### Próximos passos
 

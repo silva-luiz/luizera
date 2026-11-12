@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do Taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "/image/default/cover.jpg"
+thumbnail: "/image/posts/cover.jpg"
 headline: true
 ---
 
@@ -16,7 +16,7 @@ Passeando pelo TikTok e procurando por indicações de filmes talvez não tão c
 
 ## BUTTERFLY KISSES - 2018
 
-{{< figure src="/image/default/butterfly_kisses01.jpg" title="Um found footage do found footage" >}}
+{{< figure src="/image/posts/butterfly_kisses01.jpg" title="Um found footage do found footage" >}}
 
 Basicamente, o filme acompanha um cineasta chamado **Gavin** que encontra uma caixa com diversas fitas de vídeo contendo o projeto inacabado de dois estudantes de cinema que estavam desaparecidos. Nessas fitas, os estudantes Sohpia Crane e seu amigo Feldman estavam tentando comprovar a existência de uma criatura de uma lenda urbana local, **Peeping Tom**, uma criatura que aparece somente se a pessoa olhar para um túnel escuro meia-noite durnate uma hora >>**SEM PISCAR**<<. Se a pessoa conseguir esse feito, o Peeping Tom aparece no final do túnel e fica vinculado com a pessoa, e a partir desse momento, a cada vez que a pessoa piscar, ele se aproxima, até o ponto em que ele chega na pessoa, e ela vira camisa de saudade.
 
@@ -26,11 +26,11 @@ Durante a gravação dos estudantes, eles tentam por várias vezes ficar sem pis
 
 Ao analisar as gravações antigas, os estudantes começam a perceber que em determinados pontos, aparecem alguns vultos, aparições estranhas e começa a ficar paranóicos.
 
-{{< figure src="/image/default/butterfly_kisses03.jpeg" title="A fera aí" >}}
+{{< figure src="/image/posts/butterfly_kisses03.jpeg" title="A fera aí" >}}
 
 Gavin, depois de encontrar as gravações, resolve concluir o filme que até então estava inacabado, gravando uma espécie de documentário fazendo a junção das fitas e indo atrás de respostas que comprovem a existência dessa criatura que supostamente aparece no filme.
 
-{{< figure src="/image/default/butterfly_kisses02.jpg" title="O túnel de Ilchester" >}}
+{{< figure src="/image/posts/butterfly_kisses02.jpg" title="O túnel de Ilchester" >}}
 
 Conforme o filme vai se desenrolando, Gavin tenta cada vez mais encontrar respostas, procurando possíveis testemunhas, especialistas em fenômenos paranormais, porém as pessoas começam a desconfiar da sanidade e do comportamento de Gavin, porque parece que o filme usa de efeitos especiais de baixa qualidade e, ao mesmo tempo, que ele está ficando maluco ou tentando forçar as pessoas a acreditar numa farsa.
 
