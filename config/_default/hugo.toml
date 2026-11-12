@@ -28,8 +28,8 @@ removePathAccents = true
   [params.giscus]
     repo = "silva-luiz/luizera"
     repoId = "R_kgDOMMmCZg"
-    category = "Comentários"
-    categoryId = ""
+    category = "Announcements"
+    categoryId = "DIC_kwDOMMmCZs4DK_xZ"
     mapping = "pathname"
     theme = "light"
     lang = "pt"
