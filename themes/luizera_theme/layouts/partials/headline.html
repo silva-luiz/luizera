@@ -4,9 +4,9 @@
     {{- $bg := "image/default/headline.jpg" | relURL -}}
     {{- with .Params.thumbnail }}{{ $bg = . | relURL }}{{ end -}}
     {{- with .Resources.Get "headline.jpg" }}{{ $bg = .RelPermalink }}{{ end }}
-    <div class="headline" style="background: url('{{ $bg | safeURL }}') center center no-repeat;">
+    <div class="headline" data-window="FEATURED_POST.EXE" style="background: url('{{ $bg | safeURL }}') center center no-repeat;">
         <div class="headline-window">
-            <div class="headline-window-title">FEATURED_POST.EXE <span>_ □ ×</span></div>
+            <div class="headline-window-title">FEATURED_POST.EXE {{ partial "win-controls.html" "FEATURED_POST.EXE" }}</div>
             <div class="headline-window-body">
                 <p class="new-post">★ NEW POST / FEATURED ★</p>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>

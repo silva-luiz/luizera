@@ -1,0 +1,6 @@
+{{- /* Botões _ □ × de uma janela. A janela "dona" precisa ter data-window="NOME.EXE". */ -}}
+<span class="win-controls">
+    <button type="button" data-win-action="minimize" aria-label="Minimizar {{ . }}">_</button>
+    <button type="button" tabindex="-1" aria-hidden="true" disabled>□</button>
+    <button type="button" data-win-action="close" aria-label="Fechar {{ . }}">×</button>
+</span>

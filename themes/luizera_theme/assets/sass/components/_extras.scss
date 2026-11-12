@@ -327,3 +327,46 @@ body.imageview-open {
         display: none;
     }
 }
+
+// ---- Janelas que minimizam para a barra de tarefas --------------------
+.win-controls {
+    display: inline-flex;
+    gap: 2px;
+
+    button {
+        width: 16px;
+        height: 14px;
+        padding: 0;
+        font-family: $sans-serif;
+        font-size: .65rem;
+        font-weight: bold;
+        line-height: 1;
+        color: var(--black);
+        background: var(--ui);
+        border: 1px solid var(--black);
+        box-shadow: inset 1px 1px 0 var(--ui-bright), inset -1px -1px 0 var(--ui-shadow);
+        cursor: pointer;
+
+        &:disabled {
+            cursor: default;
+        }
+
+        &:not(:disabled):active {
+            box-shadow: inset 1px 1px 0 var(--ui-shadow), inset -1px -1px 0 var(--ui-bright);
+        }
+    }
+}
+
+[data-window].win-minimized {
+    display: none !important;
+}
+
+button.task-button {
+    max-width: 9rem;
+    overflow: hidden;
+    font: inherit;
+    color: var(--black);
+    text-overflow: ellipsis;
+    background: var(--ui);
+    cursor: pointer;
+}

@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupSearch();
     setupBSOD();
     setupImageViewer();
+    setupWindows();
 });
 
 // Menu no mobile
@@ -299,5 +300,50 @@ function setupImageViewer() {
         if (e.key === "Escape") close();
         else if (e.key === "ArrowLeft") show(current - 1);
         else if (e.key === "ArrowRight") show(current + 1);
+    });
+}
+
+// Janelas com _ e ×: vão para a barra de tarefas e voltam com um clique
+function setupWindows() {
+    const taskbar = document.querySelector(".system-footer");
+    const spacer = taskbar && taskbar.querySelector(".footer-spacer");
+    if (!taskbar || !spacer) return;
+
+    const store = {
+        get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+        set: function (k, v) { try { if (v) localStorage.setItem(k, v); else localStorage.removeItem(k); } catch (e) { } }
+    };
+
+    document.querySelectorAll("[data-window]").forEach(function (win) {
+        const name = win.dataset.window;
+        const key = "janela:" + name;
+        let task = null;
+
+        const restore = function () {
+            win.classList.remove("win-minimized");
+            if (task) { task.remove(); task = null; }
+            store.set(key, null);
+            const first = win.querySelector("[data-win-action]");
+            if (first) first.focus();
+        };
+        const minimize = function (focusTask) {
+            win.classList.add("win-minimized");
+            store.set(key, "min");
+            if (!task) {
+                task = document.createElement("button");
+                task.type = "button";
+                task.className = "task-button";
+                task.textContent = name;
+                task.title = "Restaurar " + name;
+                task.addEventListener("click", restore);
+                taskbar.insertBefore(task, spacer);
+            }
+            if (focusTask) task.focus();
+        };
+
+        win.querySelectorAll("[data-win-action]").forEach(function (btn) {
+            btn.addEventListener("click", function () { minimize(true); });
+        });
+        if (store.get(key) === "min") minimize(false);
     });
 }
