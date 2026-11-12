@@ -1,0 +1,42 @@
+baseURL = 'https://luizera.com.br/'
+title = 'Luizera´s quotes'
+copyright = 'All Rights Reserved'
+
+theme = 'luizera_theme'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableCSS = false
+
+[params]
+  enableSCSS = true
+  [params.author]
+    name = "Luiz Henrique"
+    description = "Faço uns programas aí. Brinco de barman às vezes, também rabisco e toco música."
+    github = "https://github.com/silva-luiz/"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# Renderização do Markdown
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"

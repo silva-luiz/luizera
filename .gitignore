@@ -1,3 +1,7 @@
-/exampleSite/public
-/exampleSite/resources
-/exampleSite/.hugo_build.lock
+# Saída do build do Hugo (gerada pelo Netlify a cada deploy)
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Dependências
+node_modules/
