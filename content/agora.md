@@ -2,8 +2,7 @@
 title: "O que estou fazendo agora"
 layout: "agora"
 description: "O que o Luizera anda lendo, assistindo, ouvindo e treinando agora."
-# Rascunho: troque para false quando preencher. Aí a página é publicada e entra no Menu Iniciar.
-draft: true
+draft: false
 menus:
   start:
     name: "Agora"
