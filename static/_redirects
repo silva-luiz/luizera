@@ -1,0 +1,7 @@
+# Netlify: URLs antigas (/en/...) redirecionam para as novas (/blog/...)
+/en/blog/*  /blog/:splat  301
+/en/*       /blog/:splat  301
+
+# Categorias renomeadas
+/categories/ssh/*         /categories/dicas/  301
+/categories/first-post/*  /categories/me/     301

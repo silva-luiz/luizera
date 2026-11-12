@@ -7,7 +7,7 @@ categories: ["Site"]
 tags: ["Site"]
 thumbnail: "https://cdn.mos.cms.futurecdn.net/7NZogGkgY8PJiBEmBURazh-1200-80.png"
 headline: true
-aliases: ["/en/blog/site-on/hugo-copy/"]
+aliases: ["/blog/site-on/hugo-copy/"]
 ---
 Caso não tenha notado, o blog tá de cara nova!
 <!--more-->
