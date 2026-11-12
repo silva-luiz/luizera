@@ -5,7 +5,6 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["First","me"]
-thumbnail: "https://th.bing.com/th/id/R.e77a35c97981197bec6387a43e7f9bdb?rik=uy6EF889fPwPRQ&pid=ImgRaw&r=0"
 headline: true
 ---
 
@@ -14,7 +13,7 @@ headline: true
 <!--more-->
 ## Fala rapeize! Bem vindos ao meu blog Drinks & bytes!!
 
-{{< figure src="https://conteudo.imguol.com.br/c/entretenimento/48/2019/06/03/mclovin-tenta-comprar-bebida-em-superbad---e-hoje-1559598691949_v2_900x506.png" title="Mclovin, Havaiano de 25 anos" >}}
+{{< figure src="/image/posts/hugo-theme-walden-img.webp" title="Mclovin, Havaiano de 25 anos" >}}
 
 Sempre tive vontade de ter um espaço só meu, onde eu pudesse postar qualquer coisa, mas sem aquela coisa de seguidores, likes e tudo mais. Só postar por postar.
 

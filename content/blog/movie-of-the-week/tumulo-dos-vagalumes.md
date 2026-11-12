@@ -17,11 +17,11 @@ O texto a seguir é completamente cheio de Spoilers, então, leia por conta e ri
 
 ## TÚMULO DOS VAGALUMES - 1988
 
-{{< figure src="/image/posts/vagalumes1.jpg" title="Baita filme, pqp" >}}
+{{< figure src="/image/posts/vagalumes1.webp" title="Baita filme, pqp" >}}
 
 Túmulo dos Vagalumes é uma animação japonesa lançada em 1988, dirigido por Isao Takahata. O rolê da animação se passa no Japão durante a Segunda Guerra Mundial, e conta a história do jovem Seita, que mora com sua mãe e sua irmã, Setsuko. Depois de um bombardeio na cidade, Seita perde sua mãe e é forçado a seguir a vida com sua irmã procurando abrigo e comida pela cidade, até que vão morar com uma tia. Porém, a mulher é uma CRETINA, e deixa claro que eles não bem vindo na casa, então Seita resolve juntar suas coisas e ir morar com Setsuko em uma "caverna".
 
-{{< figure src="/image/posts/vagalumes-gif1.gif" title="Seita e Setsuko na caverninha deles" >}}
+{{< figure src="/image/posts/vagalumes-gif1.webp" title="Seita e Setsuko na caverninha deles" >}}
 
 Mas com o passar do tempo, a fome vai aumentando, e Setsuko vai ficando doente. A falta de comida é um dos maiores desafios enfrentados pelos irmãos, pois além de não terem um teto, os recursos começam a ficar mais escassos na cidade. Enquanto Seita tenta de tudo para conseguir comida, a saúde de Setsuko piora rapidamente. Ele chega a roubar comida e vender os últimos pertences que restam, mas com o Japão em plena guerra não oferece muita esperança. Setsuko, cada vez mais fraca, começa a apresentar sinais graves de desnutrição. Sua pele fica manchada, e ela começa a delirar.
 

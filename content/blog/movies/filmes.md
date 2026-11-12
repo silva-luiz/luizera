@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://th.bing.com/th/id/OIP.Kypikh3XdrZDDWOE2iWEMAAAAA?rs=1&pid=ImgDetMain"
+thumbnail: "/image/posts/filmes-thumb.webp"
 headline: true
 ---
 Salve turma, neste post aqui, resolvi colocar os filmes que assisti até agora nesse ano. A maioria deles são de terror, já que é o gênero que mais gosto, e já aproveitei pra deixar minha humilde nota pra cada um deles. Mais pra frente quero fazer uns posts específicos de cada filme contando o que eu achei.
@@ -13,7 +13,7 @@ Salve turma, neste post aqui, resolvi colocar os filmes que assisti até agora n
 
 ## Lista de filmes
 
-{{< figure src="https://i.kym-cdn.com/entries/icons/original/000/047/133/cover1.jpg" title="véio do ABSOLUTE CINEMA" >}}
+{{< figure src="/image/posts/filmes-img.webp" title="véio do ABSOLUTE CINEMA" >}}
 
 Então, essa é a minha lista de filmes assistidos esse ano até o momento:
 

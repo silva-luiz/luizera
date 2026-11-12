@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/rick-and-morty-watching-rick-and-morty.jpg"
+thumbnail: "/image/posts/baby-driver-thumb.webp"
 headline: true
 ---
 Fugindo um pouco do terror e dos filmes de Plot Twist, aqui vai uma indicação de filme bem da hora
@@ -13,7 +13,7 @@ Fugindo um pouco do terror e dos filmes de Plot Twist, aqui vai uma indicação 
 
 ## Baby Driver - 2017
 
-{{< figure src="/image/posts/baby-driver.jpg" title="Se liga nessa capa foda, estilo GTA" >}}
+{{< figure src="/image/posts/baby-driver.webp" title="Se liga nessa capa foda, estilo GTA" >}}
 
 Baby Driver, ou em português **"EM RITMO DE FUGA"**(muito boa tradução ksksks), é um filme de ação de 2017 e conta a história do Baby(Ansel Elgort), um jovem mancebo que trabalha como piloto de fuga pra um chefe do crime, Doc (Kevin Spacey), e é obrigado a trabalhar em assaltos para pagar uma dívida antiga. A cada novo crime, Doc troca sua equipe de bandidos, mas mantém Baby como integrante, por sua habilidade na pilotagem (em outras palavras, ele é o **dom do toque**), e também por considerar Baby seu amuleto de sorte. Baby está sempre ouvindo alguma música em seus fones de ouvido, devido a um trauma de infância que causou problemas auditivos permanentes(um ruído zumbido), e então, usa da música para abafar o som e manter o foco em suas tarefas. Devido a isso, o filme tem uma trilha sonora bem da hora, que passa por diversos gêneros musicais, já que Baby possui um iPod para cada um de seus homores, com centas de músicas.
 

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://64.media.tumblr.com/552d899e9bb25e8b3d3a87f82bb5f48e/tumblr_o809e0GGrs1tszwcio1_640.jpg"
+thumbnail: "/image/posts/coerencia-thumb.webp"
 headline: true
 ---
 Dessa vez o filme da semana é uma animação, com uma ideia bem diferente, e ao mesmo tempo, muito legal!
@@ -15,11 +15,11 @@ Em um momento de tédio de um sábado a tarde, estava eu procurando um bom filme
 
 ## I lost my body - 2019
 
-{{< figure src="https://m.media-amazon.com/images/M/MV5BZmRhYjIwNmItNzg2Ny00MWMwLWIyMTItMmZkYmM0ODEwOTEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" title="Filme do mãozinha" >}}
+<!-- imagem removida, o link original quebrou: https://m.media-amazon.com/images/M/MV5BZmRhYjIwNmItNzg2Ny00MWMwLWIyMTItMmZkYmM0ODEwOTEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg -->
 
 **I lost my body** é uma animação francesa de 2019, dirigia por Jérémy Clapin, e tem uma história bem diferente, contada de dois pontos de vista diferentes: do personagem principal (Naoufel) e de uma mão decaptada, que escapa de um laboratório, e sai pelas ruas de Paris em busca de reencontrar seu corpo, enfrentando diversos perigos pela cidade, e tendo flashbacks de momentos importantes na sua vida enquanto ainda tinha um corpo.
 
-{{< figure src="https://les2scenes.fr/sites/default/files/styles/slider/public/images/2020/06//jaiperdumoncorps4.jpg?itok=ZkR62qMa" title="A saga do herói" >}}
+{{< figure src="/image/posts/i-lost-my-body-img.webp" title="A saga do herói" >}}
 
 Já o segundo ponto de vista do filme, conta a história do menino Naoufel, um jovem que trabalha como entregador de pizza que tem aquela típica vida triste e solitária. O jovem mancebo tem a vida marcada por tragédias pessoais, como a morte dos pais em um acidente de carro. Em uma de suas entregas, ele leva a pizza até um prédio, mas com muito atraso, então a cliente, pelo interfone, se recusa a receber a pizza, mas mesmo assim fica conversando com ele por alguns minutos ali. E o meninão acaba se apaixonando pela moça, Gabrielle, e tenta encontrar ela de todo o jeito, stalker maluco.
 

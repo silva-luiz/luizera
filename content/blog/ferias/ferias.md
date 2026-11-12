@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["me", "flutter", "ferias"]
-thumbnail: "/image/posts/ferias.jpg"
+thumbnail: "/image/posts/ferias.webp"
 headline: true
 ---
 Mais um semestre encerrado na faculdade, e agora faltam só mais dois!
@@ -17,7 +17,7 @@ Depois de logos meses e aulas infinitas, finalmente o semestre chegou oficialmen
 
 Mas nem tudo nesse semestre foi tristeza, pois nesse semestre tive meu primeiro contato com [Flutter](https://docs.flutter.dev/), um Framework de Dart para desenvolvimento mobile (Android e iOS), e graças a isso, consegui também uma vaga como desenvolvedor de aplicações móveis. Nos primeiros dias tive bastante dificuldade para me adaptar ao novo ambiente e a linguagem nova, que até então, só estava utilizando pra estudar e pra fazer os trabalhos da faculdade, mas agora, depois de me adaptar ao novo time, e de estudar mais afundo sobre desenvolvimento móvel, posso dizer que de tudo que já estudei até aqui sobre programação, é a linguagem que mais gostei de usar e que quero seguir carreira.
 
-{{< figure src="https://pm1.aminoapps.com/6354/ccc5849b32c4a79128ca221e8788d06f32507814_00.jpg" title="13 memo garai" >}}
+<!-- imagem removida, o link original quebrou: https://pm1.aminoapps.com/6354/ccc5849b32c4a79128ca221e8788d06f32507814_00.jpg -->
 
 Com o fim do semestre e o início das férias consegui também voltar a praticar atividade física, voltei pra academia pra disfarçar o shape de grilo, e com a prática de esportes, voltei a ter boas noites de sono e uma disposição maior durante o dia.
 

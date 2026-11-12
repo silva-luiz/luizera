@@ -21,7 +21,7 @@ A história acompanha a produção de um filme que inicialmente seria **Drácula
 
 Com o tempo, esse comportamento começa a incomodar a equipe. Schreck é estranho, reservado e causa um desconforto constante em todos ao redor. Aos poucos, fica claro que ele só aceitou participar do filme após um acordo perturbador: ao final das gravações, teria o direito de possuir **Greta**, a atriz principal. Esse pacto silencioso deixa o clima no set ainda mais pesado e reforça a sensação de que há algo muito errado por trás daquela atuação, que, para muitos, está entre as melhores e mais marcantes de toda a carreira de Dafoe.
 
-{{< figure src="/image/posts/vampiro_dafoe.jpg" title="Conde Orlok/Duende Verde" >}}
+{{< figure src="/image/posts/vampiro_dafoe.webp" title="Conde Orlok/Duende Verde" >}}
 
 Conforme as gravações vão avançando, a presença de Max Schreck começa a incomodar cada vez mais quem está ao redor. Ele evita contato com a equipe, quase não fala com ninguém e parece nunca sair do personagem. Aos poucos, fica difícil saber se aquilo tudo ainda é atuação ou se existe algo realmente estranho por trás daquele comportamento.
 

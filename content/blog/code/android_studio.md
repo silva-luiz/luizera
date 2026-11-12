@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Code"]
 tags: ["code", "android", "mobile"]
-thumbnail: "/image/posts/ladybug.png"
+thumbnail: "/image/posts/ladybug.webp"
 headline: true
 ---
 Tá com dificuldade pra utilizar o AndroidStudio pós LadyBug? Te ensino a desfazer essa cagada!
@@ -19,7 +19,7 @@ Se você é desenvolvedor mobile e usa o AndroidStudio (AS), recomendo que conti
 
 A primeira ideia que tive foi tentar baixar a versão que usava anteriormente, que era a Koala, então resolvi ir ao site do AndroidStudio para baixar. Mas para minha surpresa, não havia nenhum link de download. E todo e qualquer link que aparecia, redirecionava pro download do maldito LadyBug.
 
-{{< figure src="/image/posts/android-studio.png" title="maldito LadyBug" >}}
+{{< figure src="/image/posts/android-studio.webp" title="maldito LadyBug" >}}
 
 Com a ajuda do meu mano Felipe, descobrimos que os downloads de versões mais antigas só ficam visíveis no site caso a página esteja em **inglês** (puta EasterEgg de merda). Para fazer a alteração é só ir no menu superior, na direita e selecionar o idioma Inglês. Com isso foi possível seguir o fluxo de download da antiga versão do Koala e voltar a usar normalmente o Android Studio.
 
@@ -29,16 +29,16 @@ O link para selecionar versões mais antigas é [esse aqui](https://developer.an
 
 Caso a página esteja em português, vc será redirecionado pra outro lugar, onde não será possível prosseguir para os Downloads, mesmo que utilize o link acima.
 
-{{< figure src="/image/posts/as-portuguese.png" title="o mesmo link, mesma URL, com resultados diferentes" >}}
+{{< figure src="/image/posts/as-portuguese.webp" title="o mesmo link, mesma URL, com resultados diferentes" >}}
 
 ## Versão em inglês
 
 Com o site em inglês, ao clicar no link, você será redirecionado para os termos de uso do AS. 
 
-{{< figure src="/image/posts/as-english.png" title="repare no idioma lá em cima" >}}
+{{< figure src="/image/posts/as-english.webp" title="repare no idioma lá em cima" >}}
 
 Após aceitar os termos de uso no final da página, você será direcionado para a página de **Downloads** onde poderá escolher a versão anterior que desejar (menos a LadyBug pelo amor de Deus).
 
-{{< figure src="/image/posts/as-downloads.png" title="repare no idioma lá em cima" >}}
+{{< figure src="/image/posts/as-downloads.webp" title="repare no idioma lá em cima" >}}
 
 Então esse foi minha experiência bosta com o AndroidStudio e com o site deles que é mais bosta ainda. E deixo um grande agradecimento ao meu mano [Felipe Junior](https://www.instagram.com/_feejunior/), por ter me ajudado a resolver esse enrosco que me tomou alguns dias.

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Site"]
 tags: ["Site"]
-thumbnail: "https://cdn.mos.cms.futurecdn.net/7NZogGkgY8PJiBEmBURazh-1200-80.png"
+thumbnail: "/image/posts/site-de-cara-nova-thumb.webp"
 headline: true
 aliases: ["/blog/site-on/hugo-copy/"]
 ---

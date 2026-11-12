@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Dicas"]
 tags: ["dicas", "receitas"]
-thumbnail: "/image/posts/family_guy_kitchen.jpg"
+thumbnail: "/image/posts/family_guy_kitchen.webp"
 headline: true
 ---
 
@@ -15,7 +15,7 @@ Receita de maionese de alho pra você comer junto com aquele churrasquinho, ou n
 
 Salve rapeize, cês tão bão!? Pra variar um pouco no conteúdo do blog, resolvi postar aqui também umas receitas malucas, seja de drinks, ou de comidas. E a receita de hoje vai ser essa Dezembronese de alho...receitinha fácil que qualquer lerdão consegue fazer
 
-{{< figure src="/image/posts/dezembronese.jpg" title="DEZEMBRONESE" >}}
+{{< figure src="/image/posts/dezembronese.webp" title="DEZEMBRONESE" >}}
 
 > "Aah, mas o que eu vou precisar pra fazer essa maravilha culinária??"
 

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://64.media.tumblr.com/552d899e9bb25e8b3d3a87f82bb5f48e/tumblr_o809e0GGrs1tszwcio1_640.jpg"
+thumbnail: "/image/posts/coerencia-thumb.webp"
 headline: true
 ---
 Domingo passado assisti um filme interessante e trouxe aqui minhas sinceras avaliações. Coisa de maluco!
@@ -13,7 +13,7 @@ Domingo passado assisti um filme interessante e trouxe aqui minhas sinceras aval
 
 ## Coerência (2013)
 
-{{< figure src="https://i.pinimg.com/originals/40/c0/82/40c082d6773c39cd137e222345f6e8d9.jpg" title="Coerência - 2013" >}}
+{{< figure src="/image/posts/coerencia-img.webp" title="Coerência - 2013" >}}
 
 Coerência (Coherence) é um filme de ficção científica e suspense psicológico lançado em 2013, dirigido por James Ward Byrkit. O filme explora temas complexos de realidade alternativa e a fragmentação do universo através de uma narrativa tensa e intrigante.
 
@@ -25,7 +25,7 @@ Após a entrega da maleta com fotos dos integrantes do grupo, e uma raquete de P
 
 ## O gato de Schrödinger
 
-{{< figure src="https://img.unocero.com/2017/06/gato-schroedinger.jpg" title="pqp que gato feio kkkkkkk" >}}
+{{< figure src="/image/posts/coerencia-img-2.webp" title="pqp que gato feio kkkkkkk" >}}
 
 O experimento do gato de Schrödinger foi proposto pelo físico Erwin Schrödinger em 1935 para ilustrar as estranhas implicações da mecânica quântica, especialmente o conceito de superposição de estados e o problema da medição. Schrödinger imaginou um cenário onde um gato é colocado dentro de uma caixa fechada, junto com um dispositivo que pode matá-lo. Este dispositivo está conectado a um átomo radioativo, cujo decaimento é totalmente aleatório e imprevisível.
 

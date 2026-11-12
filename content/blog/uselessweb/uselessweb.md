@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Site"]
 tags: ["site", "dicas"]
-thumbnail: "https://preview.redd.it/hlhm992orc961.jpg?auto=webp&s=af467cdc66f7e7d0b4594ba815f41a9cb1e19408"
+thumbnail: "/image/posts/uselessweb-thumb.webp"
 headline: true
 ---
 Tá de bobeira na internet procurando algum site tosco pra passar o tempo? Então se liga nesse site aqui!

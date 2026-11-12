@@ -23,7 +23,7 @@ Com isso, optei pela implementação do Firebase, para que fosse possível fazer
 
 Então a tela inicial e o fluxo de cadastro ficaram da seguinte forma:
 
-{{< figure src="/image/posts/pokedex_firebase.png" title="Tela de login / Tela de Registro de usuário" >}}
+{{< figure src="/image/posts/pokedex_firebase.webp" title="Tela de login / Tela de Registro de usuário" >}}
 
 A ideia foi criar algo simples, mas ao mesmo tempo elegante, então o cadastro necessita apenas de um e-mail e uma senha (com algumas validações, claro), e a confirmação da senha para finalizar o fluxo. Depois do cadastro, já é possível se conectar ao App, porém a parte de dentro dele não teve muita mudança, então está bem semelhante ao que estava na versão anterior.
 

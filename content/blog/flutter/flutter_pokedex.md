@@ -27,7 +27,7 @@ O projeto foi pensado basicamente em ter poucas funcionalidades: Listar todos os
 
 Até o momento, o App está com a aparência das fotos abaixo, sem muita firula, apenas com o básico e com o foco em melhorar e aprender mais sobre a **Arquitetura**, e principalmente sobre as suas camadas, que ainda me parece um pouco confuso de entender. A ideia aqui é entender bem como tudo funciona, e em seguida melhorar visualmente, colocando mais personalidade e até mesmo novas funcionalidades no App (que ainda não pensei em nenhuma hehe).
 
-{{< figure src="/image/posts/pokedex-app.png" title="A cara do App ai pra vcs" >}}
+{{< figure src="/image/posts/pokedex-app.webp" title="A cara do App ai pra vcs" >}}
 
 ### Próximos passos
 

@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://m.media-amazon.com/images/M/MV5BZGQyNjhiZTAtNGFmNy00ZGIyLWJjZWUtZjFkNDZkNTY3MjEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+thumbnail: "/image/posts/the-substance-thumb.webp"
 headline: true
 ---
 O último filme do ano não poderia ser mais maluco do que esse. Chega mais!!
@@ -28,7 +28,7 @@ Chegando em casa, ela espeta o pendrive na televisão, e é exibido um vídeo fa
 
 Dito isso, após injetar o fluído ativador, Elisabeth cai no chão, e o novo corpo sai de dentro dela, pelas costas. Elisabeth agora está no novo corpo, mas jovem, mais bonito, enquanto seu antigo corpo fica 'desmaiado', alimentado através do pacote que faz parte do kit.
 
-{{< figure src="/image/posts/olho-substance.gif" title="A divisão" >}}
+{{< figure src="/image/posts/olho-substance.webp" title="A divisão" >}}
 
 
 Elisabeth, agora **Sue**, se inscreve para participar do programa, e é aprovada, porém a cada 7 dias corridos, ela deve voltar ao corpo original e seguir sua vida como Elisabeth. Porém, em uma noite ela acaba prorrogando o uso do novo corpo, e utiliza uma dose a mais do fluído estabilizador. No outro dia, o original acorda com um dos dedos totalmente envelhecido, devido à extração indevida do fluído estabilizador.

@@ -60,4 +60,4 @@ Cheguei na academia e já fui muito bem recebido por todos. É um espaço bem re
 
 À partir das próximas semanas vou dividir meus treinos entre academia e o Jiu, com a intenção se progredir nos dois. E deixo aí uma foto do primeiro treino. Em breve teremos mais! **OSS**
 
-{{< figure src="/image/posts/oss.jpg" title="A cara da derrota kkkkkkkkkkkkk" >}}
+{{< figure src="/image/posts/oss.webp" title="A cara da derrota kkkkkkkkkkkkk" >}}

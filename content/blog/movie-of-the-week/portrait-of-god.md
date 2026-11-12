@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Filmes"]
 tags: ["Filmes"]
-thumbnail: "https://media1.giphy.com/media/u5BzptR1OTZ04/giphy_s.gif?cid=6c09b952t5cnmypsnlqrzcbvkzud0zw9ghv42v1c8quzzuz0&ep=v1_internal_gif_by_id&rid=giphy_s.gif&ct=g"
+thumbnail: "/image/posts/portrait-of-god-thumb.webp"
 headline: true
 ---
 Como essa semana não assisti nada, a avaliação de filme da semana vai ser sobre um curta de terror que já assisti há um tempo atrás
@@ -13,7 +13,7 @@ Como essa semana não assisti nada, a avaliação de filme da semana vai ser sob
 
 ## Portrait of God - 2022
 
-{{< figure src="https://i1.sndcdn.com/artworks-I7PllNFy1HnNPWY7-Dex9wg-t1080x1080.jpg" title="Portrait of God - 2022" >}}
+{{< figure src="/image/posts/portrait-of-god-img.webp" title="Portrait of God - 2022" >}}
 
 Trazendo mais um resumo de filme pra vc, o escolhido da vez foi **Portrait of God**, um curta de terror lançado em 2022 que gira em torno de uma jovem religiosa que prepara uma apresentação sobre um quadro, que foi chamado de **Portrait of God**. O curioso é que o quadro não passa de uma tela preta, vazia, mas mesmo assim, algumas pessoas dizem ter visões aterrorizantes de uma figura na "pintura".
 

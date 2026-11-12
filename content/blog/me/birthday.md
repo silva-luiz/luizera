@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Me"]
 tags: ["me", "bday"]
-thumbnail: "https://www.kudoboard.com/blog-assets/wp-content/uploads/2022/02/vo7y9-1024x640.jpg"
+thumbnail: "/image/posts/birthday-thumb.webp"
 headline: true
 ---
 Um post de aniversário

@@ -17,7 +17,7 @@ Já fazia um tempo que eu não postava nada por aqui, então resolvi voltar com 
 
 ## FINAL DESTINATION - BLOODLINE
 
-{{< figure src="/image/posts/final-destination.jpg" title="Esse pôster ficou muito foda, tá" >}}
+{{< figure src="/image/posts/final-destination.webp" title="Esse pôster ficou muito foda, tá" >}}
 
 Bom, o filme se inicia com um casal (Iris e Paul) indo visitar uma torre que está prestes a ser inaugurada, o **Skyview**. Durante a visita ao arranha-céu, Paul pede Iris em casamento, e logo em seguida o edifício começa a desabar por conta de uma sequência de acontecimentos — típico da saga — onde todos acabam morrendo. Mas essa, obviamente, foi apenas a premonição que Iris teve, e, graças a isso, conseguiu salvar grande parte das pessoas que estavam lá.
 

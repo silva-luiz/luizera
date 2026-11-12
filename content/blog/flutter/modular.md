@@ -5,14 +5,14 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Flutter"]
 tags: ["flutter", "code"]
-thumbnail: "/image/posts/flutter_img.jpg"
+thumbnail: "/image/posts/flutter_img.webp"
 headline: true
 ---
 A ferramenta de injeção de dependências e gerenciamento de rotas.
 <!--more-->
 
 
-{{< figure src="https://raw.githubusercontent.com/Flutterando/modular/master/flutter_modular.png" title="Flutter Modular" >}}
+{{< figure src="/image/posts/modular-img.webp" title="Flutter Modular" >}}
 
 Salve rapeize, neste post vou falar um pouco sobre o **Flutter Modular**, um package estou usando no trabalho e em projetos pessoais, e que te ajuda a modularizar a aplicação, ou seja, faz com que cada módulo de sua aplicação seja considerado uma aplicação individual, permitindo o reaproveitamento de todo o módulo de forma bem simples e eficaz.
 
