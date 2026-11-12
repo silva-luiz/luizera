@@ -8,6 +8,7 @@
 
 {{- $image := "image/default/avatar.jpg" | absURL -}}
 {{- with .Params.thumbnail }}{{ $image = . | absURL }}{{ end -}}
+{{- if .IsPage }}{{ with partial "og-image.html" . }}{{ $image = . }}{{ end }}{{ end -}}
 
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">

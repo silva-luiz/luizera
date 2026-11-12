@@ -62,6 +62,17 @@ enableGitInfo = true
     noClasses = false
 
 [module]
+  # As imagens dos posts ficam em static/ (servidas como estão) e também em assets/,
+  # para o Hugo poder processá-las (ex.: imagem de compartilhamento dos posts).
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/image/posts"
+    target = "assets/image/posts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
   [module.hugoVersion]
     extended = true
     min = "0.128.0"
