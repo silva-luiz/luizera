@@ -4,7 +4,10 @@
     <div class="about-body">
         <div class="avatar-frame">
             <div class="avatar">
-                <img src="{{ "image/default/avatar.webp" | relURL }}" alt="avatar">
+                {{- /* Vídeo em vez de GIF animado: ~50 KB contra ~390 KB */}}
+                <video src="{{ "image/default/avatar.mp4" | relURL }}" poster="{{ "image/default/avatar-poster.webp" | relURL }}"
+                    width="110" height="110" autoplay muted loop playsinline preload="metadata"
+                    aria-label="avatar" disablepictureinpicture></video>
             </div>
             <span class="avatar-caption">luizera.gif</span>
         </div>

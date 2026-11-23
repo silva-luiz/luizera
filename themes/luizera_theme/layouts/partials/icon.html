@@ -1,0 +1,8 @@
+{{- /* Ícone SVG embutido (Bootstrap Icons, MIT — assets/icons/LICENSE).
+       Uso: {{ partial "icon.html" "chevron-left" }}. Para um ícone novo, copie o .svg
+       de https://icons.getbootstrap.com para assets/icons/ trocando width/height por 1em. */ -}}
+{{- with resources.Get (printf "icons/%s.svg" .) -}}
+  {{- replace .Content "<svg " "<svg aria-hidden=\"true\" focusable=\"false\" " | safeHTML -}}
+{{- else -}}
+  {{- warnf "icon.html: ícone %q não encontrado em assets/icons/" . -}}
+{{- end -}}

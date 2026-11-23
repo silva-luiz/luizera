@@ -6,7 +6,7 @@
     <div class="related">
         {{ range . }}
         <p class="related-item">
-            <i class="bi bi-link-45deg"></i>
+            {{ partial "icon.html" "link-45deg" }}
             <a class="item-link" href="{{.Permalink}}">{{.Title}}</a>
         </p>
         {{ end }}

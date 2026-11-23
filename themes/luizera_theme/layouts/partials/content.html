@@ -22,7 +22,7 @@
     <!-- Tags -->
     {{ with .Params.tags }}
     <div class="content-tag">
-        <span><i class="bi bi-bookmarks-fill"></i></span>
+        <span>{{ partial "icon.html" "bookmarks-fill" }}</span>
         {{ range . }}
         <span>
             <a class="item-link" href="{{ printf "tags/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>

@@ -11,15 +11,27 @@
     {{- with try $res.Width -}}
       {{- if not .Err -}}
         {{- $w = $res.Width -}}{{- $h = $res.Height -}}
-        {{- $src = $res.RelPermalink -}}
+        {{- /* Versão "cheia": no máximo 1600px de largura e em WebP. GIF fica como está
+               (para não perder a animação), e um WebP já pequeno também. */ -}}
+        {{- $full := $res -}}
+        {{- if ne $res.MediaType.SubType "gif" -}}
+          {{- $op := "" -}}
+          {{- if gt $w 1600 }}{{ $op = "1600x webp q75" }}{{ else if ne $res.MediaType.SubType "webp" }}{{ $op = printf "%dx webp q75" $w }}{{ end -}}
+          {{- with $op -}}
+            {{- with try ($res.Resize .) -}}
+              {{- if not .Err }}{{ $full = .Value }}{{ end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $src = $full.RelPermalink -}}
         {{- range ($.widths | default (slice 480 800)) -}}
-          {{- if lt . $w -}}
+          {{- if lt . $full.Width -}}
             {{- with try ($res.Resize (printf "%dx webp q75" .)) -}}
               {{- if not .Err }}{{ $srcset = $srcset | append (printf "%s %dw" .Value.RelPermalink .Value.Width) }}{{ end -}}
             {{- end -}}
           {{- end -}}
         {{- end -}}
-        {{- if $srcset }}{{ $srcset = $srcset | append (printf "%s %dw" $res.RelPermalink $w) }}{{ end -}}
+        {{- if $srcset }}{{ $srcset = $srcset | append (printf "%s %dw" $full.RelPermalink $full.Width) }}{{ end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}

@@ -9,7 +9,7 @@
                 {{- range .Site.Menus.start }}
                 <li>
                     <a href="{{ .URL }}"{{ if .Params.external }} target="_blank" rel="noopener"{{ end }}>
-                        <i class="bi bi-{{ .Params.icon | default "file-earmark" }}" aria-hidden="true"></i>
+                        {{ partial "icon.html" (.Params.icon | default "file-earmark") }}
                         <span>{{ .Name }}</span>
                     </a>
                 </li>
@@ -17,7 +17,7 @@
                 <li class="start-menu-sep" role="separator"></li>
                 <li>
                     <button type="button" id="shutdown-button">
-                        <i class="bi bi-power" aria-hidden="true"></i>
+                        {{ partial "icon.html" "power" }}
                         <span>Desligar...</span>
                     </button>
                 </li>

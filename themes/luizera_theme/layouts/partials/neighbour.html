@@ -3,7 +3,7 @@
     <div class="pagination-item">
         {{ with .PrevInSection }}
         <a class="left item-link" href="{{.Permalink}}">
-            <i class="bi bi-chevron-left"></i>
+            {{ partial "icon.html" "chevron-left" }}
             <span>{{.Title}}</span>
         </a>
         {{ end }}
@@ -12,7 +12,7 @@
     <div class="pagination-item">
         {{ with .NextInSection }}
         <a class="right item-link" href="{{.Permalink}}">
-            <i class="bi bi-chevron-right"></i>
+            {{ partial "icon.html" "chevron-right" }}
             <span>{{.Title}}</span>
         </a>
         {{ end }}

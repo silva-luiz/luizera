@@ -22,6 +22,14 @@ img {
     max-width: 100%;
 }
 
+// Ícones SVG embutidos (partial icon.html), no lugar da antiga fonte de ícones
+.bi {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
 button,
 input,
 textarea,

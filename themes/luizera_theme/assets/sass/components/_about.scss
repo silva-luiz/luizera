@@ -25,12 +25,13 @@
         justify-content: center;
         margin-bottom: .5rem;
 
-        img {
+        img, video {
             height: 110px;
             width: 110px;
             border: 2px solid var(--black);
             padding: 2px;
             background: var(--white);
+            object-fit: fill; // igual ao antigo <img>, que esticava para 110x110
         }
     }
 

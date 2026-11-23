@@ -151,10 +151,10 @@ button.start-button {
         border: none;
         cursor: pointer;
 
-        i {
+        .bi {
             width: 1.2rem;
-            font-size: 1rem;
-            text-align: center;
+            height: 1rem;
+            flex-shrink: 0;
         }
 
         &:hover,

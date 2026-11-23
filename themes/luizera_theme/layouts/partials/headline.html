@@ -2,7 +2,22 @@
 {{ range . }}
     {{- /* Fundo: headline.jpg do bundle > thumbnail do post > imagem padrão */ -}}
     {{- $bg := "image/default/headline.jpg" | relURL -}}
-    {{- with .Params.thumbnail }}{{ $bg = . | relURL }}{{ end -}}
+    {{- with .Params.thumbnail }}
+      {{- $bg = . | relURL -}}
+      {{- /* Fundo ocupa a largura da página: no máximo 1400px, em WebP */ -}}
+      {{- with resources.Get (strings.TrimPrefix "/" .) -}}
+        {{- $res := . -}}
+        {{- if and (eq $res.MediaType.MainType "image") (not (in (slice "svg" "gif") $res.MediaType.SubType)) -}}
+          {{- with try $res.Width -}}
+            {{- if not .Err -}}
+              {{- with try ($res.Resize (printf "%dx webp q75" (cond (gt $res.Width 1400) 1400 $res.Width))) -}}
+                {{- if not .Err }}{{ $bg = .Value.RelPermalink }}{{ end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
     {{- with .Resources.Get "headline.jpg" }}{{ $bg = .RelPermalink }}{{ end }}
     <div class="headline" data-window="FEATURED_POST.EXE" style="background: url('{{ $bg | safeURL }}') center center no-repeat;">
         <div class="headline-window">
