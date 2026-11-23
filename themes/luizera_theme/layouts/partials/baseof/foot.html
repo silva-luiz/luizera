@@ -1,10 +1,10 @@
 <!-- Scripts -->
-{{ $js := resources.Get "js/main.js" | js.Build (dict "targetPath" "js/main.js" "minify" true) }}
+{{ $js := resources.Get "js/main.js" | js.Build (dict "targetPath" "js/main.js" "minify" true) | fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
 {{ partial "analytics.html" . }}
 <!-- eSheep: ovelhinha do Windows 95 andando pela página.
      web-esheep por Adriano Petrucci (GPL-3.0): https://github.com/Adrianotiger/web-esheep
-     Animações eSheep 64bit (MIT): https://github.com/Adrianotiger/desktopPet -->
+     Animações eSheep 64bit (MIT): https://github.com/Adrianotiger/desktopPet
      Só carrega depois da página pronta (não disputa banda com o conteúdo), e não
      aparece em telas de toque nem para quem pediu menos movimento. -->
 <script>

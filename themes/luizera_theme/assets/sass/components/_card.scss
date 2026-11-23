@@ -49,10 +49,18 @@
 
     .related-item {
         display: flex;
+        align-items: center;
         gap: .25rem;
         margin: .25rem 0;
 
-        .bi { color: var(--navy); }
+        .bi { color: var(--navy); flex-shrink: 0; }
+
+        // Área de toque de pelo menos 24px de altura (celular)
+        a {
+            display: inline-block;
+            padding: .2rem 0;
+            min-height: 24px;
+        }
     }
 
     .toc ul {

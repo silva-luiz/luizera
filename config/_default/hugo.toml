@@ -8,6 +8,7 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 removePathAccents = true
 enableGitInfo = true
+enableRobotsTXT = true
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
