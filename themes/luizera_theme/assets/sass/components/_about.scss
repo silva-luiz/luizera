@@ -241,6 +241,7 @@
 
 .avatar-frame {
     display: inline-block;
+    margin-bottom: .75rem; // mesmo respiro que o Campo Minado deixa antes de "Buy me a book"
     padding: 3px;
     background: var(--ui);
     border: 1px solid var(--black);
