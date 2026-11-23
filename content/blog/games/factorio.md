@@ -5,7 +5,7 @@ draft: false
 author: "Luizera do taticão"
 categories: ["Games"]
 tags: ["jogos", "steam"]
-thumbnail: "/image/posts/ssh.jpeg"
+thumbnail: "/image/posts/factorio1.jpg"
 headline: true
 ---
 
