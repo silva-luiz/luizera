@@ -1,4 +1,21 @@
+{{- /* Miniaturas já usadas nesta página (para as tags/categorias não repetirem imagem) */ -}}
+{{- $used := slice -}}
 {{ range .Paginator.Pages }}
+{{- /* Tag ou categoria sem thumbnail própria (content/tags/<tag>/_index.md): usa a do
+       post mais recente dela que ainda não apareceu na página; se todas já apareceram,
+       a do mais recente mesmo. */ -}}
+{{- $thumb := .Params.thumbnail -}}
+{{- if and (not $thumb) (eq .Kind "term") -}}
+  {{- $first := "" -}}
+  {{- range .Pages.ByDate.Reverse -}}
+    {{- with .Params.thumbnail -}}
+      {{- if not $first }}{{ $first = . }}{{ end -}}
+      {{- if and (not $thumb) (not (in $used .)) }}{{ $thumb = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $thumb = $thumb | default $first -}}
+{{- end -}}
+{{- with $thumb }}{{ $used = $used | append . }}{{ end }}
 
 <section class="item">
 
@@ -6,7 +23,7 @@
         {{ with .Resources.Get "tags.jpg" }}
         <img src="{{ .RelPermalink }}" alt="Thumbnail">
         {{ else }}
-        {{ with .Params.thumbnail }}
+        {{ with $thumb }}
         {{ partial "img.html" (dict "src" . "alt" "" "widths" (slice 320 640) "sizes" "(max-width: 639px) 100vw, 150px") }}
         {{ else }}
         <img src="{{"image/default/tags.jpg" | relURL}}" alt="Thumbnail">
@@ -20,11 +37,20 @@
             <div class="item-text-brief">{{ .Summary }}</div>
             <div class="item-text-meta">
                 <p>
+                    {{- if eq .Kind "term" }}
+                    {{- /* Tag/categoria: quantidade de posts e data do mais recente */}}
+                    {{- $n := len .Pages }}
+                    <span>{{ $n }} {{ cond (eq $n 1) "post" "posts" }}</span>
+                    {{- range first 1 .Pages.ByDate.Reverse }}
+                    <span>último em {{ partial "date.html" .Date }}</span>
+                    {{- end }}
+                    {{- else }}
                     <span>{{ partial "date.html" .Date }}</span>
                     <span>
                         {{ i18n "by" }} {{ .Params.author | default .Site.Params.author.name }}
                     </span>
                     <span>{{ partial "reading-time.html" . }}</span>
+                    {{- end }}
                 </p>
             </div>
         </a>
