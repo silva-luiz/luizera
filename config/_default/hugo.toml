@@ -25,11 +25,6 @@ enableGitInfo = true
     description = "Faço uns programas aí. Brinco de barman às vezes, também rabisco e toco música."
     github = "https://github.com/silva-luiz/"
 
-  # Player da sidebar: cole aqui o link de uma playlist/álbum/música do Spotify.
-  # Vazio = mostra o widget decorativo.
-  [params.player]
-    spotify = "https://open.spotify.com/intl-pt/album/6hPkbAV3ZXpGZBGUvL6jVM?si=lscJaqztSO-PF5vnytRF1g"
-
   # Estatísticas de visitas (https://silva-luiz.goatcounter.com). Só conta no site publicado.
   [params.goatcounter]
     code = "silva-luiz"

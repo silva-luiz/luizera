@@ -1,0 +1,132 @@
+// Campo Minado da sidebar (partial minesweeper.html + assets/js/minesweeper.js)
+
+$ms-bevel-out: inset 2px 2px 0 var(--ui-bright), inset -2px -2px 0 var(--ui-shadow);
+$ms-bevel-in: inset 2px 2px 0 var(--ui-shadow), inset -2px -2px 0 var(--ui-bright);
+
+.minesweeper {
+    margin-bottom: .75rem;
+    background: var(--ui);
+    border: 2px solid var(--black);
+    box-shadow: 2px 2px 0 var(--ui-dark);
+    color: var(--black);
+    user-select: none;
+}
+
+.ms-title {
+    padding: .15rem .35rem;
+    background: var(--navy);
+    color: var(--white);
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.ms-panel {
+    margin: .35rem;
+    padding: .35rem;
+    box-shadow: $ms-bevel-out;
+}
+
+.ms-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .35rem;
+    padding: .25rem .3rem;
+    box-shadow: $ms-bevel-in;
+}
+
+.ms-led {
+    min-width: 2.6rem;
+    padding: .05rem .2rem;
+    background: var(--black);
+    color: #ff0000;
+    font-family: $monospace;
+    font-size: 1.05rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+
+.ms-face {
+    width: 1.9rem;
+    height: 1.9rem;
+    padding: 0;
+    background: var(--ui);
+    border: 1px solid var(--ui-shadow);
+    box-shadow: $ms-bevel-out;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+
+    &:active { box-shadow: $ms-bevel-in; }
+}
+
+.ms-board {
+    display: grid;
+    box-shadow: $ms-bevel-in;
+    padding: 3px;
+}
+
+.ms-cell {
+    aspect-ratio: 1;
+    min-width: 0;
+    padding: 0;
+    background: var(--ui);
+    border: 0;
+    box-shadow: $ms-bevel-out;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: 1px dotted var(--black);
+        outline-offset: -4px;
+    }
+
+    &.ms-open {
+        box-shadow: none;
+        border: 1px solid var(--ui-shadow);
+        border-width: 0 1px 1px 0;
+        cursor: default;
+    }
+
+    &.ms-hit { background: #ff0000; }
+    &.ms-wrong { background: #ffb0b0; }
+
+    // Cores clássicas dos números
+    &[data-n="1"] { color: #0000ff; }
+    &[data-n="2"] { color: #008000; }
+    &[data-n="3"] { color: #ff0000; }
+    &[data-n="4"] { color: #000080; }
+    &[data-n="5"] { color: #800000; }
+    &[data-n="6"] { color: #008080; }
+    &[data-n="7"] { color: #000000; }
+    &[data-n="8"] { color: #808080; }
+}
+
+.ms-footer {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin: 0 .35rem .35rem;
+    font-size: .65rem;
+}
+
+.ms-flag-mode {
+    padding: .1rem .35rem;
+    background: var(--ui);
+    border: 1px solid var(--black);
+    box-shadow: inset 1px 1px 0 var(--ui-bright), inset -1px -1px 0 var(--ui-shadow);
+    font-size: .65rem;
+    cursor: pointer;
+
+    &[aria-pressed="true"] {
+        box-shadow: inset 1px 1px 0 var(--ui-shadow), inset -1px -1px 0 var(--ui-bright);
+        background: var(--ui-light);
+        font-weight: bold;
+    }
+}
+
+.ms-status { flex: 1; text-align: right; }

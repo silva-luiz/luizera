@@ -1,0 +1,17 @@
+{{- /* Campo Minado da sidebar. O tabuleiro é montado pelo assets/js/minesweeper.js. */ -}}
+<div class="minesweeper" data-minesweeper data-rows="9" data-cols="9" data-mines="10">
+    <div class="ms-title">CAMPO_MINADO.EXE</div>
+    <div class="ms-panel">
+        <div class="ms-header">
+            <span class="ms-led" data-ms-mines aria-label="Minas restantes">010</span>
+            <button type="button" class="ms-face" data-ms-reset aria-label="Novo jogo">🙂</button>
+            <span class="ms-led" data-ms-timer aria-label="Tempo">000</span>
+        </div>
+        <div class="ms-board" data-ms-board role="group" aria-label="Tabuleiro do Campo Minado"></div>
+    </div>
+    <div class="ms-footer">
+        <button type="button" class="ms-flag-mode" data-ms-flag-mode aria-pressed="false">🚩 Bandeira</button>
+        <span class="ms-status" data-ms-status aria-live="polite"></span>
+    </div>
+    <noscript><p class="ms-status">Ative o JavaScript para jogar.</p></noscript>
+</div>

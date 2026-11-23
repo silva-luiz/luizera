@@ -1,3 +1,5 @@
+import { setupMinesweeper } from "./minesweeper.js";
+
 document.addEventListener("DOMContentLoaded", function () {
     setupMenu();
     setupStartMenu();
@@ -11,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupScreensaver();
     setupKonami();
     setupRecipes();
+    setupMinesweeper();
 });
 
 // Menu no mobile
