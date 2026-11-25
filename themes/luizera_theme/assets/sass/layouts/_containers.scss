@@ -37,7 +37,7 @@
 
 .cards-container {
     position: sticky;
-    top: .5rem;
+    top: calc(var(--header-height, 0px) + .5rem);
 }
 
 .card-container {

@@ -1,5 +1,7 @@
 html {
     min-height: 100%;
+    // âncoras (#titulo) não ficam escondidas atrás do header fixo
+    scroll-padding-top: calc(var(--header-height, 0px) + .5rem);
     scrollbar-color: var(--ui-shadow) var(--ui);
     scrollbar-width: auto;
 }
@@ -36,6 +38,10 @@ body::before {
 #header {
     grid-column: 1;
     grid-row: 1;
+    // fica preso no topo durante a rolagem, como a moldura de um navegador
+    position: sticky;
+    top: 0;
+    z-index: 500;
     background: var(--ui);
     border-bottom: 2px solid var(--black);
 }

@@ -52,6 +52,9 @@
 
         &.open {
             display: block;
+            // header é fixo: com o menu aberto, rola por dentro se não couber na tela
+            max-height: calc(100vh - 5rem);
+            overflow-y: auto;
         }
     }
 

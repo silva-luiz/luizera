@@ -1,6 +1,7 @@
 import { setupMinesweeper } from "./minesweeper.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+    setupHeaderHeight();
     setupMenu();
     setupStartMenu();
     setupClock();
@@ -15,6 +16,19 @@ document.addEventListener("DOMContentLoaded", function () {
     setupRecipes();
     setupMinesweeper();
 });
+
+// Header fixo: expõe a altura dele em --header-height para o CSS
+// (barra lateral grudenta e âncoras se posicionam logo abaixo dele)
+function setupHeaderHeight() {
+    const header = document.getElementById("header");
+    if (!header) return;
+    const update = function () {
+        document.documentElement.style.setProperty("--header-height", header.offsetHeight + "px");
+    };
+    update();
+    if ("ResizeObserver" in window) new ResizeObserver(update).observe(header);
+    else window.addEventListener("resize", update);
+}
 
 // Menu no mobile
 function setupMenu() {
